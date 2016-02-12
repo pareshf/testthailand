@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="BookingFormStep2">
+  <DataContextMoniker Name="/BookingFormStep2DataContext" />
+  <nestedChildShapes>
+    <classShape Id="c068da1a-ccb4-4084-8fee-335a70c5045c" isExpanded="false" absoluteBounds="4.125, 1.875, 2, 0.45">
+      <DataClassMoniker Name="/BookingFormStep2DataContext/VIEW_FOR_COST_FOR_BOOKING_STEP2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="29eb9bc5-987e-4e8c-b3a6-e24eee943bfd" absoluteBounds="4.14, 2.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a405247b-b1e9-4883-9c2a-aeb33013aa0f" absoluteBounds="6.75, 1, 2, 5.0400211588541657">
+      <DataClassMoniker Name="/BookingFormStep2DataContext/VIEW_RELATION_DETAILS_BOOKING_STEP2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0342dcb8-4dca-4808-9931-3263434d3212" absoluteBounds="6.765, 1.46, 1.9700000000000002, 4.4800211588541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2607e3be-25b6-45b6-beaf-21e6ceb74af4" absoluteBounds="0.5, 1.125, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/BookingFormStep2DataContext/VIEW_BOOKING_INFORMATION_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c457b2cf-94a5-415f-8605-79b3a3922b6a" absoluteBounds="0.51499999999999968, 1.585, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="08419e0a-3226-4bba-861e-f01e747451b2" absoluteBounds="3.375, 2.375, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/BookingFormStep2DataContext/VIEW_BOOKING_PAYMENT_DETAILS_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c92fefd-d528-404f-8a4d-86c6dde168f8" absoluteBounds="3.3899999999999997, 2.835, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

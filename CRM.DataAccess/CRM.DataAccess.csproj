@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4041A251-2668-4C35-9A35-414E8C5DE7CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRM.DataAccess</RootNamespace>
+    <AssemblyName>CRM.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CRM.Presentation\CRM.WebApp\ExternalAssembly\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CRM.Presentation\CRM.WebApp\ExternalAssembly\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CRM.Presentation\CRM.WebApp\ExternalAssembly\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CRM.Presentation\CRM.WebApp\ExternalAssembly\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CRM.Presentation\CRM.WebApp\ExternalAssembly\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CRM.Presentation\CRM.WebApp\ExternalAssembly\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder2, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CRM.Presentation\CRM.WebApp\ExternalAssembly\Microsoft.Practices.ObjectBuilder2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountMaster\ChartofAccountGrid.cs" />
+    <Compile Include="AccountMaster\ChartofAccountStoredProcedure.cs" />
+    <Compile Include="AccountMaster\GroupTypeMasterStoredProcedure.cs" />
+    <Compile Include="Account\AcoountVouchersStoredProcedure.cs" />
+    <Compile Include="Account\AgentInvoice.cs" />
+    <Compile Include="Account\AgentPurchaseVoucher.cs" />
+    <Compile Include="Account\CancellationStoredProcedure.cs" />
+    <Compile Include="Account\CloseInvoiceDal.cs" />
+    <Compile Include="Account\InvoiceThb.cs" />
+    <Compile Include="Account\PurchaseCancellationSP.cs" />
+    <Compile Include="Account\PurchaseHeader.cs" />
+    <Compile Include="Account\ContraVoucher.cs" />
+    <Compile Include="Account\CreditNote.cs" />
+    <Compile Include="Account\DebitNote.cs" />
+    <Compile Include="Account\DownloadVoucherStoredProcedure.cs" />
+    <Compile Include="Account\ExpenceVoucherSp.cs" />
+    <Compile Include="Account\GenerateInvoiceSp.cs" />
+    <Compile Include="Account\GlReports.cs" />
+    <Compile Include="Account\Journal.cs" />
+    <Compile Include="Account\PaymentStoredProcedure.cs" />
+    <Compile Include="Account\PaymentVoucherStoredProcedure.cs" />
+    <Compile Include="Account\PurchaseCancellation.cs" />
+    <Compile Include="Account\PurchaseVoucherStoredProcedure.cs" />
+    <Compile Include="Account\Salary.cs" />
+    <Compile Include="Account\SalaryVoucherStoredProcedure.cs" />
+    <Compile Include="Account\SalesCancellation.cs" />
+    <Compile Include="Account\SalesVoucherStatus.cs" />
+    <Compile Include="Account\SearchAllJournal.cs" />
+    <Compile Include="Account\SearchContraVoucher.cs" />
+    <Compile Include="Account\SearchCreditNoteStoredProcedure.cs" />
+    <Compile Include="Account\SearchHotelServiceVoucher.cs" />
+    <Compile Include="Account\SearchPaymentVoucherStoredProcedure.cs" />
+    <Compile Include="Account\SearchPurchaseCancellation.cs" />
+    <Compile Include="Account\SearchPurchaseInvoiceStoredProcedure.cs" />
+    <Compile Include="Account\SearchPurchaseVoucherStoredProcedure.cs" />
+    <Compile Include="Account\SearchReceiptVouchersStoredProcedure.cs" />
+    <Compile Include="Account\SearchSalaryVoucher.cs" />
+    <Compile Include="Account\SearchSalesVoucherStoredProcedure.cs" />
+    <Compile Include="Account\THBReceiptDA.cs" />
+    <Compile Include="Account\VouchersStoredProcedure.cs" />
+    <Compile Include="AdministrationDAL\AddressTypeLookup.cs" />
+    <Compile Include="AdministrationDAL\AgentDal.cs" />
+    <Compile Include="AdministrationDAL\AlertDal.cs" />
+    <Compile Include="AdministrationDAL\BackupDal.cs" />
+    <Compile Include="AdministrationDAL\BankMasterDal.cs" />
+    <Compile Include="AdministrationDAL\CompanyMasterDal.cs" />
+    <Compile Include="AdministrationDAL\CompetitorAgentMasterDal.cs" />
+    <Compile Include="AdministrationDAL\ContinentLookupDal.cs" />
+    <Compile Include="AdministrationDAL\CountryRegionMapDal.cs" />
+    <Compile Include="AdministrationDAL\CurrencyLookupDal.cs" />
+    <Compile Include="AdministrationDAL\CustomerCodeLookupDal.cs" />
+    <Compile Include="AdministrationDAL\DepartmentLookupDal.cs" />
+    <Compile Include="AdministrationDAL\DesignationLookupDal.cs" />
+    <Compile Include="AdministrationDAL\EmailAlertDal.cs" />
+    <Compile Include="AdministrationDAL\EmailTemplateDal.cs" />
+    <Compile Include="AdministrationDAL\InquiryStatusLookupDal.cs" />
+    <Compile Include="AdministrationDAL\GeographicLocationDal.cs" />
+    <Compile Include="AdministrationDAL\InquiriesFollowsModeLookupDal.cs" />
+    <Compile Include="AdministrationDAL\MaritalStatusLookupDal.cs" />
+    <Compile Include="AdministrationDAL\ModuleMasterDal.cs" />
+    <Compile Include="AdministrationDAL\PaymentModeLookupDal.cs" />
+    <Compile Include="AdministrationDAL\ProductLookupDal.cs" />
+    <Compile Include="AdministrationDAL\ProfessionLookupDal.cs" />
+    <Compile Include="AdministrationDAL\ProgramMasterDal.cs" />
+    <Compile Include="AdministrationDAL\ProgramTypeMasterDal.cs" />
+    <Compile Include="AdministrationDAL\QualificationLookupDal.cs" />
+    <Compile Include="AdministrationDAL\ReferenceMasterDal.cs" />
+    <Compile Include="AdministrationDAL\RegionLookupDal.cs" />
+    <Compile Include="AdministrationDAL\RelationLookUpDal.cs" />
+    <Compile Include="AdministrationDAL\ReligionLookUpDal.cs" />
+    <Compile Include="AdministrationDAL\RoleAccessDal.cs" />
+    <Compile Include="AdministrationDAL\RoleAccessMappingDal.cs" />
+    <Compile Include="AdministrationDAL\RoleGadgetMappingDal.cs" />
+    <Compile Include="AdministrationDAL\SecurityQuestionLookupDal.cs" />
+    <Compile Include="AdministrationDAL\StatusLookupDal.cs" />
+    <Compile Include="AdministrationDAL\SupplierLandmarkMaster.cs" />
+    <Compile Include="AdministrationDAL\TitleLookupDal.cs" />
+    <Compile Include="AdministrationDAL\TourTypeLookupDal.cs" />
+    <Compile Include="AdministrationDAL\TransferPackageTimeMappingDal.cs" />
+    <Compile Include="AdministrationDAL\TransferPackageTimings.cs" />
+    <Compile Include="AdministrationDAL\TransferPackageToFromMaterDal.cs" />
+    <Compile Include="AdministrationDAL\UserMasterDal.cs" />
+    <Compile Include="AdministrationDAL\UserRoleDal.cs" />
+    <Compile Include="AdministrationDAL\VehicleTypelookupDal.cs" />
+    <Compile Include="AdministratorEntity\AccountsGroupStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\Addresstypelookupsp.cs" />
+    <Compile Include="AdministratorEntity\AgentCommisionMaster.cs" />
+    <Compile Include="AdministratorEntity\AgentMasterStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\AgentRegisttrationForm.cs" />
+    <Compile Include="AdministratorEntity\Autosearch.cs" />
+    <Compile Include="AdministratorEntity\BalanceTypeMaster.cs" />
+    <Compile Include="AdministratorEntity\BankMasterStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\BookingCheckList.cs" />
+    <Compile Include="AdministratorEntity\BookingCheckListStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\BookingCurrencyMaster.cs" />
+    <Compile Include="AdministratorEntity\BookingForeignStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\BookingFormStep1.cs" />
+    <Compile Include="AdministratorEntity\BookingFormStep2.cs" />
+    <Compile Include="AdministratorEntity\BusinessCompanyStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\CampaignStoredProcedureNew.cs" />
+    <Compile Include="AdministratorEntity\CarMaster.cs" />
+    <Compile Include="AdministratorEntity\ChartsofAccountsStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\CoachMaster.cs" />
+    <Compile Include="AdministratorEntity\CommonMealMasterSp.cs" />
+    <Compile Include="AdministratorEntity\CompaignStatusStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\CompanyBankAccountStoreProcedure.cs" />
+    <Compile Include="AdministratorEntity\CompanyBankAgentMapping.cs" />
+    <Compile Include="AdministratorEntity\CompanyMasterStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\CompanyRegionMaster.cs" />
+    <Compile Include="AdministratorEntity\CompanyStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\CompititorAgentStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\ConversionRateMaster.cs" />
+    <Compile Include="AdministratorEntity\CruiseMasterStoreprocedure.cs" />
+    <Compile Include="AdministratorEntity\CruiseRoomAllocationCs.cs" />
+    <Compile Include="AdministratorEntity\CustomerCodeStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\CustomerMasterStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\CustomerPaymentStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\CustomerTypeStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\DepartmentMasterStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\DesignationStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\EmailConfigStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\EmployeeMaster.cs" />
+    <Compile Include="AdministratorEntity\EmployeemasterStoreprocedures.cs" />
+    <Compile Include="AdministratorEntity\EventStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\FareCruiseCarbinCategoryMas.cs" />
+    <Compile Include="AdministratorEntity\FareHotelRoomTypeSp.cs" />
+    <Compile Include="AdministratorEntity\FitBookingClosedStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\FitPackageStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\ForeignCurrencyAgentStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\FromMasterStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\GeograficLocationStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\GitInquiry.cs" />
+    <Compile Include="AdministratorEntity\GroupDisplayMaster.cs" />
+    <Compile Include="AdministratorEntity\GroupTypeMaster.cs" />
+    <Compile Include="AdministratorEntity\HotelDashboard.cs" />
+    <Compile Include="AdministratorEntity\HotelMaster.cs" />
+    <Compile Include="AdministratorEntity\HotelRoomAllocation.cs" />
+    <Compile Include="AdministratorEntity\HotelRoomTypeStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\InquiryMasterStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\MaritalStatusStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\MarketingCustomerStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\MarketingMaterial.cs" />
+    <Compile Include="AdministratorEntity\MarketingMaterialStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\MealMasterStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\MoneyTransfer.cs" />
+    <Compile Include="AdministratorEntity\NewBookingInformation.cs" />
+    <Compile Include="AdministratorEntity\NewProgramMaster.cs" />
+    <Compile Include="AdministratorEntity\NewsStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\NextTravelPlanStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\PaymentModeStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\PaymentTermsMaster.cs" />
+    <Compile Include="AdministratorEntity\ProductMasterStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\ProfessionMasterStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\RoleMaster.cs" />
+    <Compile Include="AdministratorEntity\SideCodeMaster.cs" />
+    <Compile Include="AdministratorEntity\SiteSeeingMasterStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\SiteSeeingPriceStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\SpecialOfferStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\SupplierBankAccountStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\SupplierCarPriceStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\SupplierCoachPriceStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\SupplierCruisePriceStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\SupplierFacilityMasterSp.cs" />
+    <Compile Include="AdministratorEntity\SupplierGuidePriceStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\SupplierHotelPriceStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\SupplierHotelServiceTypeMaster.cs" />
+    <Compile Include="AdministratorEntity\SupplierLandmarkMaster.cs" />
+    <Compile Include="AdministratorEntity\SupplierMarginMaster.cs" />
+    <Compile Include="AdministratorEntity\SupplierMasterStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\SupplierRestaurantPriceStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\SupplierTypeMaster.cs" />
+    <Compile Include="AdministratorEntity\SystemRoleMasterStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\TargetListStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\TargetListTypeStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\TourmasterStoreprocedures.cs" />
+    <Compile Include="AdministratorEntity\TransferPackageStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\UserProfileStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\VisaQuoteStoredProcedure.cs" />
+    <Compile Include="AdministratorEntity\VisaTypeStoredProcedure.cs" />
+    <Compile Include="BindCombo.cs" />
+    <Compile Include="BookingDal\AirLine\AirLineDal.cs" />
+    <Compile Include="BookingDal\AirLine\AirlineMapDal.cs" />
+    <Compile Include="BookingDal\AirLine\FlightMasterDAL.cs" />
+    <Compile Include="BookingDal\AirLine\FlightClassDal.cs" />
+    <Compile Include="BookingDal\AirLine\GdsAirportDal.cs" />
+    <Compile Include="BookingDal\Bus\BusDal.cs" />
+    <Compile Include="BookingDal\CheckListLookupDal.cs" />
+    <Compile Include="BookingDal\Cruise\CruiseDal.cs" />
+    <Compile Include="BookingDal\CurrencyAgentMasterDal.cs" />
+    <Compile Include="BookingDal\Hotel\HotelMasterDal.cs" />
+    <Compile Include="BookingDal\Hotel\RoomTypeLookupDal.cs" />
+    <Compile Include="BookingDal\Ticket\TicketBookingDal.cs" />
+    <Compile Include="BookingDal\Ticket\TicketTypeDal.cs" />
+    <Compile Include="BookingDal\TourBookingDal\TourBookingDal.cs" />
+    <Compile Include="BookingDal\TravelModeDal.cs" />
+    <Compile Include="CustomersDAL\CustomerEmailTemplateDal.cs" />
+    <Compile Include="CustomersDAL\CustomerGadgetDAL\CustomerGadgetDal.cs" />
+    <Compile Include="CustomersDAL\CustomerMasterDal.cs" />
+    <Compile Include="CustomersDAL\CustomerProfileDal.cs" />
+    <Compile Include="CustomersDAL\CustomerRelationDetailsDal.cs" />
+    <Compile Include="CustomersDAL\CustomerReportDal.cs" />
+    <Compile Include="DALHelper.cs" />
+    <Compile Include="Dashboard\deshboardentity.cs" />
+    <Compile Include="Dashboard\MyTaskmaster.cs" />
+    <Compile Include="DefaultGadgetsDAL.cs" />
+    <Compile Include="EmailSettings\EmailMaster.cs" />
+    <Compile Include="EmailSettings\EmailSettingsStoredProcedure.cs" />
+    <Compile Include="FaresDal\TourDal\TourItenaryTypeDal.cs" />
+    <Compile Include="FaresDal\TourDal\TourMasterDal.cs" />
+    <Compile Include="FaresDal\TourDal\TourWebDetailDal.cs" />
+    <Compile Include="FIT\AgentBookingClosed.cs" />
+    <Compile Include="FIT\BookingFitStoreProcedure.cs" />
+    <Compile Include="FIT\FitBookingStoreProcedure.cs" />
+    <Compile Include="FIT\FITPaymentStoreProcedure.cs" />
+    <Compile Include="FIT\FitQuotes.cs" />
+    <Compile Include="FIT\HotelServiceVoucher.cs" />
+    <Compile Include="FIT\HotelsStoreProcedure.cs" />
+    <Compile Include="FIT\ManualItineryDa.cs" />
+    <Compile Include="FIT\MyBookingStorprocedure.cs" />
+    <Compile Include="FIT\OrderSummaryStoreProcedure.cs" />
+    <Compile Include="FIT\ServiceVoucherDetail.cs" />
+    <Compile Include="FIT\SupplierPriceListDetails.cs" />
+    <Compile Include="FIT\SupplierPriceListMaster.cs" />
+    <Compile Include="FIT\TransferServiceDetail.cs" />
+    <Compile Include="FIT\Voucher.cs" />
+    <Compile Include="GIT\AgentInvoiceGitDA.cs" />
+    <Compile Include="GIT\AllSupplierDal.cs" />
+    <Compile Include="GIT\BookSp.cs" />
+    <Compile Include="GIT\ConferenceTypeMasterDal.cs" />
+    <Compile Include="GIT\EditUpdateGITInformation.cs" />
+    <Compile Include="GIT\FlightDetailsGIT.cs" />
+    <Compile Include="GIT\GalaDinnerTypeMasterDal.cs" />
+    <Compile Include="GIT\GitDetail.cs" />
+    <Compile Include="GIT\GitGroupInforamtion.cs" />
+    <Compile Include="GIT\GITPaymentDA.cs" />
+    <Compile Include="GIT\GITSearch.cs" />
+    <Compile Include="GIT\HotelPriceListGIT.cs" />
+    <Compile Include="GIT\InsertGitDetails.cs" />
+    <Compile Include="GIT\RestaurantPriceListDetailsDal.cs" />
+    <Compile Include="GIT\RestaurantPriceListMasterDal.cs" />
+    <Compile Include="GIT\SightSeeingPriceListDetailsDal.cs" />
+    <Compile Include="GIT\SightSeeingPriceListGIT.cs" />
+    <Compile Include="GIT\SightseeingPriceListMasterDal.cs" />
+    <Compile Include="GIT\SupplierHotelPriceListDetailsDal.cs" />
+    <Compile Include="GIT\SupplierHotelPriceListMasterDal.cs" />
+    <Compile Include="GIT\TobeReconform.cs" />
+    <Compile Include="GIT\TransferPackagePriceListDetailsDal.cs" />
+    <Compile Include="GIT\TransportPriceListGIT.cs" />
+    <Compile Include="HRDAL\EmployeeMasterDal.cs" />
+    <Compile Include="HRDAL\Reports\EmployeeReportDal.cs" />
+    <Compile Include="InquiryDal\CustomerInquiryDal.cs" />
+    <Compile Include="InquiryDal\CustomerInquiryFollowupDal.cs" />
+    <Compile Include="InquiryDal\Gadgets\CustomerInquiryGadgetsDAL.cs" />
+    <Compile Include="InquiryDal\InquiryGRDMappingDal.cs" />
+    <Compile Include="InquiryDal\InquiryRatingDal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\InquiryEntity.cs" />
+    <Compile Include="Reports\ReportsEntity.cs" />
+    <Compile Include="SecurityDAL\AuthorizationDal.cs" />
+    <Compile Include="SecurityDAL\ForgotPasswords.cs" />
+    <Compile Include="SiteSeeingPriceStoredProcedure.cs" />
+    <Compile Include="WebPortalDal\WebPortalDal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CRM.Core\CRM.Core.csproj">
+      <Project>{97C53F2B-82ED-4FC9-8091-B11485EB92CB}</Project>
+      <Name>CRM.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CRM.Model\CRM.Model.csproj">
+      <Project>{BBAB4A56-F069-41F3-B1F0-4CDF1A98D59F}</Project>
+      <Name>CRM.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

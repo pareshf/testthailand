@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="EventMaster">
+  <DataContextMoniker Name="/EventMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9a99e270-cec6-4fd9-9cea-f0f3885eb1fb" absoluteBounds="5, 3.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/EventMasterDataContext/VIEW_EVENT_MASTER_FOR_EMAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2ba750d5-c820-49ab-a8f0-8f006d26230f" absoluteBounds="5.015, 3.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

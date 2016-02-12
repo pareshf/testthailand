@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="ChartsofAccountDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=serverai;Initial Catalog=THAILAND_CRM;User ID=SA" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="THAILAND_CRMConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_CHARTS_OF_ACCOUNTS" Member="VIEW_CHARTS_OF_ACCOUNTs">
+    <Type Name="VIEW_CHARTS_OF_ACCOUNT">
+      <Column Name="CHART_OF_ACCOUNTS_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GL_CODE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="GL_DESCRIPTION" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="GROUP_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SIDE_CODE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OP_BALANCE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="OP_BAL_TYPE" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="OP_BALANCE_MONTH" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="CL_BALANCE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="CL_BAL_TYPE" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="CL_BALANCE_MONTH" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="COMPANY_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SUPPLIER_AGENT_ID" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ACCOUNT_FLAG" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_MODIFIED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ACC_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

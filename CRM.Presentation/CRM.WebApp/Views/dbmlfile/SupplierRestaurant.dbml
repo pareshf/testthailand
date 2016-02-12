@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="SupplierRestaurantDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=serverai;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_RESTAURATNT_PRICE_LIST" Member="VIEW_RESTAURATNT_PRICE_LISTs">
+    <Type Name="VIEW_RESTAURATNT_PRICE_LIST">
+      <Column Name="SUPPLIER_RESTAURANT_PRICE_LIST_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SUPPLIER_SR_NO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EFFECTIVE_FROM_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="EFFECTIVE_TO_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="DINNER_FROM_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="DINNER_TO_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="DINNER_FROM_TIME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DINNER_TO_TIME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MEAL_DESC" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="DINNER_DESCRIPTION" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="GIT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="FIT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="FIT_DISCOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="GIT_DISCOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="MARGIN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="UPLOAD_RATE_DOCUMENT" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CURRENCY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUSTOMER_NAME" Type="System.String" DbType="VarChar(306)" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_MODIFIED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PAYMENT_TERMS" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CHAIN_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="GIT_MARGIN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="GIT_MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="MEAL_TYPE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CHILD_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="ADULT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="TO_ISSUE_SERVICE_VOUCHER" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="A_MARGIN_IN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_PLUS_MARGIN_IN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_PLUS_PLUS_MARGIN_IN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_PLUS_MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_PLUS_PLUS_MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

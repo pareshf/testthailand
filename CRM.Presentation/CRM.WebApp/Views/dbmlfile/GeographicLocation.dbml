@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="thailand_new" Class="GeographicLocationDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.1.11;Initial Catalog=thailand_new;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_CITY_MASTER" Member="VIEW_CITY_MASTERs">
+    <Type Name="VIEW_CITY_MASTER">
+      <Column Name="CITY_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="STATE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COUNTRY_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_MODIFIED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_COMMON_STATE_MASTER" Member="VIEW_COMMON_STATE_MASTERs">
+    <Type Name="VIEW_COMMON_STATE_MASTER">
+      <Column Name="STATE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STATE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="COUNTRY_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_MODIFIED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_COUNTRY_MASTER" Member="VIEW_COUNTRY_MASTERs">
+    <Type Name="VIEW_COUNTRY_MASTER">
+      <Column Name="COUNTRY_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="COUNTRY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="COUNTRY_CODE" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="COUNTRY_CURRENCY_SYMBOL" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_MODIFIED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CURRENCY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CONTINENT_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

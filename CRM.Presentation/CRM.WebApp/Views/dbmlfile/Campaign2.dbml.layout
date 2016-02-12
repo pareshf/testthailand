@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Campaign2">
+  <DataContextMoniker Name="/Campaign2DataContext" />
+  <nestedChildShapes>
+    <classShape Id="f49d1d93-f2ae-4c70-af81-108c84e46cea" absoluteBounds="7.5, 2.375, 2, 1.9631982421875">
+      <DataClassMoniker Name="/Campaign2DataContext/VIEW_COMPAIGN_MARKETING_MAPPING" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8cdc200d-c150-4512-b9bd-582fea2f16d3" absoluteBounds="7.515, 2.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6d77f354-f981-4a1c-bae6-57cb3c338ebc" absoluteBounds="5.125, 1.875, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/Campaign2DataContext/VIEW_COMAPAIGN_TARGETLIST_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="de5da330-e6d9-4ce5-8507-167912b76e59" absoluteBounds="5.14, 2.335, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PaymentTermMaster">
+  <DataContextMoniker Name="/PaymentTermMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="002af084-cf7a-4403-b30c-cc12ada443b5" absoluteBounds="5.625, 1.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/PaymentTermMasterDataContext/VIEW_PAYMENT_TERMS_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac05e94a-c64d-4ec2-8bd5-21c752833efb" absoluteBounds="5.64, 2.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

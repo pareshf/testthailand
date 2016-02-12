@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="MaritalStatus">
+  <DataContextMoniker Name="/MaritalStatusDataContext" />
+  <nestedChildShapes>
+    <classShape Id="97d5878b-907d-4fdb-b020-ec21f66dc985" absoluteBounds="5.875, 2.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MaritalStatusDataContext/VIEW_MARITAL_STATUS_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e9011400-1e8f-416d-aace-7921ea0d6192" absoluteBounds="5.89, 2.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

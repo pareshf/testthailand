@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="FareCruiseCarbinCategoryMaster">
+  <DataContextMoniker Name="/FareCruiseCarbinCategoryMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="dbbf0e69-514a-4e64-8b75-6fbf3e0c81fe" absoluteBounds="5.875, 3.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/FareCruiseCarbinCategoryMasterDataContext/VIEW_FARE_CRUISE_CABIN_CATEGORY_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e82b35ed-07eb-4ff5-a1ce-5db1474368bb" absoluteBounds="5.89, 3.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

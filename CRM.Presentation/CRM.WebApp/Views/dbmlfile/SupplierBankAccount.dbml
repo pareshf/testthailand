@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="SupplierBankAccountDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SERVER;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="THAILAND_CRMConnectionString3" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_SUPPLIER_BANK_ACCOUNT_DETAIL" Member="VIEW_SUPPLIER_BANK_ACCOUNT_DETAILs">
+    <Type Name="VIEW_SUPPLIER_BANK_ACCOUNT_DETAIL">
+      <Column Name="SUPPLIER_BANK_ACCOUNT_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="COMPANY_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="SUPP_ACC_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACC_NO" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="BANK_NAME_SUPP" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BANK_BRANCH" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="BANK_ADDRESS" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SWIFT_CODE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="COMPANY_BANK_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="COMPANY_BANK_BRANCH" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

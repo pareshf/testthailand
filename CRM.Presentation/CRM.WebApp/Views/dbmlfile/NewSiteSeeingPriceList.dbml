@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="NewSiteSeeingPriceListDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=serverai;Initial Catalog=THAILAND_CRM;User ID=SA" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="THAILAND_CRMConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_SIGHT_NOT_OPERATED_DATE" Member="VIEW_SIGHT_NOT_OPERATED_DATEs">
+    <Type Name="VIEW_SIGHT_NOT_OPERATED_DATE">
+      <Column Name="OPERATED_DATE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SIGHT_SEEING_PRICE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NOT_OPERATED_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_SITE_SEEING_NOT_OPERATED_DAYS" Member="VIEW_SITE_SEEING_NOT_OPERATED_DAYs">
+    <Type Name="VIEW_SITE_SEEING_NOT_OPERATED_DAY">
+      <Column Name="OPERATED_DAYS_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SIGHT_SEEING_PRICE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DAYS" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_SIGHT_SEEING_PRICE_LIST_MASTER_LATEST" Member="VIEW_SIGHT_SEEING_PRICE_LIST_MASTER_LATESTs">
+    <Type Name="VIEW_SIGHT_SEEING_PRICE_LIST_MASTER_LATEST">
+      <Column Name="SIGHT_SEEING_PRICE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SIGHT_SEEING_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SIGHT_SEEING_TIME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GIT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="FIT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="FIT_DISCOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="GIT_DISCOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="MARGIN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="CURRENCY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EFFECTIVE_FROM_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="EFFECTIVE_TO_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SUPPLIER_DINNER_PRICE_LIST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SIC_PVT_FLAG" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PAYMENT_TERMS" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GIT_MARGIN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="GIT_MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="SITE_NAME_LOCATION" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="AGENT_NAME" Type="System.String" DbType="VarChar(306)" CanBeNull="true" />
+      <Column Name="PACKAGE_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CHILD_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="IS_MEAL_APPLICABLE" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="ADULT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="SUPPLIER_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ADULT_SIC_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="CHILD_SIC_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="ADULT_PVT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="CHILD_PVT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="SICRATE_PER_PERSON" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="PVTRATE_PER_PERSON" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="MEAL_TYPE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SUPPLIER_SR_NO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RESTAURANT_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="MEAL_TYPE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="STATUS" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="A_MARGIN_IN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_PLUS_MARGIN_IN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_PLUS_PLUS_MARGIN_IN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_PLUS_MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_PLUS_PLUS_MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="TO_ISSUE_SERVICE_VOUCHER" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TIME1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TIME2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TIME3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TIME4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,19 @@
+﻿<Message>
+  <SaveRecord>Record(s) saved successfully.</SaveRecord>
+  <UnableSaveRecord>Record not saved.</UnableSaveRecord>
+  <UpdateRecord>Record(s) updated successfully.</UpdateRecord>
+  <UnableUpdateRecord>Record not updated.</UnableUpdateRecord>
+  <DeleteRecord>Record(s) deleted successfully.</DeleteRecord>
+  <UnableDeleteRecord>Unable to delete master record(s), child record(s) exists.</UnableDeleteRecord>
+  <DeleteAlert>Are you sure to delete record(s)?</DeleteAlert>
+  <ExistRecord>Record already exists.</ExistRecord>
+  <NoRecord>No record(s) found.</NoRecord>
+  <CopyRecord>Record(s) copied successfully.</CopyRecord>
+  <OnlyOneRecord>Select only one record.</OnlyOneRecord>
+  <AtleastOneRecord>Select atleast one record.</AtleastOneRecord>
+  <AddPermission>You do not have sufficient permissions to add new record.</AddPermission>
+  <SavePermission>You do not have sufficient permissions to save data.</SavePermission>
+  <UpdatePermission>You do not have sufficient permissions to update data.</UpdatePermission>
+  <DeletePermission>You do not have sufficient permissions to delete data.</DeletePermission>
+  <CustomMessage>%s</CustomMessage>
+</Message>

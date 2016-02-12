@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FULL_CRM_ASHISH" Class="BookingFormStep1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.0.4;Initial Catalog=FULL_CRM_ASHISH;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FULL_CRM_ASHISHConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_FOR_CUSTOMER_DETAIL_NEW" Member="VIEW_FOR_CUSTOMER_DETAIL_NEWs">
+    <Type Name="VIEW_FOR_CUSTOMER_DETAIL_NEW">
+      <Column Name="INQUIRY_ID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUST_UNQ_ID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CUST_TYPE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REL_TITLE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="REL_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="REL_SURNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REL_EMAIL" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="REL_MOBILE" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="REL_PHONE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="REL_ADDRESS_LINE1" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="REL_ADDRESS_LINE2" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="REL_CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REL_STATE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REL_COUNTRY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REL_PINCODE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="EMM_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EMM_ADDRESS_LINE1" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="EMM_ADDRESS_LINE2" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="EMM_CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMM_STATE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMM_COUNTRY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMM_PINCODE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="REL_SRNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EMM_SRNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EMM_MOBILE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EMM_PHONE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_FOR_CUSTOMER_RELATION_NEW" Member="VIEW_FOR_CUSTOMER_RELATION_NEWs">
+    <Type Name="VIEW_FOR_CUSTOMER_RELATION_NEW">
+      <Column Name="CUST_REL_SRNO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CUST_UNQ_ID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="REL_TITLE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="REL_SURNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REL_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="RELATION" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="CUST_REL_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="REL_BIRTH_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="REL_EMAIL" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="REL_MOBILE" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="REL_PHONE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="REL_PASSPORT_NO" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="REL_PASSPORT_ISSUE_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="REL_PASSPORT_ISSUE_PLACE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="REL_PASSPORT_EXPIRY_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="REL_PASSPORT_PRINTED_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="REL_PASSPORT_ISSUE_COUNTRY" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="MEAL_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="NATIONALITY" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_FOR_CUSTOMER_VISA_DETAIL_NEW" Member="VIEW_FOR_CUSTOMER_VISA_DETAIL_NEWs">
+    <Type Name="VIEW_FOR_CUSTOMER_VISA_DETAIL_NEW">
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COUNTRY_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VISA_EXPIRY_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="COUNTRY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CUST_REL_SRNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUST_REL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

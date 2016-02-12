@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<applicationsettings>
+  <smtpsettings name="Smtp Settings">
+    <smtpusername>kushal@flamingotravels.co.in</smtpusername>
+    <smtppassword>dadashri</smtppassword>
+    <smtphost>smtpcorp.com</smtphost>
+    <smtpport>25</smtpport>
+  </smtpsettings>
+  <smssettings name="Sms Gateway Settings">
+    <!--<smsusername>bhavinvora</smsusername>
+    <smspassword>734247</smspassword>
+    <smsdomain>www.alertbox.in</smsdomain>
+    <smssenderid>Flamingo</smssenderid>-->
+    <smsusername>flamingo1</smsusername>
+    <smspassword>kushal1</smspassword>
+    <smsdomain>203.129.203.243/blank/sms/user/urlsms.php</smsdomain>
+    <smssenderid>090000</smssenderid>
+  </smssettings>
+  <smsmessages>
+    <newcustomersmsmessage>Dear Customer, Welcome to Flamingo Family. Your Customer ID is {:custUniqueId:} - You need to use this ID for any transaction with Flamingo. Thanks - www.flamingotravels.co.in</newcustomersmsmessage>
+    <newenquirysmsmessage>Dear Customer, Thanks for enquire us for your travels needs. Your Enquiry ID is {:enquiryId:}. You need to use this ID for any followup with Flamingo. Thanks - Sales Team</newenquirysmsmessage>
+  </smsmessages>
+  <mailmessages>
+    <newcustomermailmessage>Dear Customer, Welcome to Flamingo Family. Your Customer ID is {:custUniqueId:} - You need to use this ID for any transaction with Flamingo. Thanks - www.flamingotravels.co.in</newcustomermailmessage>
+    <newenquirymailmessage>Dear Customer, Thanks for enquire us for your travels needs. Your Enquiry ID is {:enquiryId:}. You need to use this ID for any followup with Flamingo. Thanks - Sales Team</newenquirymailmessage>
+  </mailmessages>
+  <customeralertsettings>
+    <newcustomeralert>Both</newcustomeralert>
+  </customeralertsettings>
+  <enquiryalertsettings>
+    <newenquiryalert>Both</newenquiryalert>
+  </enquiryalertsettings>
+</applicationsettings>

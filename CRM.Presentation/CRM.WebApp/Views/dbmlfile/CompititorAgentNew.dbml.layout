@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CompititorAgentNew">
+  <DataContextMoniker Name="/CompititorAgentNewDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b28d91ac-b5ef-4a06-ba24-a55bb57672b4" absoluteBounds="4, 1.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/CompititorAgentNewDataContext/VIEW_COMPITITOR_AGENT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9d137836-e2c4-4f66-8d90-7e033e1be090" absoluteBounds="4.015, 1.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

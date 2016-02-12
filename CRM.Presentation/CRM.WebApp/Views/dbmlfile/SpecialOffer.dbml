@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="SpecialOfferDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SERVERAI;Initial Catalog=THAILAND_CRM;User ID=SA" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="THAILAND_CRMConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_SPECIAL_OFFER" Member="VIEW_SPECIAL_OFFERs">
+    <Type Name="VIEW_SPECIAL_OFFER">
+      <Column Name="OFFER_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PACKAGE_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PRICE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="CURRENCY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DISPLAY_ON_DASHBOARD" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

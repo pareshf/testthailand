@@ -1,0 +1,105 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CrmWeb.master.cs" Inherits="CRM.WebPortal.CrmWeb" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Flamingo Transworld</title>
+    <!-- InstanceEndEditable -->
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <link href="../site/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+
+    <script language="javascript" type="text/javascript">
+        function MM_jumpMenu(targ,selObj,restore)
+        { 
+            //v3.0
+            eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+            if (restore) 
+                selObj.selectedIndex=0;
+        }
+
+    </script>
+
+    <link href="../site/css/jstabs.css" rel="stylesheet" type="text/css" />
+
+    <script language="javascript" type="text/javascript" src="../site/javascript/jstabs.js"></script>
+
+    <style type="text/css">
+        #divMenu
+        {
+            font-family: arial,helvetica;
+            font-size: 12pt;
+            font-weight: bold;
+        }
+        #divMenu a
+        {
+            text-decoration: none;
+        }
+        #divMenu a:hover
+        {
+            color: red;
+        }
+    </style>
+
+    <script type="text/javascript" language="JavaScript1.2"></script>
+
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" />
+    <div>
+        <table width="980" class="pageborder" border="0" cellspacing="0" cellpadding="0"
+            align="center">
+            <tr>
+                <td>
+                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0"
+                        width="980" height="382">
+                        <param name="movie" value="../site/flash/Mainbanner_index.swf" />
+                        <param name="quality" value="high" />
+                        <embed src="../site/flash/Mainbanner_index.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer"
+                            type="application/x-shockwave-flash" width="980" height="382"></embed>
+                    </object>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" style="height: 5px;">
+                </td>
+            </tr>
+        </table>
+        <table width="982" class="pageborder" border="0" cellspacing="0" cellpadding="0"
+            align="center">
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="cphPageContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <table width="982" class="pageborder" border="0" cellspacing="0" cellpadding="0"
+            align="center">
+            <tr>
+                <td height="1px" bgcolor="#E0A300">
+                </td>
+            </tr>
+            <tr>
+                <td height="90px" bgcolor="#FFFFFF" align="center">
+                    <span class="link_sub_bot"><a href="Default.aspx">Home</a> | <a href="#">Traveller's
+                        Experiences</a> | <a href="#">Search</a> | <a href="../our_location.html">Our Locations</a>
+                        | <a href="#">Legal Policy</a> | <a href="../tellfriend.php" onclick="MM_openBrWindow('tellfriend.php','TellaFriend','width=500,height=500')">
+                            Tell A Friend</a> | <a href="#">Career With Us</a> | <a href="#">Business With Us</a>
+                        | <a href="#">Advert With Us</a>
+                        <br>
+                        <br />
+                        Copyright@2006 Flamingo Transworld Pvt. Ltd. All Rights Reserved. </span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

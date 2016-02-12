@@ -1,0 +1,171 @@
+/* RadComboBox Default skin */
+
+/*global*/
+
+.RadComboBox_LightBlue,
+.RadComboBox_LightBlue .rcbInput,
+.RadComboBoxDropDown_LightBlue
+{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+/* combobox */
+
+.RadComboBox_LightBlue .rcbInputCellLeft,
+.RadComboBox_LightBlue .rcbInputCellRight,
+.RadComboBox_LightBlue .rcbArrowCellLeft,
+.RadComboBox_LightBlue .rcbArrowCellRight
+{
+	background-image: url('ComboBox/rcbSprite.png');
+}
+
+div.RadComboBox_LightBlue .rcbArrowCell a
+{
+	line-height: 16px;
+	height: 22px;
+}
+
+.RadComboBox_LightBlue td.rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_LightBlue td.rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_LightBlue .rcbHovered .rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_LightBlue .rcbHovered .rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_LightBlue .rcbFocused .rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_LightBlue .rcbFocused .rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_LightBlue .rcbHovered .rcbReadOnly td.rcbInputCellLeft { background-position: 0 -22px; }
+.RadComboBox_LightBlue .rcbHovered .rcbReadOnly td.rcbInputCellRight { background-position: 100% -22px; }
+
+.RadComboBox_LightBlue .rcbFocused .rcbReadOnly td.rcbInputCellLeft { background-position: 0 -44px; }
+.RadComboBox_LightBlue .rcbFocused .rcbReadOnly td.rcbInputCellRight { background-position: 100% -44px; }
+
+.RadComboBox_LightBlue .rcbInputCell .rcbEmptyMessage
+{
+	color: #666;
+}
+
+.RadComboBox_LightBlue .rcbHovered .rcbInputCell .rcbInput
+{
+	color: #000;
+}
+
+.RadComboBox_LightBlue td.rcbArrowCellLeft { background-position: -18px -88px; }
+.RadComboBox_LightBlue td.rcbArrowCellRight { background-position: 0 -88px; }
+
+.RadComboBox_LightBlue .rcbHovered .rcbArrowCellLeft { background-position: -54px -88px; }
+.RadComboBox_LightBlue .rcbHovered .rcbArrowCellRight { background-position: -36px -88px; }
+
+.RadComboBox_LightBlue .rcbFocused .rcbArrowCellLeft { background-position: -90px -88px; }
+.RadComboBox_LightBlue .rcbFocused .rcbArrowCellRight { background-position: -72px -88px; }
+
+.RadComboBox_LightBlue td.rcbArrowCellHidden,
+.RadComboBox_LightBlue .rcbHovered td.rcbArrowCellHidden,
+.RadComboBox_LightBlue .rcbFocused td.rcbArrowCellHidden { background-position: -15px -88px; }
+
+.RadComboBox_LightBlue .rcbHovered .rcbReadOnly td.rcbArrowCellHidden { background-position: -51px -88px; }
+.RadComboBox_LightBlue .rcbFocused .rcbReadOnly td.rcbArrowCellHidden { background-position: -87px -88px; }
+
+/* Read-only styles */
+
+.RadComboBox_LightBlue .rcbReadOnly td.rcbArrowCellLeft { background-position: -18px -88px; }
+.RadComboBox_LightBlue .rcbReadOnly td.rcbArrowCellRight { background-position: -2px -88px; }
+
+.RadComboBox_LightBlue .rcbHovered .rcbReadOnly .rcbArrowCellLeft { background-position: -54px -88px; }
+.RadComboBox_LightBlue .rcbHovered .rcbReadOnly .rcbArrowCellRight { background-position: -38px -88px; }
+
+.RadComboBox_LightBlue .rcbFocused .rcbReadOnly .rcbArrowCellLeft { background-position: -90px -88px; }
+.RadComboBox_LightBlue .rcbFocused .rcbReadOnly .rcbArrowCellRight { background-position: -74px -88px; }
+
+.RadComboBox_LightBlue .rcbReadOnly td.rcbArrowCellHidden { background-position: -15px -88px; }
+.RadComboBox_LightBlue .rcbHovered .rcbReadOnly td.rcbArrowCellHidden { background-position: -51px -88px; }
+.RadComboBox_LightBlue .rcbFocused .rcbReadOnly td.rcbArrowCellHidden { background-position: -87px -88px; }
+
+/* dropdown */
+
+.RadComboBoxDropDown_LightBlue .rcbFooter,
+.RadComboBoxDropDown_LightBlue .rcbMoreResults,
+.RadComboBoxDropDown_LightBlue .rcbMoreResults a
+{
+	background-image: url('ComboBox/rcbSprite.png');
+}
+
+div.RadComboBoxDropDown_LightBlue
+{
+	background: #fff;
+	border-color: #c6c7d2;
+	border-top-color: #83868d;
+	font-size: 12px;
+}
+
+.RadComboBoxDropDown_LightBlue .rcbFooter
+{
+	background-color: #dee2e7;
+	background-position: 0 -110px;
+	border-top-color: #d5d5d5;
+}
+
+div.RadComboBoxDropDown_LightBlue .rcbHeader
+{
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom: 0;
+	padding:8px 7px 0;
+}
+
+.RadComboBoxDropDown_LightBlue .rcbItem,
+.RadComboBoxDropDown_LightBlue .rcbHovered
+{
+	line-height: 1.5;
+}
+
+.RadComboBoxDropDown_LightBlue .rcbItem em
+{
+	background: #e5e5e5;
+}
+
+.RadComboBoxDropDown_LightBlue .rcbHovered
+{
+	background: #e8e8e8;
+	color: #000;
+}
+
+.RadComboBoxDropDown_LightBlue .rcbSeparator
+{
+    color: #444;
+    background: #d9dadc;
+}
+
+.RadComboBox_LightBlue .rcbDisabled .rcbInputCell .rcbInput,
+.RadComboBoxDropDown_LightBlue .rcbDisabled
+{
+	color: #999;
+}
+
+.RadComboBox_LightBlue .rcbDisabled td.rcbInputCellLeft { background-position: 0 -66px; }
+.RadComboBox_LightBlue .rcbDisabled td.rcbInputCellRight { background-position: 100% -66px; }
+.RadComboBox_LightBlue .rcbDisabled td.rcbArrowCellLeft { background-position: -126px -88px; }
+.RadComboBox_LightBlue .rcbDisabled td.rcbArrowCellRight { background-position: -108px -88px; }
+.RadComboBox_LightBlue .rcbDisabled .rcbReadOnly td.rcbArrowCellRight { background-position: -110px -88px; }
+.RadComboBox_LightBlue table.rcbDisabled td.rcbArrowCellHidden,
+.RadComboBox_LightBlue .rcbDisabled .rcbReadOnly td.rcbArrowCellHidden { background-position: -123px -88px; }
+
+.RadComboBoxDropDown_LightBlue .rcbLoading
+{
+	background: #f0f0f0;
+}
+
+.RadComboBoxDropDown_LightBlue .rcbMoreResults
+{
+	border-top-color: #c6c7d2;
+	background-position: 0 -132px;
+	background-color: #e6e6e6;
+	color: #606060;
+}
+
+.RadComboBoxDropDown_LightBlue .rcbMoreResults a
+{
+	background-position: -157px -94px;
+	color: #606060;
+}

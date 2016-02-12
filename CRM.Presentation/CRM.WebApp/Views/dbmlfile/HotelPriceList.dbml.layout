@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 12" name="HotelPriceList">
+  <DataContextMoniker Name="/HotelPriceListDataContext" />
+  <nestedChildShapes>
+    <classShape Id="fafe838c-4fc3-46fb-9cd2-2f62cadc7764" absoluteBounds="6.375, 2.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/HotelPriceListDataContext/VIEW_SUPPLIER_HOTEL_ROOM_INVENTORY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5425c59a-3ab9-4b98-86ca-a418f6c03bfd" absoluteBounds="6.39, 2.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="92ce6903-b045-4987-b907-0fcb4d2623e2" absoluteBounds="3.375, 2.625, 2.5, 9.0783512369791648">
+      <DataClassMoniker Name="/HotelPriceListDataContext/VIEW_SUPPLIER_HOTEL_PRICE_LIST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6dcb62ab-5671-408b-9994-8ed1c1f767fe" absoluteBounds="3.39, 3.085, 2.4699999999999998, 8.5183512369791661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

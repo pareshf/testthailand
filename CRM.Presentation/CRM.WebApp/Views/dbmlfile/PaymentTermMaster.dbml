@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="PaymentTermMasterDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=122.169.106.88;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_PAYMENT_TERMS_MASTER" Member="VIEW_PAYMENT_TERMS_MASTERs">
+    <Type Name="VIEW_PAYMENT_TERMS_MASTER">
+      <Column Name="PAYMENT_TERMS_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PAYMENT_TERMS" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,3 @@
+http://www.dotnetcurry.com/ShowArticle.aspx?ID=238
+
+http://www.asp.net/web-pages/tutorials/data/7-displaying-data-in-a-chart

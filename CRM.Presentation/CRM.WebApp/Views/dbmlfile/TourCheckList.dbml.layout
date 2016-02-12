@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="TourCheckList">
+  <DataContextMoniker Name="/TourCheckListDataContext" />
+  <nestedChildShapes>
+    <classShape Id="97806616-3e3c-4055-b2f0-9592944baa69" absoluteBounds="7.375, 3.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/TourCheckListDataContext/VIEW_BOOKING_DETAIL_FOR_CHECKLIST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1525571b-55e8-4b0c-b5a0-3977f1dee716" absoluteBounds="7.39, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ded9aa12-3e0b-4804-9987-1dea4b840858" absoluteBounds="2.5, 1.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/TourCheckListDataContext/VIEW_PASSENGER_CHECKLIST_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3745459a-529f-437f-b11e-d1270fc04781" absoluteBounds="2.5149999999999997, 2.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

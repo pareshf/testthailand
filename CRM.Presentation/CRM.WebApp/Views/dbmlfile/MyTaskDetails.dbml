@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FULL_CRM_ASHISH" Class="MyTaskDetailsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SERVER;Initial Catalog=FULL_CRM_ASHISH;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FULL_CRM_ASHISHConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_MYTASK_DETAILS" Member="VIEW_MYTASK_DETAILs">
+    <Type Name="VIEW_MYTASK_DETAIL">
+      <Column Name="MYTASK_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TITLE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="REGARDING" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="PROJECT_REMARKS" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="TASK_TYPE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ASSIGN_TO" Type="System.String" DbType="VarChar(101)" CanBeNull="true" />
+      <Column Name="DURATION" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ACTUAL_TIME_TAKEN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="START_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="END_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="PRIORITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PRODUCT_DESC" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PRODUCT_CODE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="STATUS_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ACTUAL_COMPLETION_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

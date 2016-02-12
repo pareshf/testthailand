@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ForeignCurrencyAgent">
+  <DataContextMoniker Name="/ForeignCurrencyAgentDataContext" />
+  <nestedChildShapes>
+    <classShape Id="abb98712-9de4-4c75-9246-c349fed8e876" absoluteBounds="5.75, 2.375, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/ForeignCurrencyAgentDataContext/VIEW_FOREIGN_CURRENCY_AGENT_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f5726bc8-7eef-456f-87c4-94f1f7f4824b" absoluteBounds="5.7650000000000006, 2.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

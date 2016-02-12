@@ -1,0 +1,2 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Views/Shared/CRMMaster.Master" CodeBehind="AnnounceMent.aspx.cs" Inherits="CRM.WebApp.Views.Workplace.AnnounceMent" %>
+<asp:Content ID="cntIncludes" ContentPlaceHolderID="cphIncludes" runat="server"></asp:Content>

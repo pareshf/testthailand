@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="UserProfileDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.1.6;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FULL_CRM_ASHISHConnectionString17" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_FOR_MY_PROFILE" Member="VIEW_FOR_MY_PROFILEs">
+    <Type Name="VIEW_FOR_MY_PROFILE">
+      <Column Name="EMP_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EMP_SURNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMP_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMP_DOB" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="EMP_GENDER" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="EMP_MOBILE" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="EMP_PHONE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMP_EMAIL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TITLE_DESC" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="DEPARTMENT_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMP_DOJ" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QUALIFICATION_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MARITAL_STATUS_NAME" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="STATUS_NAME" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="USER_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SIGNATURE_PASSWORD" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_USER_DETAIL_FOR_MYPROFILE" Member="VIEW_USER_DETAIL_FOR_MYPROFILEs">
+    <Type Name="VIEW_USER_DETAIL_FOR_MYPROFILE">
+      <Column Name="USER_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="USER_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PASSWORD" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="EMP_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EMP_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMP_FULL_NAME" Type="System.String" DbType="VarChar(101) NOT NULL" CanBeNull="false" />
+      <Column Name="SECURITY_QUESTION_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SECURITY_QUESTION_DESC" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SECURITY_ANSWERS" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="FROM_DATE" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TO_DATE" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MODIFIED_BY" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

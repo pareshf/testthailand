@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="EventMasterDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SERVERAI;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="THAILAND_CRMConnectionString5" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_EVENT_MASTER_FOR_EMAIL" Member="VIEW_EVENT_MASTER_FOR_EMAILs">
+    <Type Name="VIEW_EVENT_MASTER_FOR_EMAIL">
+      <Column Name="EVENT_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EVENT_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="FORM_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CREATED_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MODIFIED_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

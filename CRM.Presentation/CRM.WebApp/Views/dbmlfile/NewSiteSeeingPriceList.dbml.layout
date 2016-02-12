@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 11" name="NewSiteSeeingPriceList">
+  <DataContextMoniker Name="/NewSiteSeeingPriceListDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cc281210-8a53-4d64-a0c7-7dad9417dbc5" absoluteBounds="7, 3.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/NewSiteSeeingPriceListDataContext/VIEW_SIGHT_NOT_OPERATED_DATE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="87bcec36-9636-4931-932e-d5d27e04b3d4" absoluteBounds="7.0150000000000006, 3.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0df9995c-e034-4b9b-8450-83bd34fb3bb4" absoluteBounds="6.875, 1.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/NewSiteSeeingPriceListDataContext/VIEW_SITE_SEEING_NOT_OPERATED_DAY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b2753042-a9da-4ba5-977d-ee817540cb05" absoluteBounds="6.89, 1.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="27b92ba3-77a7-49e7-b7d0-d8029ef171dd" absoluteBounds="4.25, 0.875, 2, 9.8475569661458326">
+      <DataClassMoniker Name="/NewSiteSeeingPriceListDataContext/VIEW_SIGHT_SEEING_PRICE_LIST_MASTER_LATEST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="77dfe98a-fd56-43b0-bd43-b63dcba4c45f" absoluteBounds="4.265, 1.335, 1.9700000000000002, 9.2875569661458321" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

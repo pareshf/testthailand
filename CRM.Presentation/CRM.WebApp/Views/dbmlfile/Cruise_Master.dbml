@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FULL_CRM_ASHISH" Class="Cruise_MasterDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.0.4;Initial Catalog=FULL_CRM_ASHISH;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_CRUISE_COUNRY_VISA_MASTER" Member="VIEW_CRUISE_COUNRY_VISA_MASTERs">
+    <Type Name="VIEW_CRUISE_COUNRY_VISA_MASTER">
+      <Column Name="SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CRUISE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COUNTRY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CRUISE_MASTER" Member="CRUISE_MASTERs">
+    <Type Name="CRUISE_MASTER">
+      <Column Name="CRUISE_COMPANY_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CRUISE_COMPANY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_CRUISE_SCHEDULE_MASTER" Member="VIEW_CRUISE_SCHEDULE_MASTERs">
+    <Type Name="VIEW_CRUISE_SCHEDULE_MASTER">
+      <Column Name="CRUISE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CRUISE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CRUISE_CODE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCHEDULE_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SOURCE_CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DESTINATION_CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SOURCE_PORT_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DESTINATION_PORT_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DEPT_TIME" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ARRIVAL_TIME" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="DURATION" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="CRUISE_COMPANY_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRUISE_COMPANY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DATE_OF_DEP" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="DATE_OF_ARRIVAL" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_CRUISE_CURRENCY_PRICE_MASTER" Member="VIEW_CRUISE_CURRENCY_PRICE_MASTERs">
+    <Type Name="VIEW_CRUISE_CURRENCY_PRICE_MASTER">
+      <Column Name="CURRENCY_PRICE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CRUISE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CURRENCY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AUDULT_AMT" Type="System.Decimal" DbType="Decimal(12,0)" CanBeNull="true" />
+      <Column Name="AUDULT_TAX" Type="System.Decimal" DbType="Decimal(12,0)" CanBeNull="true" />
+      <Column Name="AUDULT_GST" Type="System.Decimal" DbType="Decimal(12,0)" CanBeNull="true" />
+      <Column Name="CHILD_AMT" Type="System.Decimal" DbType="Decimal(12,0)" CanBeNull="true" />
+      <Column Name="CHILD_TAX" Type="System.Decimal" DbType="Decimal(12,0)" CanBeNull="true" />
+      <Column Name="CHILD_GST" Type="System.Decimal" DbType="Decimal(12,0)" CanBeNull="true" />
+      <Column Name="INFANT_AMT" Type="System.Decimal" DbType="Decimal(12,0)" CanBeNull="true" />
+      <Column Name="INFANT_TAX" Type="System.Decimal" DbType="Decimal(12,0)" CanBeNull="true" />
+      <Column Name="INFANT_GST" Type="System.Decimal" DbType="Decimal(12,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

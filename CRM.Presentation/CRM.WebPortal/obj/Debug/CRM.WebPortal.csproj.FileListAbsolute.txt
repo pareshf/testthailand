@@ -1,0 +1,224 @@
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+F:\THAILAND_CRM_PUBLISH\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\ResolveAssemblyReference.cache
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\CRM.WebPortal.pdb
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\AjaxControlToolkit.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\MailClient.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.csprojResolveAssemblyReference.cache
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Presentation\CRM.WebPortal\obj\Debug\CRM.WebPortal.pdb

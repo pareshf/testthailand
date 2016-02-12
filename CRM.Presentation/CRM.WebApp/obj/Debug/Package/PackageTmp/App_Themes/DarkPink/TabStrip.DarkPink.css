@@ -1,0 +1,157 @@
+.RadTabStrip_DarkPink
+{
+	border-bottom:3px solid #666666;
+}
+
+.RadTabStrip_DarkPink .rtsLI,
+.RadTabStrip_DarkPink .rtsLink
+{
+	color: #000;
+	font: 12px/26px Arial, sans-serif;
+	border-right:3px solid #ffffff;
+	
+}
+
+.RadTabStrip_DarkPink .rtsLink:hover
+{
+	
+}
+
+.RadTabStrip_DarkPink .rtsSelected
+{
+	color: #ffffff;
+}
+
+.RadTabStripLeft_DarkPink .rtsSeparator,
+.RadTabStripRight_DarkPink .rtsSeparator
+{
+	background: #003C74;
+}
+
+/* <disabled tabs> */
+.RadTabStrip_DarkPink .rtsLevel .rtsDisabled,
+.RadTabStrip_DarkPink .rtsLevel .rtsDisabled:hover
+{
+	color: #aaa;
+}
+/* </disabled tabs> */
+
+/* <scrolling arrows> */
+.RadTabStrip_DarkPink .rtsNextArrow,
+.RadTabStrip_DarkPink .rtsPrevArrow,
+.RadTabStrip_DarkPink .rtsPrevArrowDisabled,
+.RadTabStrip_DarkPink .rtsNextArrowDisabled
+{
+	background-image: url('TabStrip/TabStripStates.png');
+}
+/* </scrolling arrows> */
+
+/* <tab backgrounds> */
+
+.RadTabStripTop_DarkPink .rtsLevel { background-color: transparent; }
+
+.RadTabStripTop_DarkPink .rtsLevel .rtsLink,
+.RadTabStripTop_DarkPink .rtsLevel .rtsOut,
+.RadTabStripBottom_DarkPink .rtsLevel .rtsLink,
+.RadTabStripBottom_DarkPink .rtsLevel .rtsOut,
+.RadTabStripTop_DarkPink_Baseline .rtsLevel,
+.RadTabStripBottom_DarkPink_Baseline .rtsLevel { background-image: url('TabStrip/TabStripStates.png'); }
+
+.RadTabStripLeft_DarkPink .rtsLink,
+.RadTabStripRight_DarkPink .rtsLink { background-image: url('TabStrip/TabStripVStates.png'); }
+
+.RadTabStripLeft_DarkPink .rtsLast .rtsLink,
+.RadTabStripRight_DarkPink .rtsLast .rtsLink
+{
+	border-bottom: 1px solid #003c74;
+}
+
+.RadTabStripRight_DarkPink .rtsLink,
+.RadTabStripRight_DarkPink .rtsLI .rtsDisabled:hover { background-position: 100% 0; }
+.RadTabStripRight_DarkPink .rtsLink:hover { background-position: 100% -200px; }
+.RadTabStripRight_DarkPink .rtsSelected,
+.RadTabStripRight_DarkPink .rtsSelected:hover { background-position: 100% -400px; }
+/* </tab backgrounds> */
+
+
+/* <background positioning: tabs with hovers> */
+
+/* <orientation: top> */
+
+.RadTabStripTop_DarkPink .rtsLink { background-position: 0 0; }
+.RadTabStripTop_DarkPink .rtsOut { background-position: 100% 0; }
+
+.RadTabStripTop_DarkPink .rtsLink:hover { background-position: 0 -52px; }
+.RadTabStripTop_DarkPink .rtsLink:hover .rtsOut { background-position: 100% -52px; }
+
+.RadTabStripTop_DarkPink .rtsSelected,
+.RadTabStripTop_DarkPink .rtsSelected:hover { background-position: 0 -26px; }
+.RadTabStripTop_DarkPink .rtsSelected .rtsOut,
+.RadTabStripTop_DarkPink .rtsSelected:hover .rtsOut { background-position: 100% -26px; }
+
+.RadTabStripTop_DarkPink .rtsDisabled:hover { background-position: 0 0; }
+.RadTabStripTop_DarkPink .rtsDisabled:hover .rtsOut { background-position: 100% 0; }
+
+.RadTabStripTop_DarkPink_Baseline .rtsLevel { background-position: 0 100%; background-repeat: repeat-x; }
+
+/* </orientation: top> */
+
+/* <orientation: bottom> */
+
+.RadTabStripBottom_DarkPink .rtsLink { background-position: 0 -182px; }
+.RadTabStripBottom_DarkPink .rtsOut { background-position: 100% -182px; }
+
+.RadTabStripBottom_DarkPink .rtsLink:hover { background-position: 0 -130px; }
+.RadTabStripBottom_DarkPink .rtsLink:hover .rtsOut { background-position: 100% -130px; }
+
+.RadTabStripBottom_DarkPink .rtsSelected,
+.RadTabStripBottom_DarkPink .rtsSelected:hover { background-position: 0 -156px; }
+.RadTabStripBottom_DarkPink .rtsSelected .rtsOut,
+.RadTabStripBottom_DarkPink .rtsSelected:hover .rtsOut { background-position: 100% -156px; }
+
+.RadTabStripBottom_DarkPink .rtsDisabled:hover { background-position: 0 -182px; }
+.RadTabStripBottom_DarkPink .rtsDisabled:hover .rtsOut { background-position: 100% -182px; }
+
+.RadTabStripBottom_DarkPink_Baseline .rtsLevel { background-position: 0 -599px; background-repeat: repeat-x; }
+
+/* </orientation: bottom> */
+
+/* <orientation: right> */
+
+.RadTabStripRight_DarkPink .rtsUL .rtsLink,
+.RadTabStripRight_DarkPink .rtsUL .rtsLI .rtsDisabled:hover { background-position: 100% 0; text-align: left; }
+.RadTabStripRight_DarkPink .rtsUL .rtsLink:hover { background-position: 100% -200px; }
+.RadTabStripRight_DarkPink .rtsUL .rtsSelected,
+.RadTabStripRight_DarkPink .rtsUL .rtsSelected:hover { background-position: 100% -400px; }
+
+/* </orientation: right> */
+
+/* </background positioning: tabs with hovers> */
+
+/* <simplistic sub-item styles> */
+
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel2,
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel3,
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel4 { background: #fff; }
+
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel2 .rtsSelected,
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel3 .rtsSelected,
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel4 .rtsSelected
+{
+	text-decoration: underline;
+}
+
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel2 .rtsLink,
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel2 .rtsOut,
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel2 .rtsIn,
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel3 .rtsLink,
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel3 .rtsOut,
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel3 .rtsIn,
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel4 .rtsLink,
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel4 .rtsOut,
+.RadTabStrip_DarkPink_SimpleSubItems .rtsLevel4 .rtsIn
+{
+	background: none;
+}
+
+/* </simplistic sub-item styles> */

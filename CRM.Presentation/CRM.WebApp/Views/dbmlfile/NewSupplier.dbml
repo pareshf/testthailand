@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="NewSupplierDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=AI01;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_SUPPLIER_EMPLOYEE_DETAIL" Member="VIEW_SUPPLIER_EMPLOYEE_DETAILs">
+    <Type Name="VIEW_SUPPLIER_EMPLOYEE_DETAIL">
+      <Column Name="IS_ACCOUNT" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="USER_STATUS_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SUPPLIER_SR_NO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUPPLIER_REL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUPPLIER_REL_SRNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUPPLIER_REL_SURNAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="SUPPLIER_REL_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="SUPPLIER_REL_GENDER" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="SUPPLIER_REL_EMAIL" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="SUPPLIER_REL_MOBILE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SUPPLIER_REL_PHONE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PASSWORD" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ALTERNATE_EMAIL" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CREDIT_LIMIT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_MODIFIED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TITLE_DESC" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="PARENT_SUPPLIER" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_FOR_SUPPLIER_MASTER_NEW" Member="VIEW_FOR_SUPPLIER_MASTER_NEWs">
+    <Type Name="VIEW_FOR_SUPPLIER_MASTER_NEW">
+      <Column Name="SUPPLIER_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SUPPLIER_COMPANY_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="REMARKS" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="SUPPLIER_PHOTO_PATH" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CREDIT_LIMIT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="COMMUNICATION_TIME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ACCOUNTING_CODE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MODIFY_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SUPPLIER_UNQ_ID" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CURRENCY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="COMMUNICATION_MODE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DESIGNATION_DESC" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SUPPLIER_TYPE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GROUP_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SUPPLIER_REL_EMAIL" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="SUPPLIER_REL_MOBILE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SUPPLIER_REL_PHONE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PASSWORD" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="SUPPLIER_REL_SRNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TO_ISSUE_SERVICE_VOUCHER" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GL_CODE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_SUPPLIER_CONTECT_DETAIL" Member="VIEW_SUPPLIER_CONTECT_DETAILs">
+    <Type Name="VIEW_SUPPLIER_CONTECT_DETAIL">
+      <Column Name="SUPPLIER_SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SUPPLIER_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SUPPLIER_REL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ADDRESS_LINE1" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ADDRESS_LINE2" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PINCODE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PHONE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="WEBSITE" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="CHAIN_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="VIDEO_CODE" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="LOGO" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CHECK_IN_TIME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CHECK_OUT_TIME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_MODIFIED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="COUNTRY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ADDRESS_TYPE_NAME" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="SUPPLIER_COMPANY_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="STATE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FAX_NO_1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FAX_NO_2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RATING_STAR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LOCATION" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

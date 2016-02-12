@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="SupplierCoachPriceDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.1.13;Initial Catalog=THAILAND_CRM;User ID=SA" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="THAILAND_CRMConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_SUPPLIER_COACH_PRICE_LIST" Member="VIEW_SUPPLIER_COACH_PRICE_LISTs">
+    <Type Name="VIEW_SUPPLIER_COACH_PRICE_LIST">
+      <Column Name="COACH_PRICE_LIST_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SUPPLIER_SR_NO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COACH_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EFFECTIVE_FROM_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="EFFECTIVE_TO_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="NO_OF_SEATS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GIT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="FIT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="FIT_DISCOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="GIT_DISCOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="MARGIN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="CURRENCY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUSTOMER_NAME" Type="System.String" DbType="VarChar(307)" CanBeNull="true" />
+      <Column Name="PAYMENT_TERMS" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SUPPLIER_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="GIT_MARGIN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="GIT_MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FROM_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TO_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

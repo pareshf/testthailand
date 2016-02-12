@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FULL_CRM_ASHISH" Class="TourMasterDataBaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.1.6;Initial Catalog=FULL_CRM_ASHISH;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.COMMON_MARKETING_MATERIAL" Member="COMMON_MARKETING_MATERIALs">
+    <Type Name="COMMON_MARKETING_MATERIAL">
+      <Column Name="MAR_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TITLE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TYPE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EXPIRATION_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ATTACHMENT" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="EMBEDCODE" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="WEBURL" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TOUR_QUOTE_MASTER" Member="TOUR_QUOTE_MASTERs">
+    <Type Name="TOUR_QUOTE_MASTER">
+      <Column Name="QUOTE_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TOUR_CURRANCY_1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ADULT_COST_C1" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="ADULT_TAX_C1" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="ADULT_GST_C1" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="CWB_COST_C1" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="CWB_TAX_C1" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="CWB_GST_C1" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="CNB_COST_C1" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="CNB_TAX_C1" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="CNB_GST_C1" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="INFANT_COST_C1" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="INFANT_TAX_C1" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="INFANT_GST_C1" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="TOTAL_ADULT_COST_C1" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="TOTAL_CWB_COST_C1" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="TOTAL_CNB_COST_C1" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="TOTAL_INFANT_COST_C1" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="TOUR_CURRANCY_2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ADULT_COST_C2" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="CWB_COST_C2" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="CNB_COST_C2" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="INFANT_COST_C2" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_TOUR_TRANSPORTATION_DETAILS" Member="VIEW_TOUR_TRANSPORTATION_DETAILs">
+    <Type Name="VIEW_TOUR_TRANSPORTATION_DETAIL">
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TRANSPORT_MODE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TRANSPORT_NO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TRANSPORT_DETAILS" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="DATE_OF_ARRIVAL" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TIME_OF_ARRIVAL" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PLACE_OF_ARRIVAL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_OF_DEPARTURE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TIME_OF_DEPARTURE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PLACE_OF_DEPARTURE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NO_OF_SEATS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AMOUNT" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="BOOKING_REQUEST_TO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_DECK_CABINE_DETAIL" Member="VIEW_DECK_CABINE_DETAILs">
+    <Type Name="VIEW_DECK_CABINE_DETAIL">
+      <Column Name="CABINES" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DECK_NO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOUR_CRUISE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_COUNTRY_FOR_VISA" Member="VIEW_COUNTRY_FOR_VISAs">
+    <Type Name="VIEW_COUNTRY_FOR_VISA">
+      <Column Name="SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COUNTRY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TOUR_CRUISE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_TOUR_MASTER" Member="VIEW_TOUR_MASTERs">
+    <Type Name="VIEW_TOUR_MASTER">
+      <Column Name="TOUR_CODE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TOUR_SHORT_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TOUR_LONG_DESC" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="TOUR_TYPE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TOUR_SUB_TYPE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TOUR_ITENARY_TYPE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BASE_TOUR" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="TOUR_FROM_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TOUR_TO_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="NO_OF_DAYS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NO_OF_NIGHTS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NO_OF_SEATS" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="COUNTRIES_FOR_VISA_TEXT" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CITY_TO_TRAVEL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="START_END_CITY_TEXT" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="GUIDE_TITLE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NO_OF_AVAILABLE_SEATS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_CRUISE_DETAIL" Member="VIEW_CRUISE_DETAILs">
+    <Type Name="VIEW_CRUISE_DETAIL">
+      <Column Name="BOOKING_REQ_TO" Type="System.String" DbType="VarChar(101)" CanBeNull="true" />
+      <Column Name="CHECK_REQ_TO" Type="System.String" DbType="VarChar(101)" CanBeNull="true" />
+      <Column Name="APPROVED_BY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BOOKED_BY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CRUISE_SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DATE_OF_SAILING" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="DATE_OF_ARRIVAL" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CABINE_TO_BE_BLOCKED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CHECK_REQ_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CHECK_COMMENTS" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="TOTAL_ROOMS_BLOCKED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TIME_LIMIT" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="BOOKING_REQ_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TOTAL_AMOUNT" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="TAX" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="GST" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="TOTAL_CABINES_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PARTIAL_CABINES_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ASTOTAL_ADULTS_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOTAL_CWB_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOTAL_CNB_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOTAL_INFANT_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AVAILABLE_CABINES" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CRUISE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TIME_OF_DEPARTURE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TIME_OF_ARRIVAL" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CRUISE_COMP_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CABINE_CATEGORY" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="BOOKING_STATUS_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_FLIGHT_DETAIL" Member="VIEW_FLIGHT_DETAILs">
+    <Type Name="VIEW_FLIGHT_DETAIL">
+      <Column Name="BOOKING_REQ_TO" Type="System.String" DbType="VarChar(101)" CanBeNull="true" />
+      <Column Name="CHECK_REQ_TO" Type="System.String" DbType="VarChar(101)" CanBeNull="true" />
+      <Column Name="APPROVED_BY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BOOKED_BY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FLIGHT_SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_OF_DEPARTURE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="DATE_OF_ARRIVAL" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SEATS_TO_BE_BLOCKED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CHECK_REQ_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CHECK_COMMENTS" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="SEATS_TO_BLOCK" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TIME_LIMIT" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="BOOKING_REQ_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TOTAL_AMOUNT" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="TAX" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="GST" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="TOTAL_SEATS_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOTAL_ADULTS_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOTAL_CHILD_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOTAL_INFANT_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AVAILABLE_SEATS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FLIGHT_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FLIGHT_NO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DEP_TIME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ARRIVAL_TIME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AIRLINE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CLASS_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BOOKING_STATUS_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_TOUR_HOTEL_DETAIL" Member="VIEW_TOUR_HOTEL_DETAILs">
+    <Type Name="VIEW_TOUR_HOTEL_DETAIL">
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FROM_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TO_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ROOM_TYPE_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="COUNTRY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NO_OF_ROOMS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AMOUNT" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="FINAL_AMOUNT" Type="System.Decimal" DbType="Decimal(14,2)" CanBeNull="true" />
+      <Column Name="GST" Type="System.Decimal" DbType="Decimal(14,2)" CanBeNull="true" />
+      <Column Name="REMARKS" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="TAX" Type="System.Decimal" DbType="Decimal(14,2)" CanBeNull="true" />
+      <Column Name="TOTAL_AMOUNT" Type="System.Decimal" DbType="Decimal(14,2)" CanBeNull="true" />
+      <Column Name="HOTEL_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BOOKING_REQUEST_TO" Type="System.String" DbType="VarChar(101)" CanBeNull="true" />
+      <Column Name="HOTEL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CURRENCY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ROOM_TO_BE_BLOCKED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CHECK_REQUEST_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CHECK_COMMENTS" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="TOTAL_ROOM_BLOCKED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TIME_LIMIT" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CHECK_REQUEST_TO" Type="System.String" DbType="VarChar(101)" CanBeNull="true" />
+      <Column Name="APPROVED_BY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BOOKED_BY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BOOKING_STATUS" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="BOOKING_REQUEST_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TOTAL_ROOM_ALLOTEED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PARTIAL_ROOM_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOTAL_ADULT_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOTAL_CWB_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOTAL_CNB_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOTAL_INFANT_ALLOTED" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AVALIBLE_ROOM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

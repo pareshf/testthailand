@@ -1,0 +1,75 @@
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Model\bin\Debug\CRM.Model.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Model\bin\Debug\CRM.Model.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Model\obj\Debug\CRM.Model.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.Model\obj\Debug\CRM.Model.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Model\bin\Debug\CRM.Model.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Model\bin\Debug\CRM.Model.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Model\obj\Debug\CRM.Model.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.Model\obj\Debug\CRM.Model.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Model\bin\Debug\CRM.Model.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Model\bin\Debug\CRM.Model.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Model\obj\Debug\CRM.Model.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.Model\obj\Debug\CRM.Model.pdb
+D:\Thailand_CRM\THAILAND_CRM\CRM.Model\bin\Debug\CRM.Model.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.Model\bin\Debug\CRM.Model.pdb
+D:\Thailand_CRM\THAILAND_CRM\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\Thailand_CRM\THAILAND_CRM\CRM.Model\obj\Debug\CRM.Model.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.Model\obj\Debug\CRM.Model.pdb
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Model\bin\Debug\CRM.Model.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Model\bin\Debug\CRM.Model.pdb
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Model\obj\Debug\CRM.Model.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.Model\obj\Debug\CRM.Model.pdb
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Model\bin\Debug\CRM.Model.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Model\bin\Debug\CRM.Model.pdb
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Model\obj\Debug\CRM.Model.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.Model\obj\Debug\CRM.Model.pdb
+F:\THAILAND_CRM_PUBLISH\CRM.Model\bin\Debug\CRM.Model.dll
+F:\THAILAND_CRM_PUBLISH\CRM.Model\bin\Debug\CRM.Model.pdb
+F:\THAILAND_CRM_PUBLISH\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\THAILAND_CRM_PUBLISH\CRM.Model\obj\Debug\CRM.Model.dll
+F:\THAILAND_CRM_PUBLISH\CRM.Model\obj\Debug\CRM.Model.pdb
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Model\bin\Debug\CRM.Model.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Model\bin\Debug\CRM.Model.pdb
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Model\obj\Debug\CRM.Model.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.Model\obj\Debug\CRM.Model.pdb
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Model\bin\Debug\CRM.Model.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Model\bin\Debug\CRM.Model.pdb
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Model\obj\Debug\CRM.Model.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.Model\obj\Debug\CRM.Model.pdb
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Model\bin\Debug\CRM.Model.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Model\bin\Debug\CRM.Model.pdb
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\CRM.Model.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\CRM.Model.pdb
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Model\bin\Debug\CRM.Model.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Model\bin\Debug\CRM.Model.pdb
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\CRM.Model.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\CRM.Model.pdb
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Model\bin\Debug\CRM.Model.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Model\bin\Debug\CRM.Model.pdb
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\CRM.Model.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\CRM.Model.pdb
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Model\bin\Debug\CRM.Model.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Model\bin\Debug\CRM.Model.pdb
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\CRM.Model.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\CRM.Model.pdb
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Model\bin\Debug\CRM.Model.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Model\bin\Debug\CRM.Model.pdb
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\CRM.Model.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\CRM.Model.pdb
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Model\bin\Debug\CRM.Model.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Model\bin\Debug\CRM.Model.pdb
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\CRM.Model.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\CRM.Model.pdb
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.Model\obj\Debug\CRM.Model.csprojResolveAssemblyReference.cache

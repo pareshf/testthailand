@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="TransferPackageDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=serverai;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_TRANSFER_PACKAGE_PRICE_DETAIL" Member="VIEW_TRANSFER_PACKAGE_PRICE_DETAILs">
+    <Type Name="VIEW_TRANSFER_PACKAGE_PRICE_DETAIL">
+      <Column Name="TRANSFER_PACKAGE_PRICE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TRANSFER_PACKAGE_DETAIL_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SIC_PVT_FLAG" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="START_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="START_TIME" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TRANSFER_PACKAGE_DETAIL_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ARRIVAL_DEPARTURE" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_TRANSFER_PACKAGE_DETAIL" Member="VIEW_TRANSFER_PACKAGE_DETAILs">
+    <Type Name="VIEW_TRANSFER_PACKAGE_DETAIL">
+      <Column Name="TRANSFER_PACKAGE_PRICE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TRANSFER_PACKAGE_FROM_TO_DETAIL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FLAG" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="FROM_PLACE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TO_PLACE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SIGHT_SEEING_PACKAGE_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ADULT_SIC_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="CHILD_SIC_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="ADULT_PVT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="CHILD_PVT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="SICRATE_PER_PERSON" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="PVTRATE_PER_PERSON" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_TRANSFER_PACKAGE_PRICE_LIST" Member="VIEW_TRANSFER_PACKAGE_PRICE_LISTs">
+    <Type Name="VIEW_TRANSFER_PACKAGE_PRICE_LIST">
+      <Column Name="TRANSFER_PACKAGE_PRICE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FROM_PLACE" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="TO_PLACE" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="FROM_TIME" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TO_TIME" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="COACH_CAR_FLAG" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GIT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="FIT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="FIT_DISCOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="GIT_DISCOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="MARGIN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EFFECTIVE_FROM_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="EFFECTIVE_TO_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SIC_PVT_FLAG" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CURRENCY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PAYMENT_TERMS" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PRICE_LIST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GIT_MARGIN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="GIT_MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="CUSTOMER_NAME" Type="System.String" DbType="VarChar(306)" CanBeNull="true" />
+      <Column Name="START_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="END_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CHILD_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="ADULT_RATE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="FIT_PACKAGE_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="SUPPLIER_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="STATUS" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TO_ISSUE_SERVICE_VOUCHER" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="A_MARGIN_IN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_PLUS_MARGIN_IN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_PLUS_PLUS_MARGIN_IN_AMOUNT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_PLUS_MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="A_PLUS_PLUS_MARGIN_AMOUNT_IN_PERCENTAGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="VisaTypeMaster">
+  <DataContextMoniker Name="/VisaTypeMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4f09d425-19ac-44dd-a56a-fd616e1238d7" absoluteBounds="3.375, 2.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/VisaTypeMasterDataContext/VIEW_COMMON_VISA_TYPE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="04aaa2a0-6d11-4d05-811c-63a3f90d1b57" absoluteBounds="3.3899999999999997, 3.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

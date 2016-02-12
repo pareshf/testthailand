@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CruisePriceSupplier">
+  <DataContextMoniker Name="/CruisePriceSupplierDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4dfb0e95-108e-434a-a4e0-f7472c13e590" absoluteBounds="6.375, 2.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CruisePriceSupplierDataContext/VIEW_SUPPLIER_CRUISE_CABINE_INVENTORY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e09a2523-b21c-403f-a16e-b0c232bcccd1" absoluteBounds="6.3900000000000006, 2.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="01b80281-0778-4912-a20d-0f56d403be77" absoluteBounds="2.625, 0.875, 2, 7.3476383463541657">
+      <DataClassMoniker Name="/CruisePriceSupplierDataContext/VIEW_SUPPLIER_CRUISE_PRICE_LIST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c1611f6-0f1c-42b9-8e47-36e6e5fa6caf" absoluteBounds="2.6399999999999997, 1.335, 1.9700000000000002, 6.7876383463541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="GroupDisplayMaster">
+  <DataContextMoniker Name="/GroupDisplayMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b6c46192-8db4-4b1f-9815-8bab12832705" absoluteBounds="4.5, 2, 2.75, 1.3862939453125">
+      <DataClassMoniker Name="/GroupDisplayMasterDataContext/VIEW_GROUP_DISPLAY_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="88f92b05-0fe2-447e-8640-018c77a6d2fb" absoluteBounds="4.515, 2.46, 2.7199999999999998, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

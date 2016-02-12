@@ -1,0 +1,67 @@
+.ac_results
+{
+    padding: 0px;
+    border: 1px solid #CCCCCC;
+    background-color: white;
+    overflow: visible;
+    z-index: 999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    
+}
+
+.ac_results ul
+{
+    width:100%;
+    list-style-position: outside;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align:left;
+    padding-left:0px;
+    padding-right:0px;
+   }
+
+.ac_results li
+{
+    margin: 0px;
+    cursor: default;
+    display: block; /*  	if width will be 100% horizontal scrollbar will apear  	when scroll mode will be used 	*/ /*width: 100%;*/
+    font: menu;
+    font-size: 12px; /*  	it is very important, if line-height not setted or setted  	in relative units scroll will be broken in firefox 	*/
+    line-height: 16px;
+    overflow: hidden;
+    width:98.92%;
+    padding-left:3.8px;
+  }
+
+.ac_loading
+{
+    background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd
+{
+    background-color: #FFFFFF;
+}
+
+.ac_over
+{
+    background-color: #CCCCCC;
+    color: #000000;
+    -moz-border-radius: 5px; /*make a border with radial corner working only in mozilla*/
+    -webkit-border-radius: 5px;
+    width:100%;
+}
+.textboxRoundStyle
+{
+    border: 1px solid #ddd;
+    font-size: 14px;
+    padding: 5px;
+    margin: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 300px;
+   }

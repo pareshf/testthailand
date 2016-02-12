@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="FitBookingClosedDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=serverai;Initial Catalog=THAILAND_CRM;User ID=SA" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="THAILAND_CRMConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_FIT_BOOKING_CLOSED" Member="VIEW_FIT_BOOKING_CLOSEDs">
+    <Type Name="VIEW_FIT_BOOKING_CLOSED">
+      <Column Name="FIT_BOOKING_CLOSED_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FIT_PACKAGE_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="FROM_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TO_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_FIT_BOOKING_DAYS" Member="VIEW_FIT_BOOKING_DAYs">
+    <Type Name="VIEW_FIT_BOOKING_DAY">
+      <Column Name="FIT_BOOKING_DAY_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DAY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UP_TO_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

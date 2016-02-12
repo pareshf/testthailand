@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BBAB4A56-F069-41F3-B1F0-4CDF1A98D59F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRM.Model</RootNamespace>
+    <AssemblyName>CRM.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdministrationModel\AgentBDto.cs" />
+    <Compile Include="AdministrationModel\CompanyBDto.cs" />
+    <Compile Include="AdministrationModel\CompanyContactBDto.cs" />
+    <Compile Include="AdministrationModel\CompetitorAgentMasterBDto.cs" />
+    <Compile Include="AdministrationModel\CountryRegionMapBDto.cs" />
+    <Compile Include="AdministrationModel\CurrencyBDto.cs" />
+    <Compile Include="AdministrationModel\GeographicLocationBDto.cs" />
+    <Compile Include="AdministrationModel\LookupBDto.cs" />
+    <Compile Include="AdministrationModel\RoleAccessMappingBDto.cs" />
+    <Compile Include="AdministrationModel\RoleGadgetMappingBDto.cs" />
+    <Compile Include="AdministrationModel\UserMasterBDto.cs" />
+    <Compile Include="Booking\AirlineModel\AirlineMapBDto.cs" />
+    <Compile Include="Booking\AirlineModel\AirLineMasterBDto.cs" />
+    <Compile Include="Booking\AirlineModel\FlightBDto.cs" />
+    <Compile Include="Booking\AirlineModel\FlightGdsBDto.cs" />
+    <Compile Include="Booking\AirlineModel\GdsAirportBDto.cs" />
+    <Compile Include="Booking\Bus\BusBDto.cs" />
+    <Compile Include="Booking\Cruise\CruiseBDto.cs" />
+    <Compile Include="Booking\Hotel\HotelBDto.cs" />
+    <Compile Include="Booking\Ticket\TicketBookingHdr.cs" />
+    <Compile Include="Booking\TourBooking\CheckListBDto.cs" />
+    <Compile Include="Booking\TourBooking\CheckListMasterDetailsBDto.cs" />
+    <Compile Include="Booking\TourBooking\OperationDetailBDto.cs" />
+    <Compile Include="Booking\TourBooking\TicketBookingHdrBDto.cs" />
+    <Compile Include="Booking\TourBooking\TourBookingAdditionalDetailsBDto.cs" />
+    <Compile Include="Booking\TourBooking\TourBookingChecklistBDto.cs" />
+    <Compile Include="Booking\TourBooking\TourBookingDetailsBDto.cs" />
+    <Compile Include="Booking\TourBooking\TourBookingHotelRoomDetailsBDto.cs" />
+    <Compile Include="Booking\TourBooking\TourBookingHrdBDto.cs" />
+    <Compile Include="Booking\TourBooking\TourBookingInquiryHrdBDto.cs" />
+    <Compile Include="Booking\TourBooking\TourBookingPaymentBDto.cs" />
+    <Compile Include="Booking\TourBooking\TourOperationDetailsBDto.cs" />
+    <Compile Include="Booking\TourBooking\TourTicketDetailBDto.cs" />
+    <Compile Include="CustomersModel\CustomerBDto.cs" />
+    <Compile Include="CustomersModel\CustomerEmailTemplateBDto.cs" />
+    <Compile Include="CustomersModel\DocumentBDto.cs" />
+    <Compile Include="CustomersModel\InquiryFollowUpBDto.cs" />
+    <Compile Include="CustomersModel\InquiryBDto.cs" />
+    <Compile Include="CustomersModel\TravelBDto.cs" />
+    <Compile Include="FaresModel\TourModel\TourBDto.cs" />
+    <Compile Include="FaresModel\TourModel\TourHotelBDto.cs" />
+    <Compile Include="FaresModel\TourModel\TourTravelBDto.cs" />
+    <Compile Include="FaresModel\TourModel\TourWebBDto.cs" />
+    <Compile Include="General\AddressBDto.cs" />
+    <Compile Include="General\ContactBDto.cs" />
+    <Compile Include="General\EmailBDto.cs" />
+    <Compile Include="General\GeneralInfoBDto.cs" />
+    <Compile Include="General\PassportBDto.cs" />
+    <Compile Include="HRModel\EmployeeBdto.cs" />
+    <Compile Include="HRModel\EmployeeCompanyMapBDto.cs" />
+    <Compile Include="HRModel\EmployeeContactBDto.cs" />
+    <Compile Include="Inquiry\Gadgets\CustomerInquiryGadgetsBDto.cs" />
+    <Compile Include="Inquiry\InquiryDetailBDto.cs" />
+    <Compile Include="Inquiry\InquiryFollowupBDto.cs" />
+    <Compile Include="Inquiry\InquiryForTicketBDto.cs" />
+    <Compile Include="Inquiry\InquiryForTourBDto.cs" />
+    <Compile Include="Inquiry\InquiryGRDMappingBDto.cs" />
+    <Compile Include="Inquiry\InquiryStatusBDto.cs" />
+    <Compile Include="Inquiry\NewInquiryBDto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\AuthorizationBDto.cs" />
+    <Compile Include="Security\RoleAccessBDto.cs" />
+    <Compile Include="Security\UserProfileBDto.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

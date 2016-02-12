@@ -1,0 +1,572 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CRMMaster.master.cs"
+    Inherits="CRM.WebApp.Views.Shared.CRMMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajax" %>
+<%@ Register Src="~/Views/Shared/Controls/Templates/ProductFooter.ascx" TagName="ProductFooter"
+    TagPrefix="crmUC" %>
+<%@ Register Src="~/Views/Shared/Controls/Templates/ProductHeader.ascx" TagName="ProductHeader"
+    TagPrefix="crmUC" %>
+<%@ Register Src="~/Views/Shared/Controls/Message/FlashMessage.ascx" TagName="FlashMessage"
+    TagPrefix="crmUC" %>
+<%@ Register Src="Controls/Navigation/PanelBarNavigation.ascx" TagName="PanelBarNavigation"
+    TagPrefix="uc1" %>
+<%@ Register Src="Controls/Navigation/CompanyRoleNavigationBox.ascx" TagName="CompanyRoleNavigationBox"
+    TagPrefix="uc2" %>
+<%@ Register Src="~/Views/Shared/Controls/Navigation/PanelBarModule.ascx" TagName="PanelBarModule"
+    TagPrefix="ucModule" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <%= System.Configuration.ConfigurationSettings.AppSettings["PageTitle"].ToString() %>
+    </title>
+    <link href="StyleSheet/CommonStyle.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript">
+        function SelectMeOnly(objRadioButton, grdName) {
+
+            var i, obj, pageElements;
+            if (navigator.userAgent.indexOf("MSIE") != -1) {
+                //IE browser  
+                pageElements = document.all;
+            }
+            else if (navigator.userAgent.indexOf("Mozilla") != -1 || navigator.userAgent.indexOf("Opera") != -1) {
+                //FireFox/Opera browser  
+                pageElements = document.documentElement.getElementsByTagName("input");
+            }
+            for (i = 0; i < pageElements.length; i++) {
+                obj = pageElements[i];
+
+                if (obj.type == "radio") {
+                    //alert(objRadioButton.id);
+                    //alert(obj.id);
+                    //if (objRadioButton.id.substr(0, grdName.length) == grdName)  
+                    //{  
+                    if (objRadioButton.id == obj.id) {
+                        obj.checked = true;
+                    }
+                    else {
+                        obj.checked = false;
+                    }
+                    //}  
+                }
+            }
+        }
+        </script>
+
+        <script language="javascript" type="text/javascript">
+        window.onload = function () {
+            toggleLeftBar(true);
+        }
+
+        var isCtrl = false;
+        document.onkeydown = function () {
+            if (window.event) // IE
+            {
+                e = window.event;
+
+                if (e.keyCode == 17) {
+                    isCtrl = true;
+                }
+
+                if (e.keyCode == 192 && isCtrl == true) // CTRL + ~
+                {
+                    toggleLeftBar(false);
+                }
+            }
+        }
+
+        function Get_Cookie(check_name) {
+            // first we'll split this cookie up into name/value pairs
+            // note: document.cookie only returns name=value, not the other components
+            var a_all_cookies = document.cookie.split(';');
+            var a_temp_cookie = '';
+            var cookie_name = '';
+            var cookie_value = '';
+            var b_cookie_found = false; // set boolean t/f default f
+
+            for (i = 0; i < a_all_cookies.length; i++) {
+                // now we'll split apart each name=value pair
+                a_temp_cookie = a_all_cookies[i].split('=');
+
+
+                // and trim left/right whitespace while we're at it
+                cookie_name = a_temp_cookie[0].replace(/^\s+|\s+$/g, '');
+
+                // if the extracted name matches passed check_name
+                if (cookie_name == check_name) {
+                    b_cookie_found = true;
+                    // we need to handle case where cookie has no value but exists (no = sign, that is):
+                    if (a_temp_cookie.length > 1) {
+                        cookie_value = unescape(a_temp_cookie[1].replace(/^\s+|\s+$/g, ''));
+                    }
+                    // note that in cases where cookie is initialized but no value, null is returned
+                    return cookie_value;
+                    break;
+                }
+                a_temp_cookie = null;
+                cookie_name = '';
+            }
+            if (!b_cookie_found) {
+                return null;
+            }
+        }
+        function HidePopup2() {
+            var MessageBox = document.getElementById('ctl00_ModalPopupParam.ClientID');
+            MessageBox.hide();
+
+        }
+
+        function Set_Cookie(name, value, expires, path, domain, secure) {
+            // set time, it's in milliseconds
+            var today = new Date();
+            today.setTime(today.getTime());
+            // if the expires variable is set, make the correct expires time, the
+            // current script below will set it for x number of days, to make it
+            // for hours, delete * 24, for minutes, delete * 60 * 24
+            if (expires) {
+                expires = expires * 1000 * 60 * 60 * 24;
+            }
+            //alert( 'today ' + today.toGMTString() );// this is for testing purpose only
+            var expires_date = new Date(today.getTime() + (expires));
+            //alert('expires ' + expires_date.toGMTString());// this is for testing purposes only
+
+            document.cookie = name + "=" + escape(value) +
+		((expires) ? ";expires=" + expires_date.toGMTString() : "") + //expires.toGMTString()
+		((path) ? ";path=" + path : "") +
+		((domain) ? ";domain=" + domain : "") +
+		((secure) ? ";secure" : "");
+        }
+
+        // this deletes the cookie when called
+        function Delete_Cookie(name, path, domain) {
+            if (Get_Cookie(name)) document.cookie = name + "=" +
+			((path) ? ";path=" + path : "") +
+			((domain) ? ";domain=" + domain : "") +
+			";expires=Thu, 01-Jan-1970 00:00:01 GMT";
+        }
+
+
+        function toggleLeftBar(asynPB) {
+            if (document.getElementById('ctl00_tdPanelBarNavigation') == null)
+                return;
+            if (document.getElementById('ctl00_tdToggle') == null)
+                return;
+
+            if (Get_Cookie('LeftBarPnlState')) {
+                if (Get_Cookie('LeftBarPnlState') == "block") {
+                    if (asynPB) {
+                        document.getElementById('ctl00_tdPanelBarNavigation').style.display = 'block';
+                        Set_Cookie('LeftBarPnlState', 'block', '', '/', '', '');
+                        document.getElementById('ctl00_tdToggle').className = 'togglecollapse';
+                    }
+                    else {
+                        document.getElementById('ctl00_tdPanelBarNavigation').style.display = 'none';
+                        Set_Cookie('LeftBarPnlState', 'none', '', '/', '', '');
+                        document.getElementById('ctl00_tdToggle').className = 'toggleexpand';
+                    }
+                }
+                else if (Get_Cookie('LeftBarPnlState') == "none") {
+                    if (asynPB) {
+                        document.getElementById('ctl00_tdPanelBarNavigation').style.display = 'none';
+                        Set_Cookie('LeftBarPnlState', 'none', '', '/', '', '');
+                        document.getElementById('ctl00_tdToggle').className = 'toggleexpand';
+                    }
+                    else {
+                        document.getElementById('ctl00_tdPanelBarNavigation').style.display = 'block';
+                        Set_Cookie('LeftBarPnlState', 'block', '', '/', '', '');
+                        document.getElementById('ctl00_tdToggle').className = 'togglecollapse';
+                    }
+                }
+            }
+        }
+
+        //initially set cookie to 'block' on page load
+        if (!Get_Cookie('LeftBarPnlState')) {
+            Set_Cookie('LeftBarPnlState', 'block', '', '/', '', '');
+        }
+        //Delete_Cookie('test', '/', '');
+        //(Get_Cookie('test')) ? alert(Get_Cookie('test')) :
+        //alert('it is gone');
+    </script>
+    <asp:ContentPlaceHolder ID="cphIncludes" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmCRMMaster" runat="server">
+    <asp:ScriptManager ID="ScriptManagerCRMMaster" runat="server">
+        <Services>
+            <asp:ServiceReference Path="~/webservice/EmployeeWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/TourMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/AutoComplete.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/MyTaskMasterWebService.asmx" InlineScript="true" />
+            <%--Hardik--%>
+            <asp:ServiceReference Path="~/webservice/RoleMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/ProgramMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/BookingMaster.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/BookingFormStep1.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/BookingFormStep2.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SiteMasterWebservice.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/AddressTypeMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CustomerCodeWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/DesignationMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/MaritalStatusMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/DepartmentMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/ProductMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CompanyMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/BankMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/AgentMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/ProfessionMasterWebService.asmx" InlineScript="true" />
+            <%--Hardik--%>
+            <asp:ServiceReference Path="~/webservice/AgentMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/AddressTypeMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CustomerMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/MealMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/RoomTypeMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CustomerTypeWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/HotelRoomAllocationWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/VisaTypeWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/GeographicLocationWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/ForeignCurrencyAgentWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/VisaQuoteWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/HotelMaster.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CruiseMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CustomerInquiriesReport.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CustomerNextTravelPlanWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CustomerMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CustomerNextTravelPlanWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/TourBookingCheckList.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/MoneyTransferAgent.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CustomerBookingPaymentWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/BookingForeignWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CruiseRoomAllocationWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CustomerMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CustomerNextTravelPlanWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/TourBookingCheckList.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/MoneyTransferAgent.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CustomerBookingPaymentWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/BookingForeignWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CampaignMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/MarketingMaterialWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/TargetListMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CompaignStatusWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/MarketingCustomerWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/InquiryMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/TargetListTypeWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/RegionMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CompititorAgentWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SystemRoleMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/UserProfileWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SupplierMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/FareHotelRoomTypeWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SupplierHotelPriceListWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SupplierRestaurantPriceListWebService.asmx"
+                InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SupplierCarPriceListWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SupplierHotelPriceListWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CommonMealMasterWebservice.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/FareCruiseCarbinCategoryMaster.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SupplierHotelServiceTypeMasterWebservice.asmx"
+                InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SupplierCruisePriceWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SupplierGuidePriceListWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CoachMasterWeb.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CarMaster.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/TransferPackageWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SiteSeeingPriceListWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SupplierCoachPriceListWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SupplierFacilityMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/FitPackageWebService.asmx" InlineScript="true" />
+            <%--<asp:ServiceReference Path="~/webservice/SupplierLandmark.asmx" InlineScript="true" />--%>
+            <asp:ServiceReference Path="~/webservice/ConversionRateMaster.asmx" InlineScript="true" />
+            <%-- <asp:ServiceReference Path ="~/webservice/SupplierTypeMaster.asmx" InlineScript ="true" />--%>
+            <asp:ServiceReference Path="~/webservice/AgentCommisionMaster.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SupplierMarginMaster.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/AccountsGroupWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/ChartsofAccountsWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/PaymentMode.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SupplierBankAccountWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CompanyBankAccountWebservice.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CompanyBankAgnetMappingWebservice.asmx"
+                InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/PaymentTermsMaster.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/BookingCurrencyMaster.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/BalanceTypeMaster.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/GroupType.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/GroupDisplayMaster.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SideCodeMaster.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/CompanyWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/NewsWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/SpecialOfferWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/FitBookingClosedWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/FromMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/EventMasterWebService.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/EmailConfigMaster.asmx" InlineScript="true" />
+            <asp:ServiceReference Path="~/webservice/HotelDashboardMaster.asmx" InlineScript="true" />
+        </Services>
+    </asp:ScriptManager>
+    <script type="text/javascript">
+        if ("undefined" != typeof Telerik) {
+            if (Telerik.Web.UI.RadComboBox) {
+                Telerik.Web.UI.RadComboBox.prototype._removeDropDown = function () {
+                    var slide = this.get_dropDownElement().parentNode;
+                    slide.parentNode.removeChild(slide);
+
+                    //                     if (this._disposeChildElements)
+                    //                         $telerik.disposeElement(slide);
+
+                    if (!$telerik.isSafari)
+                        slide.outerHTML = null;
+                    this._dropDownElement = null;
+                };
+            }
+        }
+    </script>
+    <script type="text/javascript" language="javascript">
+
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+
+        function EndRequestHandler(sender, args) {
+            if (args.get_error() != undefined) {
+                args.set_errorHandled(true);
+            }
+        }
+
+    </script>
+    <%--  <script type="text/javascript">
+     
+        function EndRequestHandler(sender, args) {
+            if (args.get_error() == undefined)
+                toggleLeftBar(true);
+            else
+                alert("There was an error " + args.get_error().message);
+        }
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+    </script>--%>
+    <%-- <div id="infoBox_Loading" align="center" style="z-index: 100; left: 50%; position: absolute;
+        top: 30%">
+        <asp:UpdateProgress ID="UpdateProgress1" runat="server" DisplayAfter="0">
+            <ProgressTemplate>
+                <div class="TransparentGrayBackground">
+                </div>
+                <div class="Sample6PageUpdateProgress">
+                    <asp:Image ID="ajaxLoadNotificationImage" runat="server" ImageUrl="~/Views/Shared/Images/indicator.gif"
+                        AlternateText="" />
+                    &nbsp;Loading...
+                </div>
+            </ProgressTemplate>
+        </asp:UpdateProgress>
+    </div>--%>
+    <table border="0" width="100%" align="center" cellpadding="0" cellspacing="0" id="tblMainContentHolder">
+        <tr>
+            <td width="15%" align="left">
+                <asp:HyperLink ID="hyperlink1" ImageUrl="~/Views/Shared/Images/logo4.jpg" NavigateUrl="~/Views/Workplace/Dashboard.aspx"
+                    runat="server" ImageAlign="Top" />
+                <%--<asp:Image ID="imgLogo" runat="server" Height="50px" Width="148px" ImageAlign="Top"
+                    ImageUrl="~/Views/Shared/Images/logo4.jpg" />--%>
+            </td>
+            <td width="20%" align="center">
+                <asp:UpdatePanel ID="upFlash" runat="server" UpdateMode="Always">
+                    <ContentTemplate>
+                        <crmUC:FlashMessage ID="flashControl" runat="server" />
+                        &nbsp;
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+            </td>
+            <td width="65%" style="padding-right: 10px; padding-top: 5px;" align="right" valign="top">
+                <asp:UpdatePanel ID="upUserHeading" runat="server" UpdateMode="Always">
+                    <ContentTemplate>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <asp:Label ID="lblWelcome" runat="server"></asp:Label>
+                                </td>
+                                <td>
+                                    &nbsp;|&nbsp;
+                                </td>
+                                <%-- <td>
+                                    <%-- <a href="~/Views/Customers/MyProfile.aspx" style="text-decoration:underline; color: #000000;" onmouseover="this.style" >My Profile</a>--%>
+                                <%--<asp:LinkButton ID="lnkBtnMyProfile" PostBackUrl="~/Views/Settings/UserProfile.aspx"
+                                        runat="server" Font-Names="Arial" Font-Underline="False" Style="color: #000000;"
+                                        onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';"
+                                        Font-Size="Small" OnClick="lnkBtnMyProfile_Click">My Profile</asp:LinkButton>
+                                </td>--%>
+                                <%--<td>
+                                    &nbsp;|&nbsp;
+                                </td>--%>
+                                <td>
+                                    <asp:LinkButton ID="lnkBtnSignOut" runat="server" OnClick="lnkBtnSignOut_Click" Style="color: #000000;"
+                                        Font-Underline="False" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">Sign Out</asp:LinkButton>
+                                </td>
+                                <td>
+                                    &nbsp;|&nbsp;
+                                </td>
+                                <td>
+                                    <asp:HyperLink ID="lnkTraining" CssClass="lnk" runat="server" NavigateUrl="~/Views/Settings/UserManual.aspx"
+                                        Text="User Manual" Font-Underline="False" Font-Size="Small" Style="color: #000000;"
+                                        onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';"></asp:HyperLink>
+                                </td>
+                                <td>
+                                    &nbsp;|&nbsp;
+                                </td>
+                                <td>
+                                    <asp:HyperLink ID="lnkSiteSeeing" CssClass="lnk" runat="server" NavigateUrl="~/Views/Settings/SightSeeingManual.aspx"
+                                        Text="Sight Seeing Manual" Font-Underline="False" Font-Size="Small" Style="color: #000000;"
+                                        onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';"></asp:HyperLink>
+                                </td>
+                            </tr>
+                        </table>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+            </td>
+        </tr>
+        <tr>
+            <td class="topmenu" colspan="3">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <ucModule:PanelBarModule ID="ucPanelBarModule" runat="server" OnItemClick="ucPanelBarModule_OnOnItemClick" />
+                        </td>
+                        <td align="right">
+                            <asp:LinkButton ID="lnkBtnChangePreference" runat="server" ForeColor="White" Font-Size="13px"
+                                Font-Bold="true" ToolTip="Change Company" Font-Underline="False" onmouseover="this.style.textDecoration='underline';"
+                                onmouseout="this.style.textDecoration='none';"></asp:LinkButton>
+                            &nbsp;
+                            <ajax:ModalPopupExtender ID="PopEx_lnkBtnChangePreference" runat="server" BackgroundCssClass="modalPopupBackground"
+                                PopupControlID="pnlCompanyRoleSelection" TargetControlID="lnkBtnChangePreference"
+                                Drag="true" PopupDragHandleControlID="pnlCompanyRoleSelectionHeader" CancelControlID="ibgbtnClose1">
+                            </ajax:ModalPopupExtender>
+                            <asp:Panel ID="pnlCompanyRoleSelection" runat="server" Style="display: none" CssClass="modalPopup"
+                                Width="500px">
+                                <fieldset style="background-color: White">
+                                    <asp:Panel ID="pnlCompanyRoleSelectionHeader" runat="server" CssClass="panelhead">
+                                        <table style="width: 100%">
+                                            <tr>
+                                                <td>
+                                                    <asp:Label ID="lblTitleAlert" runat="server" Text="Change Preference" ForeColor="#FEFEFE"
+                                                        Font-Size="15px"></asp:Label>
+                                                </td>
+                                                <td style="width: 17px;" align="center" valign="middle">
+                                                    <asp:ImageButton ID="ibgbtnClose1" runat="server" ImageUrl="~/Views/Shared/Images/close.png"
+                                                        ImageAlign="AbsMiddle" Style="cursor: pointer;" ToolTip="Close" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </asp:Panel>
+                                    <table style="width: 100%">
+                                        <tr>
+                                            <td align="center" valign="middle">
+                                                <asp:GridView ID="grdCompanyRoleasp" runat="server" Width="100%" Font-Size="8pt"
+                                                    HeaderStyle-BackColor="#c2c2c2" HeaderStyle-ForeColor="White" AutoGenerateColumns="false"
+                                                    Font-Names="Verdana">
+                                                    <RowStyle BorderColor="#FFF" BorderWidth="0px" />
+                                                    <Columns>
+                                                        <asp:TemplateField>
+                                                            <ItemTemplate>
+                                                                <asp:RadioButton ID="rbCompanyRole" runat="server" GroupName="rbGrprbCompanyRole" />
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="Company Name">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="lblcmpname" runat="server" Text='<%#Bind("COMPANY_NAME") %>'></asp:Label>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="Type">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="lbliscmpnyfrienchy" runat="server" Text='<%#Bind("IS_COMPANY_FRANCHISE") %>'></asp:Label>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="Department">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="lbldeptname" runat="server" Text='<%#Bind("DEPARTMENT_NAME") %>'></asp:Label>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="Role">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="lblrolename" runat="server" Text='<%#Bind("ROLE_NAME") %>'></asp:Label>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="" Visible="false">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="lblcmpid" runat="server" Text='<%#Bind("COMPANY_ID") %>'></asp:Label>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="" Visible="false">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="lblroleid" runat="server" Text='<%#Bind("ROLE_ID") %>'></asp:Label>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                        <asp:TemplateField HeaderText="" Visible="false">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="lbldeptid" runat="server" Text='<%#Bind("DEPARTMENT_ID") %>'></asp:Label>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>
+                                                    </Columns>
+                                                </asp:GridView>
+                                                <table width="100%">
+                                                    <tr>
+                                                        <td align="left">
+                                                            <asp:Label ID="lblFooter" runat="server" Text="With selected"></asp:Label>&nbsp;
+                                                            <asp:Button ID="btnLoad" runat="server" Text="Load" OnClick="btnLoad_Click" />
+                                                            <asp:Button ID="btnLoadAndSetAsDefault" runat="server" Text="Load & Set as Default"
+                                                                OnClick="btnLoadAndSetAsDefault_Click" />
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </fieldset>
+                            </asp:Panel>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr style="height: 10px; background-color: #EEF1F6" align="center">
+            <td colspan="3">
+            </td>
+        </tr>
+        <tr style="background-color: #EEF1F6" valign="top">
+            <td valign="top" style="padding: 0px 5px 0px 5px" colspan="3">
+                <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional" ChildrenAsTriggers="false">
+                    <ContentTemplate>
+                        <!--sudahro.... -->
+                        <table border="0" cellpadding="0" cellspacing="0" runat="server" id="tblPanelBarNavigation">
+                            <tr>
+                                <td runat="server" id="tdPanelBarNavigation" valign="top">
+                                    <asp:UpdatePanel ID="updMenu" runat="server" UpdateMode="Conditional">
+                                        <ContentTemplate>
+                                            <uc1:PanelBarNavigation ID="pnlLeftMenu" runat="server" />
+                                        </ContentTemplate>
+                                    </asp:UpdatePanel>
+                                </td>
+                                <td style="width: 20px; padding: 5px;" id="tdToggle" onclick="toggleLeftBar(false)"
+                                    title="Click to toggle (CTRL + ~)">
+                                    &nbsp;
+                                </td>
+                                <%--sachin--%>
+                                <td valign="top" id="tdMainContent" align="left" style="width: 100%;">
+                                    <div runat="server" style="width: 100%; background-color: #fff;">
+                                        <asp:ContentPlaceHolder ID="cphPageContent" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+            </td>
+        </tr>
+        <tr style="background-color: #EEF1F6">
+            <td style="height: 10px" colspan="3">
+            </td>
+        </tr>
+        <tr style="background-color: #EEF1F6">
+            <td valign="bottom" colspan="3">
+                <crmUC:ProductFooter ID="ProductFooter1" runat="server" />
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

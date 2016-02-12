@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="AgentCommissionMasterDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.1.13;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_AGENT_COMMISION_MASTER" Member="VIEW_AGENT_COMMISION_MASTERs">
+    <Type Name="VIEW_AGENT_COMMISION_MASTER">
+      <Column Name="AGENT_COMMISION_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PRODUCT_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COMMISION_PERCENTAGE_LIMIT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="PRODUCT_DESC" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AGENT_NAME" Type="System.String" DbType="VarChar(306)" CanBeNull="true" />
+      <Column Name="PRODUCT_TYPE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

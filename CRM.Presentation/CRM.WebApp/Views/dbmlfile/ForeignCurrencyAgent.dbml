@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FULL_CRM_ASHISH" Class="ForeignCurrencyAgentDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SERVER;Initial Catalog=FULL_CRM_ASHISH;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_FOREIGN_CURRENCY_AGENT_MASTER" Member="VIEW_FOREIGN_CURRENCY_AGENT_MASTERs">
+    <Type Name="VIEW_FOREIGN_CURRENCY_AGENT_MASTER">
+      <Column Name="FOREIGN_CURRENCY_AGENT_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FOREIGN_CURRENCY_AGENT_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMAIL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PHONE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="MOBILE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="FAX" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_MODIFIED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

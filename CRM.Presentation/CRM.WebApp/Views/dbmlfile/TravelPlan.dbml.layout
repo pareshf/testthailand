@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="TravelPlan">
+  <DataContextMoniker Name="/TravelPlanDataContext" />
+  <nestedChildShapes>
+    <classShape Id="da16f387-3643-4709-a34e-6eb591e00b8f" absoluteBounds="0.5, 0.5, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/TravelPlanDataContext/VIEW_FOR_CUSTOMER_NEXT_TRAVEL_PLAN_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9632bd6f-51b5-4a1f-ae75-70dbfeb9b0b0" absoluteBounds="0.51499999999999968, 0.96, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2f14f0c6-579e-488f-b4a8-f85109d8d01d" absoluteBounds="3.375, 4.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/TravelPlanDataContext/VIEW_CUSTOMER_VISA_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="17d45c35-a9a9-4378-896e-0e3372d546fc" absoluteBounds="3.3899999999999997, 4.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3c68e8c4-2150-4779-9f60-d5af5da8a481" absoluteBounds="2.625, 0.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/TravelPlanDataContext/VIEW_CUSTOMER_TRAVEL_HISTORY_WITH_US" />
+      <nestedChildShapes>
+        <elementListCompartment Id="be8cf6f5-6e2c-45d6-8e2a-e310ec381b49" absoluteBounds="2.6399999999999997, 1.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fe96c736-5901-44b7-b8f7-b116623e0da8" absoluteBounds="4.75, 0.75, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/TravelPlanDataContext/VIEW_AIRLINE_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9d0cf0df-d794-4ed8-a062-d00dd43ab329" absoluteBounds="4.765, 1.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a988aa72-44f0-41a1-83da-8a81952d103f" absoluteBounds="7, 0.75, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/TravelPlanDataContext/VIEW_CUSTOMER_TRAVEL_WITH_OTHER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="638ed126-89ae-47bb-9dc8-bf6ff3192487" absoluteBounds="7.015, 1.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

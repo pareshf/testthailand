@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="CRM">
+      <rd:DataSourceID>2a8a6abe-96dd-4cf0-a65d-9c675b70786f</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+    <DataSource Name="CRM">
+      <rd:DataSourceID>c9f99775-2c7a-4bd7-a5ef-2dd1ea08b476</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+ <RightMargin>0.1in</RightMargin>
+  <LeftMargin>0.1in</LeftMargin>
+  <BottomMargin>0.1in</BottomMargin>
+  <rd:ReportID>430e7587-48a1-409e-8973-0f7617db3539</rd:ReportID>
+  <DataSets>
+    <DataSet Name="CRMDataSet_REPORT_SUBREPORT_DATA">
+      <Fields>
+        <Field Name="No">
+          <DataField>No</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_NAME">
+          <DataField>CUST_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_SURNAME">
+          <DataField>CUST_SURNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TITLE_DESC">
+          <DataField>TITLE_DESC</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="CUST_COMPANY_NAME">
+          <DataField>CUST_COMPANY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CREATED_BY">
+          <DataField>CREATED_BY</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="CUST_BIRTH_DATE">
+          <DataField>CUST_BIRTH_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CUST_REL_GENDER">
+          <DataField>CUST_REL_GENDER</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_REL_MARRIAGE_DATE">
+          <DataField>CUST_REL_MARRIAGE_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CUST_REL_EMAIL">
+          <DataField>CUST_REL_EMAIL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_REL_MOBILE">
+          <DataField>CUST_REL_MOBILE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_REL_PHONE">
+          <DataField>CUST_REL_PHONE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_REL_ANNUAL_INCOME">
+          <DataField>CUST_REL_ANNUAL_INCOME</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CUST_REL_PASSPORT_NO">
+          <DataField>CUST_REL_PASSPORT_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_REL_PASSPORT_ISSUE_DATE">
+          <DataField>CUST_REL_PASSPORT_ISSUE_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CUST_REL_PASSPORT_ISSUE_PLACE">
+          <DataField>CUST_REL_PASSPORT_ISSUE_PLACE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_REL_PASSPORT_EXPIRY_DATE">
+          <DataField>CUST_REL_PASSPORT_EXPIRY_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CUST_REL_PASSPORT_PRINTED_NAME">
+          <DataField>CUST_REL_PASSPORT_PRINTED_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_REL_PASSPORT_ISSUE_COUNTRY">
+          <DataField>CUST_REL_PASSPORT_ISSUE_COUNTRY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="STATE_NAME">
+          <DataField>STATE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CITY_NAME">
+          <DataField>CITY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="COUNTRY_NAME">
+          <DataField>COUNTRY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_ID">
+          <DataField>CUST_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="VISA_EXPIRY_DATE">
+          <DataField>VISA_EXPIRY_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CUST_TYPE_NAME">
+          <DataField>CUST_TYPE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="RELIGION_NAME">
+          <DataField>RELIGION_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PROFESSION_DESC">
+          <DataField>PROFESSION_DESC</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EMP_NAME">
+          <DataField>EMP_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EMP_SURNAME">
+          <DataField>EMP_SURNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="COMPANY_NAME">
+          <DataField>COMPANY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_UNQ_ID">
+          <DataField>CUST_UNQ_ID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_CODE_NAME">
+          <DataField>CUST_CODE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_COMPANY_NAME">
+          <DataField>REL_COMPANY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_BITRH_DATE">
+          <DataField>REL_BITRH_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CUST_GENDER">
+          <DataField>CUST_GENDER</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_GENDER">
+          <DataField>REL_GENDER</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_MARRIAGE_DATE">
+          <DataField>CUST_MARRIAGE_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="REL_MARRIAGE_DATE">
+          <DataField>REL_MARRIAGE_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CUST_EMAIL">
+          <DataField>CUST_EMAIL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_EMAIL">
+          <DataField>REL_EMAIL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_MOBILE">
+          <DataField>CUST_MOBILE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_MOBILE">
+          <DataField>REL_MOBILE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_PHONE">
+          <DataField>CUST_PHONE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_PHONE">
+          <DataField>REL_PHONE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_ANNUAL_INCOME">
+          <DataField>CUST_ANNUAL_INCOME</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="REL_ANNUAL_INCOME">
+          <DataField>REL_ANNUAL_INCOME</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CUST_PASSPORT_NO">
+          <DataField>CUST_PASSPORT_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_PASSPORT_NO">
+          <DataField>REL_PASSPORT_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_PASSPORT_ISSUE_DATE">
+          <DataField>CUST_PASSPORT_ISSUE_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="REL_PASSPORT_ISSUE_DATE">
+          <DataField>REL_PASSPORT_ISSUE_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CUST_PASSPORT_ISSUE_PLACE">
+          <DataField>CUST_PASSPORT_ISSUE_PLACE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_PASSPORT_ISSUE_PLACE">
+          <DataField>REL_PASSPORT_ISSUE_PLACE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_PASSPORT_EXPIRY_DATE">
+          <DataField>CUST_PASSPORT_EXPIRY_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="REL_PASSPORT_EXPIRY_DATE">
+          <DataField>REL_PASSPORT_EXPIRY_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CUST_PASSPORT_PRINTED_NAME">
+          <DataField>CUST_PASSPORT_PRINTED_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_PASSPORT_PRINTED_NAME">
+          <DataField>REL_PASSPORT_PRINTED_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_PASSPORT_ISSUE_COUNTRY">
+          <DataField>CUST_PASSPORT_ISSUE_COUNTRY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_PASSPORT_ISSUE_COUNTRY">
+          <DataField>REL_PASSPORT_ISSUE_COUNTRY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_STATE_NAME">
+          <DataField>CUST_STATE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_STATE_NAME">
+          <DataField>REL_STATE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_CITY_NAME">
+          <DataField>CUST_CITY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_CITY_NAME">
+          <DataField>REL_CITY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_COUNTRY_NAME">
+          <DataField>CUST_COUNTRY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_COUNTRY_NAME">
+          <DataField>REL_COUNTRY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_VISA_EXPIRY_DATE">
+          <DataField>CUST_VISA_EXPIRY_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="REL_VISA_EXPIRY_DATE">
+          <DataField>REL_VISA_EXPIRY_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CUST_CUST_TYPE_NAME">
+          <DataField>CUST_CUST_TYPE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_CUST_TYPE_NAME">
+          <DataField>REL_CUST_TYPE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_RELIGION_NAME">
+          <DataField>CUST_RELIGION_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_RELIGION_NAME">
+          <DataField>REL_RELIGION_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_PROFESSION_DESC">
+          <DataField>CUST_PROFESSION_DESC</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_PROFESSION_DESC">
+          <DataField>REL_PROFESSION_DESC</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_EMP_NAME">
+          <DataField>CUST_EMP_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_EMP_NAME">
+          <DataField>REL_EMP_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_EMP_SURNAME">
+          <DataField>CUST_EMP_SURNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_EMP_SURNAME">
+          <DataField>REL_EMP_SURNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_CODE_NAME">
+          <DataField>REL_CODE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_REMARKS">
+          <DataField>CUST_REMARKS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_REMARKS">
+          <DataField>REL_REMARKS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_TITLE">
+          <DataField>CUST_TITLE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_TITLE">
+          <DataField>REL_TITLE</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="REL_SURNAME">
+          <DataField>REL_SURNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_NAME">
+          <DataField>REL_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_ADDRESS_TYPE_NAME">
+          <DataField>CUST_ADDRESS_TYPE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_ADDRESS_TYPE_NAME">
+          <DataField>REL_ADDRESS_TYPE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_ADDRESS_LINE1">
+          <DataField>CUST_ADDRESS_LINE1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_ADDRESS_LINE1">
+          <DataField>REL_ADDRESS_LINE1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_ADDRESS_LINE2">
+          <DataField>CUST_ADDRESS_LINE2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_ADDRESS_LINE2">
+          <DataField>REL_ADDRESS_LINE2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_EMERGENCY_NAME">
+          <DataField>CUST_EMERGENCY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_EMERGENCY_NAME">
+          <DataField>REL_EMERGENCY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_PINCODE">
+          <DataField>CUST_PINCODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_PINCODE">
+          <DataField>REL_PINCODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NEXTPLANE_PLAN_YEAR_MONTH">
+          <DataField>NEXTPLANE_PLAN_YEAR_MONTH</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="NEXTPLANE_COUNTRY_NAME">
+          <DataField>NEXTPLANE_COUNTRY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NEXTPLANE_NO_OF_PERSONS">
+          <DataField>NEXTPLANE_NO_OF_PERSONS</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="NEXTPLANE_DESCRIPTION">
+          <DataField>NEXTPLANE_DESCRIPTION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NEXTPLANE_TOUR_TYPE_NAME">
+          <DataField>NEXTPLANE_TOUR_TYPE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_FREQUENTLY_FLY_NO">
+          <DataField>CUST_FREQUENTLY_FLY_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_FREQUENTLY_FLY_NO">
+          <DataField>REL_FREQUENTLY_FLY_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_CORPORATE_CLIENT_NO">
+          <DataField>CUST_CORPORATE_CLIENT_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_CORPORATE_CLIENT_NO">
+          <DataField>REL_CORPORATE_CLIENT_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NEXTPLANE_STATUS_NAME">
+          <DataField>NEXTPLANE_STATUS_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PREVIOUS_WITH_OTHERS_TOUR_TYPE_NAME">
+          <DataField>PREVIOUS_WITH_OTHERS_TOUR_TYPE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PREVIOUS_WITH_OTHERS_AGENT_NAME">
+          <DataField>PREVIOUS_WITH_OTHERS_AGENT_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PREVIOUS_WITH_OTHERS_YEAR_MONTH">
+          <DataField>PREVIOUS_WITH_OTHERS_YEAR_MONTH</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="PREVIOUS_WITH_OTHERS_COUNTRY_NAME">
+          <DataField>PREVIOUS_WITH_OTHERS_COUNTRY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PREVIOUS_WITH_OTHERS_DESCRIPATION">
+          <DataField>PREVIOUS_WITH_OTHERS_DESCRIPATION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PREVIOUS_WITH_OTHERS_NO_OF_PERSON">
+          <DataField>PREVIOUS_WITH_OTHERS_NO_OF_PERSON</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="PREVIOUS_WITH_US_TOUR_TYPE_NAME">
+          <DataField>PREVIOUS_WITH_US_TOUR_TYPE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PREVIOUS_WITH_US_YEAR_MONTH">
+          <DataField>PREVIOUS_WITH_US_YEAR_MONTH</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="PREVIOUS_WITH_US_COUNTRY_NAME">
+          <DataField>PREVIOUS_WITH_US_COUNTRY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PREVIOUS_WITH_US_DESCRIPTION">
+          <DataField>PREVIOUS_WITH_US_DESCRIPTION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PREVIOUS_WITH_US_NO_OF_PERSONS">
+          <DataField>PREVIOUS_WITH_US_NO_OF_PERSONS</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="CUST_AIRLINE_NAME">
+          <DataField>CUST_AIRLINE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_AIRLINE_NAME">
+          <DataField>REL_AIRLINE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_CLASS_NAME">
+          <DataField>CUST_CLASS_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_CLASS_NAME">
+          <DataField>REL_CLASS_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_HOLDING_COUNTRY">
+          <DataField>CUST_HOLDING_COUNTRY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_HOLDING_COUNTRY">
+          <DataField>REL_HOLDING_COUNTRY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_TOUR_SHORT_NAME">
+          <DataField>CUST_TOUR_SHORT_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NEXTPLANE_TOUR_SHORT_NAME">
+          <DataField>NEXTPLANE_TOUR_SHORT_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PREVIOUS_WITH_OTHERS__TOUR_SHORT_NAME">
+          <DataField>PREVIOUS_WITH_OTHERS__TOUR_SHORT_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PREVIOUS_WITH_US_TOUR_SHORT_NAME">
+          <DataField>PREVIOUS_WITH_US_TOUR_SHORT_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REPORT_NAME">
+          <DataField>REPORT_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REL_BIRTH_DATE">
+          <DataField>REL_BIRTH_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>CRM</DataSourceName>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>dbo.REPORT_SUBREPORT_DATA</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>CRMDataSet</rd:DataSetName>
+        <rd:TableName>REPORT_SUBREPORT_DATA</rd:TableName>
+        <rd:TableAdapterName>REPORT_SUBREPORT_DATATableAdapter</rd:TableAdapterName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Width>160in</Width>
+  <Body>
+    <ReportItems></ReportItems>
+      <Height>0.79in</Height>
+    </Body>
+  <Language>en-US</Language>
+  <TopMargin>0.1in</TopMargin>
+</Report>
+      

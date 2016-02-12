@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CompaignStatus">
+  <DataContextMoniker Name="/CompaignStatusDataContext" />
+  <nestedChildShapes>
+    <classShape Id="bb2f9458-c68e-435e-938d-433fab67500e" absoluteBounds="5.125, 1.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/CompaignStatusDataContext/VIEW_COMPAIGN_STATUS" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2fa321d5-7609-4f19-aaad-958e32ad89bf" absoluteBounds="5.14, 2.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

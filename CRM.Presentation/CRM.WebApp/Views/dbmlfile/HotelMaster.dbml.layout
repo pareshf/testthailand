@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="HotelMaster">
+  <DataContextMoniker Name="/HotelMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="efd7890c-f7c5-46a5-8e41-10915b358e1b" absoluteBounds="0.875, 4.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/HotelMasterDataContext/VIEW_FARE_HOTEL_PHOTO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35212b62-ee67-40a0-99d8-aa379199479b" absoluteBounds="0.89000000000000012, 5.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a58ee857-eac1-477d-8397-008652f83fa6" absoluteBounds="7.5, 4.25, 2, 2.5401025390625">
+      <DataClassMoniker Name="/HotelMasterDataContext/VIEW_FARE_CONTACT_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e12fd33-b33a-4e5d-bdcc-8338601197fe" absoluteBounds="7.515, 4.71, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2420fb2c-3051-4ed8-adae-240241c87f13" absoluteBounds="3.75, 2.875, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/HotelMasterDataContext/VIEW_FARE_HOTEL_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1f411370-9a80-4fe3-ae6f-01e495dc9f01" absoluteBounds="3.7649999999999997, 3.335, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d657cae5-9d3b-4039-b25a-6c81608cbad7" absoluteBounds="0.5, 0.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/HotelMasterDataContext/VIEW_FARE_HOTEL_CURRENCY_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ff380dc1-5b22-43ee-a52c-7997a82f77eb" absoluteBounds="0.51499999999999968, 1.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="314d8f1c-e623-40c7-838f-a15b7bf84ec7" absoluteBounds="7.75, 1.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/HotelMasterDataContext/VIEW_FARE_HOTEL_SERVICE_TYPE_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1b36fed1-05f7-4383-a7ce-efd4ac4b1f0c" absoluteBounds="7.765, 1.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

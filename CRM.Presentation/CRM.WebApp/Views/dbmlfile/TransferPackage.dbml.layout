@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.75" name="TransferPackage">
+  <DataContextMoniker Name="/TransferPackageDataContext" />
+  <nestedChildShapes>
+    <classShape Id="aa171088-dc5d-4b2f-b037-7c990e7f0edc" absoluteBounds="2.875, 1.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/TransferPackageDataContext/VIEW_TRANSFER_PACKAGE_PRICE_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d9f1bb77-83ce-49f8-b1b1-336c5b5e68fe" absoluteBounds="2.8899999999999997, 1.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="985a1e17-f4c1-4769-95b7-06738c2b40b4" absoluteBounds="5, 1.625, 2, 3.1170068359375">
+      <DataClassMoniker Name="/TransferPackageDataContext/VIEW_TRANSFER_PACKAGE_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c59a82cf-b954-4996-98ca-f881a0a72147" absoluteBounds="5.015, 2.085, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0abbf30c-d7bb-4436-8ba7-e0885a40e8cc" absoluteBounds="7.875, 0.75, 2, 7.7322412109375005">
+      <DataClassMoniker Name="/TransferPackageDataContext/VIEW_TRANSFER_PACKAGE_PRICE_LIST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b03a7392-38ce-4295-9c96-d8f11cb17402" absoluteBounds="7.8900000000000006, 1.21, 1.9700000000000002, 7.1722412109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

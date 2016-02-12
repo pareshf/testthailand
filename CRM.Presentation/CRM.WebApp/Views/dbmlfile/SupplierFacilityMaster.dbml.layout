@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SupplierFacilityMaster">
+  <DataContextMoniker Name="/SupplierFacilityMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b3cfda4b-b970-4ee0-a674-0d9510cf9956" absoluteBounds="6.125, 4.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SupplierFacilityMasterDataContext/VIEW_SUPPLIER_FACALITY_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dafd54c3-305d-4007-98ad-9a56c14f3599" absoluteBounds="6.14, 4.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

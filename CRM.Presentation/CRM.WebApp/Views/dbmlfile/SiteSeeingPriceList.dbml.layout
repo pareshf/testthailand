@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SiteSeeingPriceList">
+  <DataContextMoniker Name="/SiteSeeingPriceListDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e9e5e7ed-6dac-4ffe-8032-33dc7741e959" absoluteBounds="6, 2.375, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/SiteSeeingPriceListDataContext/VIEW_FOR_SITE_SEEING_PRICE_LIST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eddb8a47-8744-4860-9887-ea4e69960f31" absoluteBounds="6.015, 2.835, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

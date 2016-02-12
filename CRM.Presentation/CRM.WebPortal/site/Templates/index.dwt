@@ -1,0 +1,131 @@
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Flamingo Trancworld</title>
+<!-- TemplateEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+<body>
+
+<table width="980" class="twoline" border="0" cellspacing="0" cellpadding="0" align="center">
+
+
+		<tr>
+			<td>
+			  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="382">
+                <param name="movie" value="../flash/Mainbanner_index.swf">
+                <param name="quality" value="high">
+                <embed src="../flash/Mainbanner_index.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="382"></embed>
+		      </object>
+			</td>
+		</tr>
+		
+		
+	<!-- TemplateBeginEditable name="matter" -->	
+  <tr>
+    
+	
+	
+	<td>
+	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="5px" colspan="5"></td>
+        </tr>
+        <tr>
+          <td height="32px" colspan="5"><img src="../images/X_menus.jpg" alt=""> </td>
+        </tr>
+		
+        <tr>
+          <td class="head_text" style="background:url(../images/head_bg.png) no-repeat; width:326px; height:49px;">Best International Bargins</td>
+          <td width="1px" bgcolor="#FFFFFF"></td>
+          <td class="head_text" style="background:url(../images/head_bg.png) no-repeat; width:326px; height:49px;">Best International Air Fare</td>
+          <td width="1px" bgcolor="#FFFFFF"></td>
+          <td class="head_text" style="background:url(../images/head_bg.png) no-repeat; width:326px; height:49px;">Best Domestic Bargins</td>
+        </tr>
+        <tr>
+          <td style="background:url(../images/bg_text.jpg) no-repeat; width:326px; height:494px;" valign="top"><table width="326px" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td  class="subbanner" ><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="270" height="150" title=".">
+                    <param name="movie" value="../flash/star &amp; malaysia.swf">
+                    <param name="quality" value="high">
+                    <embed src="../flash/star & malaysia.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="270" height="150"></embed>
+                </object></td>
+              </tr>
+              <tr>
+                <td class="subbanner"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="270" height="150">
+                    <param name="movie" value="../flash/Thumb_malesiya.swf">
+                    <param name="quality" value="high">
+                    <embed src="../flash/Thumb_malesiya.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="270" height="150"></embed>
+                </object></td>
+              </tr>
+              <tr>
+                <td height="143px">&nbsp;</td>
+              </tr>
+          </table></td>
+          <td width="1px" bgcolor="#ffffff"></td>
+          <td style="background:url(../images/bg_text.jpg) no-repeat; width:326px; height:494px;" valign="top"><table width="326" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="127px" class="text"> Ahmedabad To Mumbai &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rs. 1225/-<br />
+                  Ahmedabad To Delhi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  	Rs. 1350/- <br />
+                  Ahmedabad To Kolkata &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  &nbsp; Rs. 3150/- <br />
+                  Ahmedabad To Chennai &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Rs. 3000/- <br />
+                  Ahmedabad To Hyderabad &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rs. 2200/- <br />
+                </td>
+              </tr>
+              <tr>
+                <td class="head_text" style="background:url(../images/head_bg.png) no-repeat; height:49px; width:326px;">Best Domestic Air Fare</td>
+              </tr>
+              <tr>
+                <td height="318px" class="text"> Ahmedabad To Banglore &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rs. 2550/-<br />
+                  Ahmedabad To Pune &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rs. 1400/-<br />
+                  Ahmedabad To Coimbatore &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rs. 2500/- <br />
+                  Ahmedabad To Jaipur &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Rs. 2500/- <br />
+                  Ahmedabad To Goa &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Rs. 2800/- <br />
+                  Mumbai To Kolkatta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Rs. 3250/-<br>
+                  <br>
+                  <span class="text_red">All above fares are subject to availability.</span> </td>
+              </tr>
+          </table></td>
+          <td width="1px" bgcolor="#ffffff"></td>
+          <td style="background:url(../images/bg_text.jpg) no-repeat; width:326px; height:494px;"><table width="326px" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="subbanner"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="270" height="150">
+                    <param name="movie" value="../flash/go goa &amp; monsoon.swf">
+                    <param name="quality" value="high">
+                    <embed src="../flash/go goa & monsoon.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="270" height="150"></embed>
+                </object></td>
+              </tr>
+              <tr>
+                <td class="subbanner"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="270" height="150">
+                    <param name="movie" value="../flash/udaipur &amp; trident.swf">
+                    <param name="quality" value="high">
+                    <embed src="../flash/udaipur & trident.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="270" height="150"></embed>
+                </object></td>
+              </tr>
+              <tr>
+                <td height="143px">&nbsp;</td>
+              </tr>
+          </table></td>
+        </tr>
+      </table>
+	</td>
+	
+	
+	
+  </tr><!-- TemplateEndEditable -->
+  <tr>
+    <td height="1px" bgcolor="#E0A300"></td>
+  </tr>
+  <tr>
+    <td height="90px" bgcolor="#FFFFFF" align="center"><span class="link_sub_bot"> <a href="#">Home</a> | <a href="#">Traveller's Experiences</a> | <a href="#">Search</a> | <a href="#">Our Locations</a> | <a href="#">Legal Policy</a> | <a href="#">Tell A Friend</a> | <a href="#">Career With Us</a> | <a href="#">Business With Us</a> | <a href="#">Advert With Us</a>	  <br>
+  		<br>
+    Copyright@2006 Flamingo Transworld Pvt. Ltd. All Rights Reserved. </span></td>
+  </tr>
+  
+</table>
+
+
+</body>
+</html>

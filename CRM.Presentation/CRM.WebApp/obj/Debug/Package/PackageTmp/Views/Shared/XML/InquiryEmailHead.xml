@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="CRM">
+      <rd:DataSourceID>41ba5eb6-b9bc-4605-80a8-a2f4a3bca7df</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>18.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>0in</RightMargin>
+  <LeftMargin>0in</LeftMargin>
+  <BottomMargin>0in</BottomMargin>
+  <rd:ReportID>415ae1af-2015-4a7d-b3b8-5b682134f59e</rd:ReportID>
+  <PageWidth>7.5in</PageWidth>
+  <DataSets>
+    <DataSet Name="CRM_REPORTDataSet_FETCH_EMAIL_GROUP_DATA">
+      <rd:DataSetInfo>
+        <rd:DataSetName>CRM_REPORTDataSet</rd:DataSetName>
+        <rd:TableName>FETCH_EMAIL_GROUP_DATA</rd:TableName>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterFillMethod>
+        </rd:TableAdapterFillMethod>
+        <rd:TableAdapterName>
+        </rd:TableAdapterName>
+      </rd:DataSetInfo>
+      <Query>
+        <DataSourceName>CRM</DataSourceName>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>dbo.FETCH_EMAIL_GROUP_DATA</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <Fields>
+        <Field Name="No">
+          <DataField>No</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REPORT_NAME">
+          <DataField>REPORT_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PAGE_TITLE">
+          <DataField>PAGE_TITLE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GROUP_TITLE">
+          <DataField>GROUP_TITLE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="INQUIRY_NO">
+          <DataField>INQUIRY_NO</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="REFERENCE_NAME">
+          <DataField>REFERENCE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="INQUIRY_DATE">
+          <DataField>INQUIRY_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="COMPANY_NAME">
+          <DataField>COMPANY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EMP_NAME">
+          <DataField>EMP_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AGENT_NAME">
+          <DataField>AGENT_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="INQUIRY_MODE">
+          <DataField>INQUIRY_MODE</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="RATING_NAME">
+          <DataField>RATING_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NO_OF_ADULTS">
+          <DataField>NO_OF_ADULTS</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="NO_OF_CHILD">
+          <DataField>NO_OF_CHILD</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="NO_OF_INF">
+          <DataField>NO_OF_INF</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="APPROX_BUDGET_PER_PERSON">
+          <DataField>APPROX_BUDGET_PER_PERSON</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="APPROX_BUDGET_FAMILY">
+          <DataField>APPROX_BUDGET_FAMILY</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="NEXT_FOLLOWUP_DATE">
+          <DataField>NEXT_FOLLOWUP_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="APPROX_TRAVEL_DATE">
+          <DataField>APPROX_TRAVEL_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="APPROX_ARRIVAL_DATE">
+          <DataField>APPROX_ARRIVAL_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="INQUIRY_DESC">
+          <DataField>INQUIRY_DESC</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PRODUCT_DESC">
+          <DataField>PRODUCT_DESC</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InternationalTours">
+          <DataField>InternationalTours</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DomesticTours">
+          <DataField>DomesticTours</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NRITours">
+          <DataField>NRITours</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InternationalTicketing">
+          <DataField>InternationalTicketing</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DomesticTicketing">
+          <DataField>DomesticTicketing</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Visa">
+          <DataField>Visa</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Passport">
+          <DataField>Passport</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_UNQ_ID">
+          <DataField>CUST_UNQ_ID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_NAME">
+          <DataField>CUST_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_SURNAME">
+          <DataField>CUST_SURNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_STATE_NAME">
+          <DataField>CUST_STATE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_CITY_NAME">
+          <DataField>CUST_CITY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_COUNTRY_NAME">
+          <DataField>CUST_COUNTRY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_PROFESSION_DESC">
+          <DataField>CUST_PROFESSION_DESC</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_TYPE_NAME">
+          <DataField>CUST_TYPE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_CODE_NAME">
+          <DataField>CUST_CODE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_EMAIL">
+          <DataField>CUST_EMAIL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_MOBILE">
+          <DataField>CUST_MOBILE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUST_RELIGION_NAME">
+          <DataField>CUST_RELIGION_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="STATUS_NAME">
+          <DataField>STATUS_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FOLLOWUP_FOR">
+          <DataField>FOLLOWUP_FOR</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="FOLLOWUP_MODE">
+          <DataField>FOLLOWUP_MODE</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="FOLLOWUP_DATE">
+          <DataField>FOLLOWUP_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="TOUR_SUB_TYPE">
+          <DataField>TOUR_SUB_TYPE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TOUR_TYPE">
+          <DataField>TOUR_TYPE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REGION_SHORT_NAME">
+          <DataField>REGION_SHORT_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="COUNTRY_NAME">
+          <DataField>COUNTRY_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="STATE_NAME">
+          <DataField>STATE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TOUR_ITENARY_TYPE_NAME">
+          <DataField>TOUR_ITENARY_TYPE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TOUR_SHORT_NAME">
+          <DataField>TOUR_SHORT_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TOKEN_AMOUNT">
+          <DataField>TOKEN_AMOUNT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TOUR_REMARKS">
+          <DataField>TOUR_REMARKS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CR1_TOUR_COST_CHILD_WITHOUT_BED">
+          <DataField>CR1_TOUR_COST_CHILD_WITHOUT_BED</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_TOUR_COST_CHILD_WITH_BED">
+          <DataField>CR1_TOUR_COST_CHILD_WITH_BED</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_INFANT_PRICE">
+          <DataField>CR1_INFANT_PRICE</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_TOUR_COST_ADULT">
+          <DataField>CR2_TOUR_COST_ADULT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_TOUR_COST_ADULT">
+          <DataField>CR2_TOUR_COST_ADULT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_TOUR_COST_CHILD_WITHOUT_BED">
+          <DataField>CR2_TOUR_COST_CHILD_WITHOUT_BED</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_TOUR_COST_CHILD_WITH_BED">
+          <DataField>CR2_TOUR_COST_CHILD_WITH_BED</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_INFANT_PRICE">
+          <DataField>CR2_INFANT_PRICE</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_TAX_ADULT">
+          <DataField>CR1_TAX_ADULT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_TAX_CHILD_WITHOUT_BED">
+          <DataField>CR1_TAX_CHILD_WITHOUT_BED</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_TAX_CHILD_WITH_BED">
+          <DataField>CR1_TAX_CHILD_WITH_BED</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_TAX_INFANT">
+          <DataField>CR1_TAX_INFANT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_TAX_ADULT">
+          <DataField>CR2_TAX_ADULT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_TAX_CHILD_WITHOUT_BED">
+          <DataField>CR2_TAX_CHILD_WITHOUT_BED</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_TAX_CHILD_WITH_BED">
+          <DataField>CR2_TAX_CHILD_WITH_BED</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_TAX_INFANT">
+          <DataField>CR2_TAX_INFANT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_GST_ADULT">
+          <DataField>CR1_GST_ADULT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_GST_CHILD_WITHOUT_BED">
+          <DataField>CR1_GST_CHILD_WITHOUT_BED</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_GST_CHILD_WITH_BED">
+          <DataField>CR1_GST_CHILD_WITH_BED</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_GST_INFANT">
+          <DataField>CR1_GST_INFANT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_GST_ADULT">
+          <DataField>CR2_GST_ADULT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_GST_CHILD_WITHOUT_BED">
+          <DataField>CR2_GST_CHILD_WITHOUT_BED</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_GST_CHILD_WITH_BED">
+          <DataField>CR2_GST_CHILD_WITH_BED</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_GST_INFANT">
+          <DataField>CR2_GST_INFANT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_T_QUOTED_ADULT">
+          <DataField>CR1_T_QUOTED_ADULT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_T_TAX_ADULT">
+          <DataField>CR1_T_TAX_ADULT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_T_GST_ADULT">
+          <DataField>CR1_T_GST_ADULT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_T_QUOTED_CHILD">
+          <DataField>CR1_T_QUOTED_CHILD</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_T_TAX_CHILD">
+          <DataField>CR1_T_TAX_CHILD</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_T_GST_CHILD">
+          <DataField>CR1_T_GST_CHILD</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_T_QUOTED_INFANT">
+          <DataField>CR1_T_QUOTED_INFANT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_T_TAX_INFANT">
+          <DataField>CR1_T_TAX_INFANT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR1_T_GST_INFANT">
+          <DataField>CR1_T_GST_INFANT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_T_QUOTED_ADULT">
+          <DataField>CR2_T_QUOTED_ADULT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_T_TAX_ADULT">
+          <DataField>CR2_T_TAX_ADULT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_T_GST_ADULT">
+          <DataField>CR2_T_GST_ADULT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_T_QUOTED_CHILD">
+          <DataField>CR2_T_QUOTED_CHILD</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_T_TAX_CHILD">
+          <DataField>CR2_T_TAX_CHILD</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_T_GST_CHILD">
+          <DataField>CR2_T_GST_CHILD</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_T_QUOTED_INFANT">
+          <DataField>CR2_T_QUOTED_INFANT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_T_TAX_INFANT">
+          <DataField>CR2_T_TAX_INFANT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CR2_T_GST_INFANT">
+          <DataField>CR2_T_GST_INFANT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TICKET_TYPE_NAME">
+          <DataField>TICKET_TYPE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DEPARTURE_DATE">
+          <DataField>DEPARTURE_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="ARRIVAL_DATE">
+          <DataField>ARRIVAL_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="FROM_PLACE_INTERNATIONAL">
+          <DataField>FROM_PLACE_INTERNATIONAL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FROM_PLACE_DOMESTIC">
+          <DataField>FROM_PLACE_DOMESTIC</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TO_PLACE_INTERNATIONAL">
+          <DataField>TO_PLACE_INTERNATIONAL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TO_PLACE_DOMESTIC">
+          <DataField>TO_PLACE_DOMESTIC</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TICKET_REMARKS">
+          <DataField>TICKET_REMARKS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SPECIAL_REQUEST">
+          <DataField>SPECIAL_REQUEST</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="INQUIRY_ID">
+          <DataField>INQUIRY_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+</Report>

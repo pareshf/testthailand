@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FULL_CRM_ASHISH" Class="EmailDbmlDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SERVER;Initial Catalog=FULL_CRM_ASHISH;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_FOR_EMPLOYEE_EMAIL" Member="VIEW_FOR_EMPLOYEE_EMAILs">
+    <Type Name="VIEW_FOR_EMPLOYEE_EMAIL">
+      <Column Name="EMP_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMP_SURNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TO_EMAIL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="USER_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DEPARTMENT_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REPORTING_TO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FROM_EMAIL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FULL_CRM_ASHISH" Class="InquiryMasterDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.0.8;Initial Catalog=FULL_CRM_ASHISH;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FULL_CRM_ASHISHConnectionString9" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_INQ_MASTER_FOR_TOURS_MASTER" Member="VIEW_INQ_MASTER_FOR_TOURS_MASTERs">
+    <Type Name="VIEW_INQ_MASTER_FOR_TOURS_MASTER">
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUST_REL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUST_REL_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="CUST_REL_SURNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CUST_REL_EMAIL" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CUST_REL_MOBILE" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="TITLE_DESC" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CUST_TYPE_DESC" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="INQUIRY_ID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="INQUIRY_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CUSTOMER_UNQ_ID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CUST_REL_SRNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RATING_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="INQUIRY_STATUS_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="INQUIRY_FOR" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REGION_NAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="COUNTRY_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="STATE_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="NO_OF_ADULTS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NO_OF_CWB" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NO_OF_CNB" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NO_OF_INFANT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="REMARKS" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="TOTAL_BUDGET" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TRAVEL_DURATION" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="TRAVEL_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="NEXT_FOLLOWUP_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ASSIGNED_TO" Type="System.String" DbType="VarChar(101)" CanBeNull="true" />
+      <Column Name="TRANSFERED_BY" Type="System.String" DbType="VarChar(101)" CanBeNull="true" />
+      <Column Name="CAMPAIGN_NAME" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="CAMPAGIN_OWNER" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="COMPANY_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="AGENT_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REFERENCE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="REFERENCE_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="FOLLOWUP1_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FOLLOWUP1_REMARKS" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="FOLLOWUP2_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FOLLOWUP2_REMARKS" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="FOLLOWUP3_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FOLLOWUP3_REMARKS" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="FOLLOWUP4_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FOLLOWUP4_REMARKS" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="FOLLOWUP5_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FOLLOWUP5_REMARKS" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="FOLLOWUP6_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FOLLOWUP6_REMARKS" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="FOLLOWUP7_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FOLLOWUP7_REMARKS" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="FOLLOWUP8_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FOLLOWUP8_REMARKS" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="FOLLOWUP9_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FOLLOWUP9_REMARKS" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="FOLLOWUP10_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FOLLOWUP10_REMARKS" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

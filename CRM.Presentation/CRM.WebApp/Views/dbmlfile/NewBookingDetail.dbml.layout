@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.125, 12.875" name="NewBookingDetail">
+  <DataContextMoniker Name="/NewBookingDetailDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cc891c22-5562-4981-9bb9-9f0af4f15b23" absoluteBounds="7.375, 1.125, 2.25, 2.7324039713541666">
+      <DataClassMoniker Name="/NewBookingDetailDataContext/VIEW_BOOKING_PAYMENT_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ebf583cd-62a1-435f-b068-56a54b132b32" absoluteBounds="7.39, 1.585, 2.2199999999999998, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f28b3651-a6bf-4cd3-b6f5-4cc1a42d1354" absoluteBounds="5.75, 6, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/NewBookingDetailDataContext/VIEW_BOOKING_FORM_TEXTBOX" />
+      <nestedChildShapes>
+        <elementListCompartment Id="966ef9db-f91b-41a4-a62e-ebb51ce5c97c" absoluteBounds="5.765, 6.46, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1244059f-19df-4ea8-bd44-f61da46d6b84" absoluteBounds="1.375, 1.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/NewBookingDetailDataContext/VIEW_CUST_VISA_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0cb51eeb-1a52-4e5c-9855-b78387f1b508" absoluteBounds="1.3899999999999997, 2.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7e693a8e-7ec8-4bfd-855a-dcc17991bd08" absoluteBounds="8.875, 4.875, 2, 6.0015283203125">
+      <DataClassMoniker Name="/NewBookingDetailDataContext/VIEW_CUSTOMER_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="754b4bcc-87b7-4eed-8c38-5e0395e0503f" absoluteBounds="8.89, 5.335, 1.9700000000000002, 5.4415283203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0e34bc9a-c279-4c2b-ae9d-6475d4511c84" absoluteBounds="1.5, 5.125, 2, 7.5399397786458326">
+      <DataClassMoniker Name="/NewBookingDetailDataContext/VIEW_CUSTOMER_REL_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="21d91352-9692-4e2e-981d-0fcfea748167" absoluteBounds="1.5149999999999997, 5.585, 1.9700000000000002, 6.979939778645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

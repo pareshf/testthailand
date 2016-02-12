@@ -1,0 +1,51 @@
+﻿
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<%--Skin --%>
+<asp:TextBox runat="server" ForeColor="Black" Font-Size="12px" Font-Names="Arial"
+    Width="154px" />
+<asp:ListBox runat="server" ForeColor="Black" Font-Size="12px" Font-Names="Arial" />
+<asp:Button runat="server" ForeColor="Black" Font-Size="12px" CssClass="button" />
+<asp:Label runat="server" Font-Size="12px" ForeColor="Black" Font-Names="Arial" />
+<asp:LinkButton runat="server" CssClass="lnk" />
+<asp:CheckBox runat="server" Font-Size="12px" ForeColor="Black" Font-Names="Arial" />
+<asp:RadioButton runat="server" ForeColor="Black" Font-Size="12px" Font-Names="Arial" />
+<asp:RadioButtonList runat="server" ForeColor="Black" Font-Size="12px" Font-Names="Arial"
+    RepeatDirection="Horizontal" RepeatLayout="Flow" CellPadding="0" CellSpacing="0"
+    BorderWidth="0px" />
+<telerik:RadComboBox runat="server" EnableEmbeddedSkins="false" Skin="Blue" Height="115px" MarkFirstMatch="true" AllowCustomText="false">
+    <CollapseAnimation Duration="10" />
+    <ExpandAnimation Duration="10" />
+</telerik:RadComboBox>
+<telerik:RadGrid 
+    runat="server" 
+    AutoGenerateColumns="false" 
+    AllowMultiRowSelection="true"
+    AllowPaging="true" 
+    AllowSorting="true" 
+    Skin="Blue" 
+    EnableEmbeddedSkins="false"
+    ClientSettings-EnableRowHoverStyle="true">
+    <MasterTableView>
+        <PagerStyle PagerTextFormat="{4} Page {0} of {1} | Results {2} - {3} of {5}" />
+    </MasterTableView>
+    </telerik:RadGrid>
+<telerik:RadTabStrip runat="server" SelectedIndex="0" Skin="Blue" Font-Bold="true" EnableEmbeddedSkins="false">
+</telerik:RadTabStrip>
+<telerik:RadPanelBar runat="server" Skin="Blue" EnableEmbeddedSkins="false">
+</telerik:RadPanelBar>
+<telerik:RadDatePicker runat="server" Skin="Sitefinity" EnableEmbeddedSkins="true"
+    DateInput-DateFormat="dd/MM/yyyy" Width="165px" MinDate="1/1/1900">
+    <ShowAnimation Duration="1" />
+    <HideAnimation Duration="1" />
+</telerik:RadDatePicker>
+
+<telerik:RadDockZone runat="server" Width="365" MinHeight="226" BorderWidth="1" BorderColor="#BBBBBB" BorderStyle="Dashed"></telerik:RadDockZone>
+<telerik:RadDock runat="server" EnableAnimation="true" EnableEmbeddedSkins="false" EnableEmbeddedBaseStyleSheet="false" Skin="Default"></telerik:RadDock>
+
+<%--Login--%>
+<asp:Label runat="server" Font-Size="16px" ForeColor="Black" Font-Names="Arial" Font-Bold="true"
+    SkinID="SknLoginHeader"></asp:Label>
+<asp:Label runat="server" SkinID="sknFlashLabel"></asp:Label>
+<asp:Label runat="server" Font-Size="16px" ForeColor="Maroon" Font-Names="Arial"
+    SkinID="SknPreferedCompanyName" Font-Bold="true" />
+<%--<asp:LinkButton SkinID="SknTopMenu" runat="server" CssClass="topmenulink"></asp:LinkButton>--%>

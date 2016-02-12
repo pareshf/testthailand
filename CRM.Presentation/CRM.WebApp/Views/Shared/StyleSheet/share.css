@@ -1,0 +1,153 @@
+
+
+
+
+.roundtop { 
+	background: url(../images/top-right.png) no-repeat top right; 
+}
+
+
+
+img.corner {
+   width: 15px;
+   height: 15px;
+   border: none;
+   display: block !important;
+}
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 0;
+}
+
+
+
+
+
+#downhead img {
+  border: 5px solid #ccc;
+  
+}
+
+/*-- Bottom Toolbar --*/
+
+
+
+div#toolbar {
+  position: fixed; /* set fixed position for the bar */
+  bottom: 0px;
+  right: 0px;
+  z-index: 9999; /* keep the bar on top  */
+  height: 35px;  
+  background-color:#dcdcdc;
+  min-width: 250px; /* to limit the width when an excessive window resize */
+/*  margin: 0px auto; /* centered toolbar */
+  
+  float:right;
+}
+
+div#toolbarbut { /* div for the 'hide status' */
+  width: 70px;
+  height: 35px;
+  display: none;
+   position: fixed; /* set fixed position for the bar */
+  bottom: 0px;
+  right: 0px;
+   background-color:#dcdcdc;
+}
+
+span.showbar a { /* show button */
+  padding: 2px;  
+  font-size: 15px;
+  color: #989898;
+  
+}
+
+.leftside {
+  float: left;
+}
+
+.rightside {
+  float: right;
+}
+
+/*-- Left Side --*/
+
+ul#social li {
+  display: inline;
+  
+  
+  
+}
+
+
+
+a.facebook, a.twitter,  a.delicious, a.igoogle, a.wikipedia,a.blog {
+  display: inline-block;
+  width: 43px;
+  height: 58px;  
+  
+  margin-top: -27px;      
+  
+  
+}
+
+a.wikipedia:hover, a.facebook:hover, a.twitter:hover, a.igoogle:hover ,a.blog:hover{
+  background-position: 1px 1px; /* simple css hover effect */
+  
+}
+
+a.facebook {
+  background: url(../images/facebook.png) no-repeat;
+  
+}
+
+a.twitter {
+  background: url(../images/twitter.png) no-repeat;
+
+}
+
+a.wikipedia{
+  background: url(../images/wikipedia.png) no-repeat;
+  
+}
+
+a.igoogle{
+  background: url(../images/igoogle.png) no-repeat;
+  
+}
+a.blog{
+	 background: url(../images/blog.png) no-repeat;
+	 }
+
+
+
+
+
+
+
+/*-- Right Side --*/
+
+span.downarr { /* hide button */ 
+  float: right;
+  border-left: 0px solid #a4a4a4;
+  margin-top: -17px;
+}
+
+span.downarr a {
+  display: block;
+  width: 36px;
+  height: 46px;
+  padding: 25px 0 0 10px;
+  background: url(../images/downarrow.png) no-repeat 5px 7px;
+}
+
+
+
+

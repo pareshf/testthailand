@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FULL_CRM_ASHISH" Class="BookingForeignMoneyTransferAgentDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.1.6;Initial Catalog=FULL_CRM_ASHISH;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FULL_CRM_ASHISHConnectionString13" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_PAYMENT_FOREIGN_REPORT" Member="VIEW_PAYMENT_FOREIGN_REPORTs">
+    <Type Name="VIEW_PAYMENT_FOREIGN_REPORT">
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AMT1" Type="System.Decimal" DbType="Decimal(38,2)" CanBeNull="true" />
+      <Column Name="AMT2" Type="System.Decimal" DbType="Decimal(38,2)" CanBeNull="true" />
+      <Column Name="TOT_AMT" Type="System.Decimal" DbType="Decimal(38,2)" CanBeNull="true" />
+      <Column Name="PAYMENT_CURR_CODE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_PAYMENT_FOREIGN_AGENT" Member="VIEW_PAYMENT_FOREIGN_AGENTs">
+    <Type Name="VIEW_PAYMENT_FOREIGN_AGENT">
+      <Column Name="FA_SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AGENT_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BOOKING_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FOREIGN_CURR_AGENT_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PAYMENT_CURR_CODE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PAYMENT_MODE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REC_CHEQUE_DD_NO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AMOUNT" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BANK_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BANK_BRANCH_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RECEIPT_NO" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="RECEIPT_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="USER_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SERVICE_CHARGE" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="COMPANY_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="STATUS_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_PAYMENT_FOREIGN_SIMPLE" Member="VIEW_PAYMENT_FOREIGN_SIMPLEs">
+    <Type Name="VIEW_PAYMENT_FOREIGN_SIMPLE">
+      <Column Name="FA_SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AGENT_ID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BOOKING_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FOREIGN_CURR_AGENT_ID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PAYMENT_CURR_CODE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PAYMENT_MODE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REC_CHEQUE_DD_NO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AMOUNT" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BANK_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BANK_BRANCH_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RECEIPT_NO" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="RECEIPT_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="USER_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SERVICE_CHARGE" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="COMPANY_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="STATUS_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

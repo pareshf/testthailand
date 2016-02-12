@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="AccountsGroupDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SERVERAI;Initial Catalog=THAILAND_CRM;User ID=SA" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="THAILAND_CRMConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_ACCOUNT_GROUP_MASTER" Member="VIEW_ACCOUNT_GROUP_MASTERs">
+    <Type Name="VIEW_ACCOUNT_GROUP_MASTER">
+      <Column Name="ACCOUNT_GROUP_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GROUP_CODE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="GROUP_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="GROUP_TYPE" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="GROUP_DISPLAY_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="GROUP_ORDER" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GROUP_CODE_UNDER" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="COMPANY_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

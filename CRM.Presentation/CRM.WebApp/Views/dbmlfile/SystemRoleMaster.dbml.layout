@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SystemRoleMaster">
+  <DataContextMoniker Name="/SystemRoleMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="fed45e33-f3dc-465c-b659-e86fed5ea647" absoluteBounds="5.125, 2, 2, 1.9631982421875">
+      <DataClassMoniker Name="/SystemRoleMasterDataContext/VIEW_FOR_SYS_ROLE_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fe41240d-fcd5-41c2-8304-7c6036d9c9bc" absoluteBounds="5.14, 2.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

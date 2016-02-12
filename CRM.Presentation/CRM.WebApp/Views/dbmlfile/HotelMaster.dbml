@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FULL_CRM_ASHISH" Class="HotelMasterDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.0.11;Initial Catalog=FULL_CRM_ASHISH;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FULL_CRM_ASHISHConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_FARE_HOTEL_PHOTO" Member="VIEW_FARE_HOTEL_PHOTOs">
+    <Type Name="VIEW_FARE_HOTEL_PHOTO">
+      <Column Name="HOTEL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PHOTO_SRNO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PHOTO_TITLE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PHOTO_DESC" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PHOTO" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_FARE_CONTACT_DETAIL" Member="VIEW_FARE_CONTACT_DETAILs">
+    <Type Name="VIEW_FARE_CONTACT_DETAIL">
+      <Column Name="HOTEL_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CONTACT_SRNO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TITLE_DESC" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SURNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DESIGNATION_DESC" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMAIL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MOBILE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="PHONE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_FARE_HOTEL_MASTER" Member="VIEW_FARE_HOTEL_MASTERs">
+    <Type Name="VIEW_FARE_HOTEL_MASTER">
+      <Column Name="HOTEL_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HOTEL_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="HOTEL_RATING" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ADDRESS_LINE1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ADDRESS_LINE2" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="STATE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="COUNTRY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PINCODE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="EMAIL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PHONE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="FAX" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="HOTEL_WEBSITE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="GMT" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CHECK_IN_TIME" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CHECK_OUT_TIME" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_FARE_HOTEL_CURRENCY_MASTER" Member="VIEW_FARE_HOTEL_CURRENCY_MASTERs">
+    <Type Name="VIEW_FARE_HOTEL_CURRENCY_MASTER">
+      <Column Name="CURRENCY_PRICE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HOTEL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ROOM_TYPE_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CURRENCY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AMOUNT" Type="System.Decimal" DbType="Decimal(12,0)" CanBeNull="true" />
+      <Column Name="TAX" Type="System.Decimal" DbType="Decimal(12,0)" CanBeNull="true" />
+      <Column Name="GST" Type="System.Decimal" DbType="Decimal(12,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_FARE_HOTEL_SERVICE_TYPE_MASTER" Member="VIEW_FARE_HOTEL_SERVICE_TYPE_MASTERs">
+    <Type Name="VIEW_FARE_HOTEL_SERVICE_TYPE_MASTER">
+      <Column Name="SERVICE_TYPE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SERVICE_TYPE_DESC" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="HOTEL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

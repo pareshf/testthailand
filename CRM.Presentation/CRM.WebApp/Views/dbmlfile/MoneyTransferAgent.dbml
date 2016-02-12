@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FULL_CRM_ASHISH" Class="MoneyTransferAgentDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.1.6;Initial Catalog=FULL_CRM_ASHISH;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FULL_CRM_ASHISHConnectionString13" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_MONEY_TRANSFER_AGENT" Member="VIEW_MONEY_TRANSFER_AGENTs">
+    <Type Name="VIEW_MONEY_TRANSFER_AGENT">
+      <Column Name="SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BOOKING_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PAYMENT_SR_NO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PAYMENT_CURR_CODE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FOREIGN_CURRENCY_AGENT_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PAYMENT_MODE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REC_CHEQUE_DD_NO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AMOUNT" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BANK_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Branch" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="RECEIPT_NO" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="RECEIPT_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="RECEIVED_BY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="INR_AMOUNT" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="SERVICE_CHARGE" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="CONVERSION_RATE" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BRANCH_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TOUR_SHORT_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FAM" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_MODIFIED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="STATUS_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

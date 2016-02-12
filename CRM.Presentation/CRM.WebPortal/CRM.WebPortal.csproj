@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BB8E45A4-2828-448F-9F6E-58DD08B4A076}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRM.WebPortal</RootNamespace>
+    <AssemblyName>CRM.WebPortal</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.20229.20843, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CRM.WebApp\ExternalAssembly\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="MailClient, Version=1.0.0.51222, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.ObjectBuilder2, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="site\css\chromestyle.css" />
+    <Content Include="site\css\destination.css" />
+    <Content Include="site\css\jstabs.css" />
+    <Content Include="site\css\style.css" />
+    <Content Include="site\flash\dubai_egypt.swf" />
+    <Content Include="site\flash\go goa &amp; monsoon.swf" />
+    <Content Include="site\flash\goa.swf" />
+    <Content Include="site\flash\honeymoon_pack.swf" />
+    <Content Include="site\flash\india_brochure.swf" />
+    <Content Include="site\flash\india_map.swf" />
+    <Content Include="site\flash\kerala.swf" />
+    <Content Include="site\flash\only_thailand.swf" />
+    <Content Include="site\flash\singapore_malaysia_thailand.swf" />
+    <Content Include="site\flash\spriritual.swf" />
+    <Content Include="site\flash\star &amp; malaysia.swf" />
+    <Content Include="site\flash\Thumb_malesiya.swf" />
+    <Content Include="site\flash\udaipur &amp; trident.swf" />
+    <Content Include="site\flash\utranchal_himachal.swf" />
+    <Content Include="site\flash\world_map.swf" />
+    <Content Include="site\images\123.jpg" />
+    <Content Include="site\images\arrow.gif" />
+    <Content Include="site\images\arrow_G.gif" />
+    <Content Include="site\images\award_1.png" />
+    <Content Include="site\images\award_10.png" />
+    <Content Include="site\images\award_2.png" />
+    <Content Include="site\images\award_3.png" />
+    <Content Include="site\images\award_4.png" />
+    <Content Include="site\images\award_5.png" />
+    <Content Include="site\images\award_6.png" />
+    <Content Include="site\images\award_7.png" />
+    <Content Include="site\images\award_8.png" />
+    <Content Include="site\images\award_9.png" />
+    <Content Include="site\images\bg_linkbutton.jpg" />
+    <Content Include="site\images\bg_text.jpg" />
+    <Content Include="site\images\chromebg-over.gif" />
+    <Content Include="site\images\chromebg.gif" />
+    <Content Include="site\images\deluxeroom.jpg" />
+    <Content Include="site\images\down.gif" />
+    <Content Include="site\images\duplexroom.jpg" />
+    <Content Include="site\images\flash.jpg" />
+    <Content Include="site\images\foreign_tourist.jpg" />
+    <Content Include="site\images\GO.gif" />
+    <Content Include="site\images\goa.jpg" />
+    <Content Include="site\images\goa_1.jpg" />
+    <Content Include="site\images\goa_2.jpg" />
+    <Content Include="site\images\goa_3.jpg" />
+    <Content Include="site\images\goa_4.jpg" />
+    <Content Include="site\images\head_bg.png" />
+    <Content Include="site\images\himachalpradesh.jpg" />
+    <Content Include="site\images\ho61.jpg" />
+    <Content Include="site\images\hotelmenu_div.jpg" />
+    <Content Include="site\images\hotelmenu_left2.jpg" />
+    <Content Include="site\images\hotelmenu_repeat_x2.jpg" />
+    <Content Include="site\images\hotelmenu_right2.jpg" />
+    <Content Include="site\images\indian_tourist.jpg" />
+    <Content Include="site\images\india_frame.jpg" />
+    <Content Include="site\images\in_goa01.jpg" />
+    <Content Include="site\images\in_kadmat03.gif" />
+    <Content Include="site\images\karnataka.jpg" />
+    <Content Include="site\images\kashmir.jpg" />
+    <Content Include="site\images\kashmir1.jpg" />
+    <Content Include="site\images\kerala.jpg" />
+    <Content Include="site\images\know_us_frame_left.jpg" />
+    <Content Include="site\images\know_us_frame_repeat.jpg" />
+    <Content Include="site\images\know_us_frame_right.jpg" />
+    <Content Include="site\images\leftmainhead.jpg" />
+    <Content Include="site\images\leh.jpg" />
+    <Content Include="site\images\localmap.gif" />
+    <Content Include="site\images\logo.jpg" />
+    <Content Include="site\images\luxury.jpg" />
+    <Content Include="site\images\maldives.jpg" />
+    <Content Include="site\images\Mt_Abu.jpg" />
+    <Content Include="site\images\patnitop_galleryfull.jpg" />
+    <Content Include="site\images\pub.jpg" />
+    <Content Include="site\images\radisson-bar.jpg" />
+    <Content Include="site\images\rajasthan.jpg" />
+    <Content Include="site\images\resort2.jpg" />
+    <Content Include="site\images\right.gif" />
+    <Content Include="site\images\rightmainhead.jpg" />
+    <Content Include="site\images\sanasar1.jpg" />
+    <Content Include="site\images\sikkim.jpg" />
+    <Content Include="site\images\staff.jpg" />
+    <Content Include="site\images\super_star_libra_cruise.jpg" />
+    <Content Include="site\images\tower_image.gif" />
+    <Content Include="site\images\uttaranchal.jpg" />
+    <Content Include="site\images\uttar_pradesh.jpg" />
+    <Content Include="site\images\world_frame.jpg" />
+    <Content Include="site\images\X_menus.jpg" />
+    <Content Include="site\javascript\chrome.js" />
+    <Content Include="site\javascript\ddsmoothmenu.js" />
+    <Content Include="site\javascript\down.gif" />
+    <Content Include="site\javascript\jstabs.js" />
+    <Content Include="style.css" />
+    <Content Include="DomesticTours.aspx" />
+    <Content Include="InternationalFlights.aspx" />
+    <Content Include="InternationalTours.aspx" />
+    <Content Include="Passports.aspx" />
+    <Content Include="Visa.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess\WebDataAccess.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shared\ImageHandler.ashx.cs">
+      <DependentUpon>ImageHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CrmWeb.Master.cs">
+      <DependentUpon>CrmWeb.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrmWeb.Master.designer.cs">
+      <DependentUpon>CrmWeb.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DomesticTours.aspx.cs">
+      <DependentUpon>DomesticTours.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DomesticTours.aspx.designer.cs">
+      <DependentUpon>DomesticTours.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalFlights.aspx.cs">
+      <DependentUpon>InternationalFlights.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalFlights.aspx.designer.cs">
+      <DependentUpon>InternationalFlights.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalTours.aspx.cs">
+      <DependentUpon>InternationalTours.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternationalTours.aspx.designer.cs">
+      <DependentUpon>InternationalTours.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Passports.aspx.cs">
+      <DependentUpon>Passports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Passports.aspx.designer.cs">
+      <DependentUpon>Passports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visa.aspx.cs">
+      <DependentUpon>Visa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visa.aspx.designer.cs">
+      <DependentUpon>Visa.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExternalDlls\AjaxControlToolkit.dll" />
+    <Content Include="ExternalDlls\Ionic.Zip.Reduced.dll" />
+    <Content Include="ExternalDlls\itextsharp.dll" />
+    <Content Include="ExternalDlls\MailClient.dll" />
+    <Content Include="ExternalDlls\Microsoft.Practices.EnterpriseLibrary.Caching.dll" />
+    <Content Include="ExternalDlls\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="ExternalDlls\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="ExternalDlls\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll" />
+    <Content Include="ExternalDlls\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll" />
+    <Content Include="ExternalDlls\Microsoft.Practices.EnterpriseLibrary.Logging.dll" />
+    <Content Include="ExternalDlls\Microsoft.Practices.ObjectBuilder2.dll" />
+    <Content Include="ExternalDlls\Telerik.Web.Design.dll" />
+    <Content Include="ExternalDlls\Telerik.Web.UI.dll" />
+    <Content Include="Shared\ImageHandler.ashx" />
+    <Content Include="App_Themes\Default\Default.skin" />
+    <None Include="site\Templates\index.dwt" />
+    <Content Include="site\flash\Mainbanner_index.swf" />
+    <Content Include="CrmWeb.Master" />
+    <Content Include="Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51912</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

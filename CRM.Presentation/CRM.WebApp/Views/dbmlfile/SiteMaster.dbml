@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="SiteMasterDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.1.13;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FULL_CRM_ASHISHConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_SITE_SEEING_MASTER" Member="VIEW_SITE_SEEING_MASTERs">
+    <Type Name="VIEW_SITE_SEEING_MASTER">
+      <Column Name="CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SIGHT_SEEING_SRNO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SITE_SEEING_DETAILS" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="ENTRY_FEE" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="SITE_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_FARE_SITE_SEEING_PHOTO_DETAILS" Member="VIEW_FARE_SITE_SEEING_PHOTO_DETAILs">
+    <Type Name="VIEW_FARE_SITE_SEEING_PHOTO_DETAIL">
+      <Column Name="SIGHTSEEING_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SIGHT_SEEING_SRNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PHOTO_TITLE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PHOTO_DESCRIPATION" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="PHOTO_FILE" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

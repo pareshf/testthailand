@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="BalanceTypeMaster">
+  <DataContextMoniker Name="/BalanceTypeMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ba6864a4-35a4-4a8b-a36d-9f8f440cf9ff" absoluteBounds="5.375, 2.375, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/BalanceTypeMasterDataContext/VIEW_BALANCE_TYPE_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a1d91e09-515c-4979-9ca0-9ec237c2eb3e" absoluteBounds="5.39, 2.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

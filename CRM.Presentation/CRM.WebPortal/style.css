@@ -1,0 +1,148 @@
+body 
+{
+	background-color: #c6cddb;
+	font-family: New Baskerville, Arial;
+	color: #4f2f5e;
+	font-size: 12px;
+}
+.style1 
+{	
+	font-family: New Baskerville, Arial;
+	color: #4f2f5e;
+	font-size: 12px;
+}
+.style3 
+{
+	font-family: New Baskerville, Arial;
+	color: #4f2f5e;
+	font-size: 14px;
+	font-weight: bold;
+}
+.style5 
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #474e63;
+}
+.style7 
+{
+	font-family: New Baskerville, Arial; 
+	color: #FFFFFF; 
+	font-size: 18px; 
+	font-weight: bold; 
+}
+.style8 
+{	
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.style10 {color: #FF6633}
+A
+{
+	text-decoration:none;
+	color:#4f2f5e;
+}
+A:hover
+{
+	text-decoration:none;
+	color:#0783d2;
+}
+.prdTable
+{
+	border-top: 1px #a3a9c3 solid;
+	border-left: 1px #a3a9c3 solid;
+	border-bottom: 1px #a3a9c3 solid;
+	border-right: 1px #a3a9c3 solid;
+	border-collapse:collapse;
+	border-color:#a3a9c3;
+}
+.tdPrdImage
+{
+	padding:5px 5px 5px 5px;
+	vertical-align:middle;
+	text-align:center;
+}
+.tablePrdImage
+{
+	border-top: 1px #bac0d6 solid;
+	border-left: 1px #bac0d6 solid;
+	border-bottom: 1px #bac0d6 solid;
+	border-right: 1px #bac0d6 solid;
+	border-collapse:collapse;
+	border-color:#bac0d6;
+	background-color:#FFFFFF;
+}
+.tdPrdName
+{
+	font-size:12px;
+	font-weight:bold;
+	padding:2px 0px 2px 0px;
+	vertical-align:middle;
+	text-align:center;	
+}
+.tdPrdPrice
+{
+    font-size:14px;    
+    padding:2px 0px 2px 0px;    
+    color: #ff7800;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:bold;
+}
+.spanSpecialPrice
+{
+	font-size:12px; 
+    font-weight: normal; 
+}
+.spanPrdPrice
+{
+    font-size:12px;
+    font-weight: normal;
+    color: #394266;
+}
+.button
+{
+    border-top: 2px #ffffff outset;
+	border-left: 2px #ffffff outset;
+	border-bottom: 2px #ffffff outset;
+	border-right: 2px #ffffff outset;
+	background-color:#626986;
+	color:#FFFFFF;
+    font-weight: bold;
+    height: 25px;
+    width: auto;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.tdPrdInfoName
+{
+    background-color:#c6cddb;
+    border-bottom: 1px #999eb3 ridge; 
+    padding:3px 0px 3px 0px;      
+    font-size:16px; 
+    vertical-align:middle;
+    text-align:center;    
+    font-weight:bold;                
+}
+.spanPrdInfoName
+{
+    font-size:12px; 
+    font-weight: normal;
+}
+.tdPrdInfoPrice
+{
+    font-size:18px;    
+    padding:2px 0px 2px 0px;    
+    color: #ff7800;
+    vertical-align:middle;
+    text-align:center;
+    font-weight:bold;
+}
+.tdCategoryTree
+{
+	vertical-align:top;
+	padding:10px 10px 10px 10px;
+	color:#FFFFFF;	
+}

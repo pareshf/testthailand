@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FULL_CRM_ASHISH" Class="NewBookingDetailDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.1.242;Initial Catalog=FULL_CRM_ASHISH;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FULL_CRM_ASHISHConnectionString4" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_BOOKING_PAYMENT_DETAILS" Member="VIEW_BOOKING_PAYMENT_DETAILs">
+    <Type Name="VIEW_BOOKING_PAYMENT_DETAIL">
+      <Column Name="PAYMENT_SRNO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BOOKING_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PAYMENT_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="PAYMENT_MODE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REC_CHEQUE_DD_NO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TOKEN_AMOUNT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BANK_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RECEIPT_NO" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="RECEIPT_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_BOOKING_FORM_TEXTBOX" Member="VIEW_BOOKING_FORM_TEXTBOXes">
+    <Type Name="VIEW_BOOKING_FORM_TEXTBOX">
+      <Column Name="INQUIRY_ID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="BOOKING_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BOOKING_CODE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BOOKING_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="COMPANY_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="FOREIGN_CURRENCY_AGENT_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ADD_REQ_SERVICE" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="DOCS_FOR_VISA_HANDED_OVER_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="PAYMENT_BAL_TOUR_MADE_BY_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TOTAL_ACTUAL_TOUR_COST_C1" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TOTAL_ACTUAL_TOUR_COST_C2" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="BALANCE_TO_BE_PAID_C1" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BALANCE_TO_BE_PAID_C2" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BOOKING_TAKEN_BY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BOOKING_STATUS_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_CUST_VISA_DETAILS" Member="VIEW_CUST_VISA_DETAILs">
+    <Type Name="VIEW_CUST_VISA_DETAIL">
+      <Column Name="SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUST_REL_SRNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COUNTRY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CUST_REL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VISA_EXPIRY_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_CUSTOMER_DETAILS" Member="VIEW_CUSTOMER_DETAILs">
+    <Type Name="VIEW_CUSTOMER_DETAIL">
+      <Column Name="INQUIRY_ID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUST_UNQ_ID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TITLE_DESC" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CUST_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="CUST_SURNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RES_ADD_LINE1" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="RES_ADD_LINE2" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="RES_COUNTRY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RES_STATE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RES_CITY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RES_PINCODE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="EMERGENCY_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="RES_PHONE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="RES_MOBILE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EMMERGENCY_ADD_LINE1" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="EMMERGENCY_ADD_LINE2" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="EMMERGENCY_COUNTRY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMMERGENCY_STATE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMMERGENCY_CITY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EMMERGENCY_PINCODE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="EMMERGENCY_PHONE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EMMERGENCY_MOBILE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CUST_ADDRESS_TYPE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUST_REL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SR_NO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EMER_SR_NO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_CUSTOMER_REL_DETAILS" Member="VIEW_CUSTOMER_REL_DETAILs">
+    <Type Name="VIEW_CUSTOMER_REL_DETAIL">
+      <Column Name="BOOKING_DETAIL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VALID_VISA" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="VALID_PASSPORT" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BOOKING_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUST_REL_SRNO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MEAL_DESC" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="NATIONALITY_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUST_UNQ_ID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TITLE_DESC" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CUST_BIRTH_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CUST_REL_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="CUST_REL_SURNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CUST_REL_EMAIL" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CUST_REL_MOBILE" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="CUST_REL_PHONE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ROOM_TYPE_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CLASS_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CATEGORY_DESC" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CUST_REL_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CUST_REL_PASSPORT_NO" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="CUST_REL_PASSPORT_ISSUE_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CUST_REL_PASSPORT_ISSUE_PLACE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CUST_REL_PASSPORT_EXPIRY_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CUST_REL_PASSPORT_PRINTED_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CUST_REL_PASSPORT_ISSUE_COUNTRY" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="SHARE_ROOM_IN_HOTEL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SHARE_ROOM_IN_CRUISE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DEPARTURE_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ARIVAL_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="BORDING_FROM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ARIVAL_TO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BOOKING_STATUS_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="RELATION" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="IS_CHECKED" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

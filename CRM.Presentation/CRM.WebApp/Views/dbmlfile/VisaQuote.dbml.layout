@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="VisaQuote">
+  <DataContextMoniker Name="/VisaQuoteDataContext" />
+  <nestedChildShapes>
+    <classShape Id="fc77ceac-4858-4949-a8be-98d44aa82953" absoluteBounds="4.25, 2.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/VisaQuoteDataContext/VIEW_FARE_VISA_QUOTE_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf429079-a8c2-434d-ad74-e5f12f856b3f" absoluteBounds="4.265, 3.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,196 @@
+div.RadPanelBar_LightBlue .rpRootGroup
+{
+	border: 0;
+	/*background-color: #efefef;*/
+}
+
+.RadPanelBar_LightBlue .rpLink,
+.RadPanelBar_LightBlue .rpTemplate
+{
+	color: #000;
+	font: bold 12px/24px Arial, Helvetica, sans-serif;
+}
+
+* + html div.RadPanelBar_LightBlue .rpItem
+{
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+}
+
+* html div.RadPanelBar_LightBlue .rpItem
+{
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+}
+
+div.RadPanelBar_LightBlue .rpLast
+{
+	border-width: 1px 0;
+}
+
+div.RadPanelBar_LightBlue .rpLink,
+div.RadPanelBar_LightBlue .rpGroup .rpLink
+{
+	border: 0;
+	padding: 1px;
+}
+
+div.RadPanelBar_LightBlue .rpLink .rpOut,
+div.RadPanelBar_LightBlue .rpGroup .rpLink .rpOut
+{
+/*	margin: 1px 0 0 1px;*/
+	padding-bottom: 1px;
+	border-bottom: 0;
+}
+
+/*div.RadPanelBar_LightBlue_rtl .rpLink .rpOut,
+div.RadPanelBar_LightBlue_rtl .rpGroup .rpLink .rpOut
+{
+	margin: 1px 1px 0 0;
+}*/
+
+div.RadPanelBar_LightBlue .rpGroup .rpLink .rpOut
+{
+	padding-bottom: 0;
+}
+
+/* compensate for borders */
+
+div.RadPanelBar_LightBlue .rpLink:hover,
+div.RadPanelBar_LightBlue .rpGroup .rpLink:hover
+{
+	padding: 0;
+	border: 1px solid #d6d6d6;
+	background: transparent url('PanelBar/RootItemBg.png') no-repeat 0 0;
+}
+
+div.RadPanelBar_LightBlue .rpRootGroup .rpFocused,
+div.RadPanelBar_LightBlue .rpRootGroup .rpFocused:hover,
+div.RadPanelBar_LightBlue .rpRootGroup .rpSelected,
+div.RadPanelBar_LightBlue .rpRootGroup .rpSelected:hover
+{
+	border: 0;
+	padding: 1px;
+	background-color: #A4A2A3;
+	background-image: none;
+	color: #fff;
+}
+
+/* <disabled items> */
+div.RadPanelBar_LightBlue .rpDisabled,
+div.RadPanelBar_LightBlue .rpDisabled:hover
+{
+	color: #bbb;
+	cursor: default;
+	background-image: none;
+	border: 0;
+	padding: 1px;
+}
+
+div.RadPanelBar_LightBlue .rpDisabled .rpOut,
+div.RadPanelBar_LightBlue .rpDisabled:hover .rpOut
+{
+	padding-bottom: 1px;
+	border: 0;
+}
+
+/* </disabled items> */
+
+/* <expand arrows> */
+.RadPanelBar_LightBlue .rpExpandable .rpOut,
+.RadPanelBar_LightBlue .rpExpanded .rpOut
+{
+	background-color: #696969;
+	background-image: url('PanelBar/Expandable.png');
+	background-repeat: no-repeat;
+	color:#fff;
+}
+
+.RadPanelBar_LightBlue_rtl .rpExpandable .rpOut,
+.RadPanelBar_LightBlue_rtl .rpExpanded .rpOut
+{
+	background-image: url('PanelBar/ExpandableRTL.png');
+}
+/* </expand arrows> */
+
+/* <subitems> */
+
+div.RadPanelBar_LightBlue .rpGroup .rpLink,
+div.RadPanelBar_LightBlue .rpGroup .rpTemplate
+{
+	background-image: none;
+	font-weight: normal;
+}
+
+/* <subitems (disabled)> */
+div.RadPanelBar_LightBlue .rpGroup .rpDisabled,
+div.RadPanelBar_LightBlue .rpGroup .rpDisabled:hover
+{
+	background-image: none;
+	color: #bbb;
+	border: 0;
+	padding: 1px;
+}
+/* </subitems (disabled)> */
+
+/* <subitems> */
+
+/*      <expand arrows> */
+.RadPanelBar_LightBlue .rpRootGroup .rpOut
+{ 
+	padding-left: 15px;
+}
+
+div.RadPanelBar_LightBlue .rpLevel2 .rpTemplate,
+div.RadPanelBar_LightBlue .rpLevel2 .rpOut,
+div.RadPanelBar_LightBlue .rpLevel3 .rpTemplate,
+div.RadPanelBar_LightBlue .rpLevel3 .rpOut
+{
+	padding-left: 15px;
+}
+
+.RadPanelBar_LightBlue .rpSlide
+{
+	padding-left: 10px;
+}
+
+.RadPanelBar_LightBlue_rtl .rpRootGroup .rpOut
+{ 
+	padding-left: auto;
+	padding-right: 15px;
+}
+
+div.RadPanelBar_LightBlue_rtl .rpLevel2 .rpTemplate,
+div.RadPanelBar_LightBlue_rtl .rpLevel2 .rpOut,
+div.RadPanelBar_LightBlue_rtl .rpLevel3 .rpTemplate,
+div.RadPanelBar_LightBlue_rtl .rpLevel3 .rpOut
+{
+	padding-left: auto;
+	padding-right: 15px;
+}
+
+.RadPanelBar_LightBlue_rtl .rpSlide
+{
+	padding-left: auto;
+	padding-right: 10px;
+}
+
+div.RadPanelBar_LightBlue .rpText {
+	padding: 0 5px;
+}
+
+.RadPanelBar_LightBlue .rpExpandable .rpOut { background-position: 0 0; }
+.RadPanelBar_LightBlue .rpExpanded .rpOut { background-position: 0 -176px; }
+.RadPanelBar_LightBlue_rtl .rpExpandable .rpOut { background-position: 100% 0; }
+.RadPanelBar_LightBlue_rtl .rpExpanded .rpOut { background-position: 100% -176px; }
+
+.RadPanelBar_LightBlue .rpGroup .rpExpandable .rpOut { background-position: 0 -338px; }
+.RadPanelBar_LightBlue .rpGroup .rpExpanded .rpOut { background-position: 0 -477px; }
+.RadPanelBar_LightBlue_rtl .rpGroup .rpExpandable .rpOut { background-position: 100% -338px; }
+.RadPanelBar_LightBlue_rtl .rpGroup .rpExpanded .rpOut { background-position: 100% -477px; }
+
+/*      </expand arrows> */
+
+/* </background positioning> */

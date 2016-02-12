@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="BookingCurrencyMaster">
+  <DataContextMoniker Name="/BookingCurrencyMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="db9b4647-19c2-45c4-8a35-c779acad6efa" absoluteBounds="5.875, 1.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/BookingCurrencyMasterDataContext/VIEW_BOOKING_CURRENCY_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eda49d5c-4806-4bec-afa3-4c0a5524eb68" absoluteBounds="5.89, 2.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

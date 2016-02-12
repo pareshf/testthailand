@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="AgentCommissionMaster">
+  <DataContextMoniker Name="/AgentCommissionMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3332be78-067b-4810-8fc3-bde652de0843" absoluteBounds="5.125, 1.375, 2.25, 2.1554996744791666">
+      <DataClassMoniker Name="/AgentCommissionMasterDataContext/VIEW_AGENT_COMMISION_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="de85467a-ab75-4271-93d2-6d0cc3b80a27" absoluteBounds="5.14, 1.835, 2.2199999999999998, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FULL_CRM_ASHISH" Class="TourCheckListDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SERVER;Initial Catalog=FULL_CRM_ASHISH;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_BOOKING_DETAIL_FOR_CHECKLIST" Member="VIEW_BOOKING_DETAIL_FOR_CHECKLISTs">
+    <Type Name="VIEW_BOOKING_DETAIL_FOR_CHECKLIST">
+      <Column Name="TOUR_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BOOKING_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CUST_SURNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CUST_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="TITLE_DESC" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_PASSENGER_CHECKLIST_DETAIL" Member="VIEW_PASSENGER_CHECKLIST_DETAILs">
+    <Type Name="VIEW_PASSENGER_CHECKLIST_DETAIL">
+      <Column Name="BOOKING_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CHECKED" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="CHECKLIST_DESCRIPTION" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="CHECKLIST_DETAIL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ConvertionRateMaster">
+  <DataContextMoniker Name="/ConvertionRateMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a44251e3-c589-4417-ba17-93eab61f621f" absoluteBounds="4.625, 4.375, 2, 1.4248478190104168">
+      <DataClassMoniker Name="/ConvertionRateMasterDataContext/VIEW_CONVERSION_RATE_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="26b69628-5cda-4d18-9af8-205f03e7a7bb" absoluteBounds="4.64, 4.835, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

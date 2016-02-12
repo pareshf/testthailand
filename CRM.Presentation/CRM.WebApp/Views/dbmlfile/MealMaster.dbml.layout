@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="MealMaster">
+  <DataContextMoniker Name="/MealMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8fabd7e6-f91a-44e4-8f99-7fd751092bec" absoluteBounds="6, 3.25, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/MealMasterDataContext/VIEW_MEAL_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0be8382a-22e5-447f-94a0-3c6bbc0f6e48" absoluteBounds="6.015, 3.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FULL_CRM_ASHISH" Class="TravelPlanDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.0.8;Initial Catalog=FULL_CRM_ASHISH;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_FOR_CUSTOMER_NEXT_TRAVEL_PLAN_NEW" Member="VIEW_FOR_CUSTOMER_NEXT_TRAVEL_PLAN_NEWs">
+    <Type Name="VIEW_FOR_CUSTOMER_NEXT_TRAVEL_PLAN_NEW">
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NEXT_TRAVEL_PLAN_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="NO_OF_PERSONS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_MODIFIED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="INQUIRY_STATUS_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TOUR_SHORT_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TOUR_TYPE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="REGION_SHORT_NAME" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="STATUS_NAME" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="STATE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="COUNTRY_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_CUSTOMER_VISA_DETAIL" Member="VIEW_CUSTOMER_VISA_DETAILs">
+    <Type Name="VIEW_CUSTOMER_VISA_DETAIL">
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUST_REL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VISA_EXPIRY_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CUST_REL_SRNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COUNTRY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_CUSTOMER_TRAVEL_HISTORY_WITH_US" Member="VIEW_CUSTOMER_TRAVEL_HISTORY_WITH_US">
+    <Type Name="VIEW_CUSTOMER_TRAVEL_HISTORY_WITH_US">
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CUSTOMER_TRAVEL_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="NO_OF_PERSONS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_MODIFIED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COUNTRY_ID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_AIRLINE_DETAIL" Member="VIEW_AIRLINE_DETAILs">
+    <Type Name="VIEW_AIRLINE_DETAIL">
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUST_REL_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PREF_AIRLINE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PREF_CLASS_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FREQUENTLY_FLY_NO" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CORPORATE_CLIENT_NO" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CUST_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="AIRLINE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CLASS_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CUST_REL_SRNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_CUSTOMER_TRAVEL_WITH_OTHER" Member="VIEW_CUSTOMER_TRAVEL_WITH_OTHERs">
+    <Type Name="VIEW_CUSTOMER_TRAVEL_WITH_OTHER">
+      <Column Name="CUST_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SR_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TRAVEL_DATE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="DESCRIPATION" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="NO_OF_PERSON" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_MODIFIED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COUNTRY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AGENT_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

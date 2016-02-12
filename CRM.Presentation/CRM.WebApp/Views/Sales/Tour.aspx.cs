@@ -1,0 +1,93 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data;
+using Telerik.Web.UI;
+using CRM.DataAccess.AdministratorEntity;
+using System.Configuration;
+using CRM.DataAccess.SecurityDAL;
+using Microsoft.Practices.EnterpriseLibrary.ExceptionHandling;
+using CRM.DataAccess;
+
+namespace CRM.WebApp.Views.Sales
+{
+    public partial class Tour : System.Web.UI.Page
+    {
+        AuthorizationDal objAuthorizationDal=new AuthorizationDal();
+
+        protected void Page_PreInit(object sender, EventArgs e)
+        {
+            //Check Page Authorization
+            String CompId, DeptId, RoleId;
+            CompId = Session["CompanyId"].ToString();
+            DeptId = Session["DeptId"].ToString();
+            RoleId = Session["RoleId"].ToString();
+
+            DataTable dt = objAuthorizationDal.GetPageRights(Convert.ToInt32(CompId), Convert.ToInt32(DeptId), Convert.ToInt32(RoleId), 128);
+
+            if (dt.Rows.Count <= 0 || Convert.ToBoolean(dt.Rows[0]["READ_ACCESS"]) == false)
+            {
+                Response.Redirect("~/Views/InvalidAccess.aspx");
+            }
+        }
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                String CompId, DeptId, RoleId;
+                CompId = Session["CompanyId"].ToString();
+                DeptId = Session["DeptId"].ToString();
+                RoleId = Session["RoleId"].ToString();
+
+                DataTable dt = objAuthorizationDal.GetPageRights(Convert.ToInt32(CompId), Convert.ToInt32(DeptId), Convert.ToInt32(RoleId), 128);
+                foreach (DataRow dr in dt.Rows)
+                {
+                    if (Convert.ToBoolean(dr["READ_ACCESS"]) == true)
+                    {
+                        radgridmaster.Enabled = false;
+                        radgridCurrDetail.Enabled = false;
+                        Delete.Visible = false;
+                        btnPrint.Visible = false;
+                    }
+
+                    if (Convert.ToBoolean(dr["WRITE_ACCESS"]) == true)
+                    {
+                        radgridmaster.Enabled = true;
+                        radgridCurrDetail.Enabled = true;
+                        Delete.Visible = false;
+                        btnPrint.Visible = false;
+                    }
+
+                    if (Convert.ToBoolean(dr["DELETE_ACCESS"]) == true)
+                    {
+                        radgridmaster.Enabled = true;
+                        radgridCurrDetail.Enabled = true;
+                        Delete.Visible = true;
+                        btnPrint.Visible = false;
+                    }
+
+                    if (Convert.ToBoolean(dr["PRINT_ACCESS"]) == true)
+                    {
+                        radgridmaster.Enabled = true;
+                        radgridCurrDetail.Enabled = true;
+                        Delete.Visible = true;
+                        btnPrint.Visible = true;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                bool rethrow = ExceptionPolicy.HandleException(ex, DALHelper.DAL_EXP_POLICYNAME);
+                if (rethrow)
+                {
+                    throw ex;
+                }
+            }
+        }
+               
+    }
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="GroupDisplayMasterDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.1.13;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_GROUP_DISPLAY_MASTER" Member="VIEW_GROUP_DISPLAY_MASTERs">
+    <Type Name="VIEW_GROUP_DISPLAY_MASTER">
+      <Column Name="GROUP_DISPLAY_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GROUP_DISPLAY_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="GROUP_DISPLAY_DESCRIPTION" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

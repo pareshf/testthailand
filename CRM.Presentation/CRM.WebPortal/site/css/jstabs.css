@@ -1,0 +1,68 @@
+.seltab {
+	BORDER-RIGHT: #6EB500 1pt solid; 
+	BORDER-TOP: #6EB500 1pt solid; 
+	FONT-WEIGHT:normal;
+	FONT-SIZE: 12px; 
+	BACKGROUND: #FFFFFF; 
+	BORDER-LEFT: #6EB500 1pt solid; 
+	CURSOR: pointer;
+	PADDING-TOP: 3px; 
+	FONT-FAMILY:Arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none;
+	text-align:center;
+	color:#505050;
+	text-transform:uppercase;
+}
+
+.tab {
+	text-transform:uppercase;
+	height:30px;
+	BORDER-RIGHT: #6EB500 1pt solid; 
+	BORDER-TOP: #6EB500 1pt solid; 
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px; 
+	BACKGROUND: #6EB500; 
+	BORDER-LEFT: #6EB500 1pt solid; 
+	CURSOR:pointer;
+	PADDING-TOP: 3px; 
+	BORDER-BOTTOM: #6EB500 1pt solid;	 
+	FONT-FAMILY:Arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none;
+	text-align:center;
+	color:#FFFFFF;
+}
+.tabSpacer {
+	BORDER-BOTTOM: #6EB500 1pt solid;	 
+}
+.tabContent{
+	display:none;	
+	ppadding:2pt;
+	pBORDER: #6EB500 1pt solid; 
+	pBACKGROUND: #ffffff;
+}
+.cell{
+	BORDER-right: #6EB500 1pt solid; 
+	BORDER-BOTTOM: #6EB500 1pt solid; 
+	FONT-SIZE: 9pt; 
+	BACKGROUND: #FFFFFF; 
+	BORDER-LEFT: #6EB500 1pt solid; 
+	FONT-FAMILY:Arial, Helvetica, sans-serif; 
+	padding:2pt;
+
+}
+
+.matter_ftest{
+	width:800px;
+	padding-right:5px;
+	float:left;
+
+}
+.teb_matter{
+	background-color:white; 
+	padding:2px; 
+	font-size:12px; 
+	text-align:justify; 
+	font-family:Arial, Helvetica, sans-serif; 
+	width:880px;
+	line-height:18px;
+}

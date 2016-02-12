@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 12.125" name="InquiryMaster">
+  <DataContextMoniker Name="/InquiryMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="355cc1d4-a24c-4845-88b7-e93a21dadab1" absoluteBounds="4.25, 0.5, 2, 11.385968424479165">
+      <DataClassMoniker Name="/InquiryMasterDataContext/VIEW_INQ_MASTER_FOR_TOURS_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="16fa5f3e-1b64-4d69-8181-0d3a215b21dd" absoluteBounds="4.265, 0.96, 1.9700000000000002, 10.825968424479166" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

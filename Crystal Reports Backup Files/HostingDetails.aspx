@@ -1,0 +1,2 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Views/Shared/CRMMaster.Master" CodeBehind="HostingDetails.aspx.cs" Inherits="CRM.WebApp.Views.Settings.HostingDetails" %>
+<asp:Content ID="cntIncludes" ContentPlaceHolderID="cphIncludes" runat="server"></asp:Content>

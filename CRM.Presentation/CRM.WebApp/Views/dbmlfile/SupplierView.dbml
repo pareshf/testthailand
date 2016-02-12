@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="SupplierViewDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.1.9;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_SUPPLIER_MASTER" Member="VIEW_SUPPLIER_MASTERs">
+    <Type Name="VIEW_SUPPLIER_MASTER">
+      <Column Name="SUPPLIER_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SUPPLIER_COMPANY_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="REMARKS" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="SUPPLIER_PHOTO_PATH" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CREDIT_LIMIT" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="COMMUNICATION_TIME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ACCOUNTING_CODE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MODIFY_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SUPPLIER_UNQ_ID" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CURRENCY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="COMMUNICATION_MODE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DESIGNATION_DESC" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SUPPLIER_TYPE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GROUP_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

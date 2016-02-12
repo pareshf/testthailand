@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="ProgramMasterDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SERVERAI;Initial Catalog=THAILAND_CRM;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FULL_CRM_ASHISHConnectionString4" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_FOR_DEPT_ROLE_GRID" Member="VIEW_FOR_DEPT_ROLE_GRIDs">
+    <Type Name="VIEW_FOR_DEPT_ROLE_GRID">
+      <Column Name="DEPT_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ROLE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ROLE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DEPT_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COMPANY_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="COMPANY_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_SUB_PROGRAM_ACCESS_GRID" Member="VIEW_SUB_PROGRAM_ACCESS_GRIDs">
+    <Type Name="VIEW_SUB_PROGRAM_ACCESS_GRID">
+      <Column Name="ROLE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SUB_PROGRAM_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DEPT_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="READ_ACCESS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="WRITE_ACCESS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="DELETE_ACCESS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="PRINT_ACCESS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="PROGRAM_SUB_NAME" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="COMPANY_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_PROGRAM_MASTER" Member="VIEW_PROGRAM_MASTERs">
+    <Type Name="VIEW_PROGRAM_MASTER">
+      <Column Name="PROGRAM_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PROGRAM_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="PROGRAM_TEXT" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PROGRAM_ACCESS_KEY" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="PROGRAM_SORT_ORDER" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MODULE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PROGRAM_TYPE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_PROGRAM_ACCESS_GRID" Member="VIEW_PROGRAM_ACCESS_GRIDs">
+    <Type Name="VIEW_PROGRAM_ACCESS_GRID">
+      <Column Name="PROG_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="READ_ACCESS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="WRITE_ACCESS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="DELETE_ACCESS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="PRINT_ACCESS" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="ROLE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DEPT_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PROGRAM_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="COMPANY_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CUST_TYPE" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="CHANGE_CUST_OWNER" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="TOUR_DISCOUNT" Type="System.Decimal" DbType="Decimal(5,2)" CanBeNull="true" />
+      <Column Name="TICKETING_DISCOUNT" Type="System.Decimal" DbType="Decimal(5,2)" CanBeNull="true" />
+      <Column Name="VISA_DISCOUNT" Type="System.Decimal" DbType="Decimal(5,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_SUB_PROGRAM_MASTER_NEW" Member="VIEW_SUB_PROGRAM_MASTER_NEWs">
+    <Type Name="VIEW_SUB_PROGRAM_MASTER_NEW">
+      <Column Name="PROGRAM_SUB_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PARENT_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PROGRAM_SUB_NAME" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="PROGRAM_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PARENT_NAME" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="NEWPROGRAM_TEXT" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PROGRAM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

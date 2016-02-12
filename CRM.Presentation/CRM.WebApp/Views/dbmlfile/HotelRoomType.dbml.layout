@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="HotelRoomType">
+  <DataContextMoniker Name="/HotelRoomTypeDataContext" />
+  <nestedChildShapes>
+    <classShape Id="05acdc65-8d9c-4c0a-a20f-0ae54d48b2ae" absoluteBounds="7.5, 5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/HotelRoomTypeDataContext/VIEW_HOTEL_ROOM_TYPE_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b000ad2-62d4-4ff1-adef-8e5f5b220f7e" absoluteBounds="7.515, 5.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

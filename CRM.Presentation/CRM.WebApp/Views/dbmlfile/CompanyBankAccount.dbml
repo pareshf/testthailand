@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="CompanyBankAccountDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=serverai;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="THAILAND_CRMConnectionString3" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_FOR_COMPANY_BANK_DETAILS" Member="VIEW_FOR_COMPANY_BANK_DETAILs">
+    <Type Name="VIEW_FOR_COMPANY_BANK_DETAIL">
+      <Column Name="COMP_ACC_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BANK_ACC_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACC_NO_BANK" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="COMP_BANK_BRNACH" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SWIFT_CODE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="BANK_ADD_COMP" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="COMPANY_NAME_BANK" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="BANK_NAME_OF_COMP" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IBOB" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

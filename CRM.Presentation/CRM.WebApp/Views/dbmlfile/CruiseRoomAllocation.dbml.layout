@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.125" name="CruiseRoomAllocation">
+  <DataContextMoniker Name="/CruiseRoomAllocationDataContext" />
+  <nestedChildShapes>
+    <classShape Id="99740f7f-6fe5-4707-81d8-c0e30254d57d" absoluteBounds="6.625, 0.75, 2.625, 6.9630354817708326">
+      <DataClassMoniker Name="/CruiseRoomAllocationDataContext/VIEW_BOOKING_CRUISE_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="133ebb61-9679-4180-a3b5-e68e02a07ffa" absoluteBounds="6.64, 1.21, 2.5949999999999998, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="61041592-1b40-42ca-84c0-7035f0aa3358" absoluteBounds="0.5, 0.75, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/CruiseRoomAllocationDataContext/VIEW_CRUISE_ROOMING_LIST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dbd3eca8-fd0f-4548-a267-da1d764637b5" absoluteBounds="0.51500000000000012, 1.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6bfcb6f9-ede0-4e52-b8d1-5b18a8fd931f" absoluteBounds="2.875, 3.25, 2, 6.5784326171875">
+      <DataClassMoniker Name="/CruiseRoomAllocationDataContext/VIEW_BOOKING_CRUISE_DETAIL_FOR_REPORT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad534288-c36e-4886-b724-958a363ca0fc" absoluteBounds="2.89, 3.71, 1.9700000000000002, 6.0184326171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7d69d150-7a09-4e0e-a6cb-d34fb830dc74" absoluteBounds="3.5, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/CruiseRoomAllocationDataContext/VIEW_PASSENGER_DETAIL_FOR_CRUISE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e012c780-2060-4b82-9282-5ee340d81133" absoluteBounds="3.5149999999999997, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

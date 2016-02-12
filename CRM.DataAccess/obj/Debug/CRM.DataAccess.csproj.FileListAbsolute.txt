@@ -1,0 +1,256 @@
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\15-05-2012\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\30-05-2012(mORNING)\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\7_JUNE_LATEST_ALL_SOLVED\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+F:\SHASVAT\THAILAND=CRM=MAY=UPDATES\JUNE_UPDATES\13_JUNE_DISCOUNT\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+D:\Thailand_CRM\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+E:\TRAVELZ\_COMPLETED_FIT_25th_SEPT\New_Telerik\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+C:\Users\ok\Desktop\THAILAND_CRM\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\bin\Debug\CRM.Core.dll
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\bin\Debug\CRM.Model.dll
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+F:\THAILAND_CRM_PUBLISH\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\bin\Debug\CRM.Core.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\bin\Debug\CRM.Model.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+F:\LATEST_PUBLISH_ON_LIVE\THAILAND_CRM\THAILAND_CRM_PUBLISH_20140402\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\bin\Debug\CRM.Core.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\bin\Debug\CRM.Model.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+D:\THAILAND_CRM_PUBLISH_20140204\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Core.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Model.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+D:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Core.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Model.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+F:\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Core.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Model.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+D:\Bhavin bhai work\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Core.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Model.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+D:\Soft\04-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Core.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Model.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+D:\Soft\latest - 11-05-2015\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.DataAccess.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.DataAccess.pdb
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Core.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Model.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Core.pdb
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\bin\Debug\CRM.Model.pdb
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\CRM.DataAccess.csprojResolveAssemblyReference.cache
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\CRM.DataAccess.dll
+D:\Soft\latest (all data)\THAILAND_CRM_PUBLISH_20140320\CRM.DataAccess\obj\Debug\CRM.DataAccess.pdb

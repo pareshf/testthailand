@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SupplierLandmarkMaster">
+  <DataContextMoniker Name="/SupplierLandmarkMasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="dba250e9-d005-46f0-a13e-f6f5aa60f142" absoluteBounds="4.875, 2.125, 2, 2.5401025390625">
+      <DataClassMoniker Name="/SupplierLandmarkMasterDataContext/VIEW_SUPPLIER_LANDMARK_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00d08b5a-6dd5-41d8-858f-cf46739b2e04" absoluteBounds="4.89, 2.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

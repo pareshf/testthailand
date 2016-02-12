@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="BookingFormStep1">
+  <DataContextMoniker Name="/BookingFormStep1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="5cfd2b73-6d9a-4506-b46b-6b952e71d28f" absoluteBounds="0.875, 1, 2, 6.0015283203125">
+      <DataClassMoniker Name="/BookingFormStep1DataContext/VIEW_FOR_CUSTOMER_DETAIL_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38c8f239-528f-4102-a58a-ebc3b367f284" absoluteBounds="0.88999999999999968, 1.46, 1.9700000000000002, 5.4415283203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="760f7e44-3e09-4431-b0b1-d0a51a2218c6" absoluteBounds="6.5, 0.75, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/BookingFormStep1DataContext/VIEW_FOR_CUSTOMER_RELATION_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9242c64e-3b4a-4a50-a29f-316eb6342f4b" absoluteBounds="6.515, 1.21, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="35dce835-3a48-430c-a431-54ccd1453be8" absoluteBounds="3.625, 1.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/BookingFormStep1DataContext/VIEW_FOR_CUSTOMER_VISA_DETAIL_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5475ac54-69d3-4e10-ab75-9cb2af7dfb37" absoluteBounds="3.6399999999999997, 1.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

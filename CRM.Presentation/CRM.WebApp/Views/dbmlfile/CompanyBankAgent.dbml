@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="CompanyBankAgentDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=serverai;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="THAILAND_CRMConnectionString3" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_FOR_COMP_BANK_MAPPING_WITH_AGENT" Member="VIEW_FOR_COMP_BANK_MAPPING_WITH_AGENTs">
+    <Type Name="VIEW_FOR_COMP_BANK_MAPPING_WITH_AGENT">
+      <Column Name="BANK_MAPPING_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BANK_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BANK_BRNACH" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CUST_COMPANY_NAME" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

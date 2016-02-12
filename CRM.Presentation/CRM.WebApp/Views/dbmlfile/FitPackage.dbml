@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="FitPackageDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SERVERAI;Initial Catalog=THAILAND_CRM;User ID=SA" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="THAILAND_CRMConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_FOR_FIT_PACKAGE_CITY_MAPPING" Member="VIEW_FOR_FIT_PACKAGE_CITY_MAPPINGs">
+    <Type Name="VIEW_FOR_FIT_PACKAGE_CITY_MAPPING">
+      <Column Name="FIT_PACKAGE_CITY_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FIT_PACKAGE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FIT_PACKAGE_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VIEW_FOR_FIT_PACKAGE" Member="VIEW_FOR_FIT_PACKAGEs">
+    <Type Name="VIEW_FOR_FIT_PACKAGE">
+      <Column Name="FIT_PACKAGE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FIT_PACKAGE_NAME" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PACKAGE_ORDER" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IS_VISIBLE" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="PACKAGE_MARGIN" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="SURCHARGE" Type="System.Decimal" DbType="Decimal(16,2)" CanBeNull="true" />
+      <Column Name="MINIMUM_NIGHTS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

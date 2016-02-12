@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 16, 11.875" name="TourMasterDataBase">
+  <DataContextMoniker Name="/TourMasterDataBaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cc29eea2-7105-4945-bd11-f5ffcda50e91" isExpanded="false" absoluteBounds="5.375, 0.5, 2.25, 0.45">
+      <DataClassMoniker Name="/TourMasterDataBaseDataContext/COMMON_MARKETING_MATERIAL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b8d8c98f-9ff2-4599-9e61-0b51251c94e9" absoluteBounds="5.39, 0.96, 2.2199999999999998, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="69503221-016e-4de2-ab86-e470067f41db" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/TourMasterDataBaseDataContext/TOUR_QUOTE_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df75e22b-3730-4edc-9f02-ba4fb9bbfa11" absoluteBounds="0.51499999999999968, 0.96, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="78fa653f-cc09-44fd-af99-7c70c539ba37" isExpanded="false" absoluteBounds="10.375, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/TourMasterDataBaseDataContext/VIEW_TOUR_TRANSPORTATION_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8341a9d3-1e46-4630-b9b1-0f5a3880f809" absoluteBounds="10.39, 0.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8d6ed0d8-b5ad-4e26-8c43-804b1d79cea0" absoluteBounds="5.75, 1.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/TourMasterDataBaseDataContext/VIEW_DECK_CABINE_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32689498-ff49-4a73-a2fe-ab06cb966f13" absoluteBounds="5.765, 2.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="11690354-42c2-4fde-b30a-1e8c33de6190" absoluteBounds="9, 3.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/TourMasterDataBaseDataContext/VIEW_COUNTRY_FOR_VISA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="43bae26a-16cd-45c6-bad5-442c6d8f1999" absoluteBounds="9.015, 3.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="af5cc0a4-c04a-446b-8aa5-6908fd8903bf" absoluteBounds="13.75, 4.875, 2, 4.2708154296875">
+      <DataClassMoniker Name="/TourMasterDataBaseDataContext/VIEW_TOUR_MASTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f859d58-3bad-41fe-9492-660e8dfe59e6" absoluteBounds="13.765, 5.335, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="485568be-a67c-4b42-ba63-e005f180d46b" absoluteBounds="7.625, 5, 2, 6.5784326171875">
+      <DataClassMoniker Name="/TourMasterDataBaseDataContext/VIEW_CRUISE_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="049ca2ac-e30b-4d57-802c-ba76e3fa32d6" absoluteBounds="7.6400000000000006, 5.46, 1.9700000000000002, 6.0184326171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8e890101-aee4-4bd2-b60b-0f749daa2e7e" absoluteBounds="3.125, 1.875, 2, 6.3861311848958326">
+      <DataClassMoniker Name="/TourMasterDataBaseDataContext/VIEW_FLIGHT_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="11fabc09-46ed-4724-92e2-b9e4ecfcd2f9" absoluteBounds="3.1399999999999997, 2.335, 1.9700000000000002, 5.826131184895833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="98ae904d-7de0-4c1b-a5f3-a236329d7e0b" absoluteBounds="0.625, 1.75, 2, 7.5399397786458326">
+      <DataClassMoniker Name="/TourMasterDataBaseDataContext/VIEW_TOUR_HOTEL_DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ae814726-5a7b-488b-8687-b148a6294ff1" absoluteBounds="0.63999999999999968, 2.21, 1.9700000000000002, 6.979939778645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

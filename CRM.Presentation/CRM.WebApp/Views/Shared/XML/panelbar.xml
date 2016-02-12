@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PanelBar>
+  <Item Text="Products" Expanded="True" >
+    <Item Text="RadEditor" />
+    <Item Text="RadPanelBar" />
+    <Item Text="RadMenu" />
+    <Item Text="RadTabStrip" />
+  </Item>
+  <Item Text="Support" >
+    <Item Text="Knowledge Base" />
+    <Item Text="Forums" />
+    <Item Text="Articles" />
+    <Item Text="FAQ" />
+  </Item>
+</PanelBar>

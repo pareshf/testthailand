@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Coachmaster">
+  <DataContextMoniker Name="/CoachmasterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1fae44d3-81cb-4b3c-bed3-066e8a866692" absoluteBounds="5.125, 1.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/CoachmasterDataContext/View_Coach_Master" />
+      <nestedChildShapes>
+        <elementListCompartment Id="85bed63a-d127-4bb6-991e-e8b202014fc2" absoluteBounds="5.14, 2.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

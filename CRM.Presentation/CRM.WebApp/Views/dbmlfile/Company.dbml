@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="THAILAND_CRM" Class="CompanyDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SERVERAI;Initial Catalog=THAILAND_CRM;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CRM" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VIEW_COMPANY_MASTER" Member="VIEW_COMPANY_MASTERs">
+    <Type Name="VIEW_COMPANY_MASTER">
+      <Column Name="COMPANY_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IS_COMPANY_FRANCHISE" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="COMPANY_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ADDRESS_LINE1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ADDRESS_LINE2" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PINCODE" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="MOBILE" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="PHONE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FAX" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="EMAIL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CREATED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CREATED_ON" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODIFIED_BY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MODIFIED_ON" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="REGION_SHORT_NAME" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="CITY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="COUNTRY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="STATE_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PARENT_NAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CURRENCY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BASE_CURRENCY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ENABLE_AUTO_BAKUP" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CURRENCY_SYMBOL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FINANCIAL_YEAR_FROM" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="BOOK_BEGINING_FROM" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SECURITY_PASSWORD" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BASE_CURRENCY_SYMBOL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IS_SYMBOL_SUFFIXED_TO_AMOUNT" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SYMBOL_FOR_DECIMAL_PORTION" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
